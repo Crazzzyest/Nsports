@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "golfbiler",
+    "order": 1,
+    "icon": "cart",
+    "accent": "#0E4C3A",
+    "name": { "no": "Golfbiler", "en": "Golf cars" },
+    "tagline": {
+      "no": "Elektriske golfbiler for utleie, banemannskap og persontransport.",
+      "en": "Electric golf cars for rental fleets, greenkeeping and passenger transport."
+    },
+    "description": {
+      "no": [
+        "Vi importerer elektriske golfbiler til norske golfklubber, med vekt på lave driftskostnader og deler som faktisk er å få tak i.",
+        "Bilene leveres i flere seteoppsett og batteriløsninger, slik at samme modell kan dekke både utleie til spillere og daglig drift for banemannskapet."
+      ],
+      "en": [
+        "We import electric golf cars for Norwegian golf clubs, with an emphasis on low running costs and spare parts that are genuinely available.",
+        "The cars come in several seating and battery configurations, so the same model can serve both player rentals and daily greenkeeping duties."
+      ]
+    }
+  },
+  {
+    "slug": "driving-range-og-anlegg",
+    "order": 2,
+    "icon": "target",
+    "accent": "#5B7B3F",
+    "name": { "no": "Driving range og anlegg", "en": "Driving range and facilities" },
+    "tagline": {
+      "no": "Matter, baller, pegger og utstyr som tåler daglig bruk året rundt.",
+      "en": "Mats, balls, tees and equipment built for daily use all year round."
+    },
+    "description": {
+      "no": [
+        "Utstyr til selve anlegget: det klubben kjøper inn, monterer og bruker hver dag.",
+        "Rangeutstyr slites hardt. Vi har valgt leverandører der levetid og gjenkjøp av samme kvalitet betyr mer enn laveste pris på første leveranse."
+      ],
+      "en": [
+        "Equipment for the facility itself: what the club buys, installs and uses every day.",
+        "Range equipment takes a beating. We have chosen suppliers where service life and being able to reorder the same quality matter more than the lowest price on the first delivery."
+      ]
+    }
+  },
+  {
+    "slug": "robotikk-og-teknologi",
+    "order": 3,
+    "icon": "robot",
+    "accent": "#2B4C6F",
+    "name": { "no": "Robotikk og teknologi", "en": "Robotics and technology" },
+    "tagline": {
+      "no": "Automatisk ballplukking og selvgående traller som frigjør arbeidstimer.",
+      "en": "Automated ball collection and self-driving trolleys that free up working hours."
+    },
+    "description": {
+      "no": [
+        "Nye produkter som tar over oppgaver klubbene i dag bruker mye tid på.",
+        "Automatisk ballplukking er det tydeligste eksempelet: en oppgave som må gjøres hver dag, ofte på ubekvemme tidspunkt, og som en maskin kan gjøre i stedet."
+      ],
+      "en": [
+        "Newer products that take over tasks clubs currently spend a lot of time on.",
+        "Automated ball collection is the clearest example: a job that has to be done every day, often at inconvenient hours, and one a machine can do instead."
+      ]
+    }
+  },
+  {
+    "slug": "golfutstyr-og-proshop",
+    "order": 4,
+    "icon": "ball",
+    "accent": "#8A6A2F",
+    "name": { "no": "Golfutstyr og proshop", "en": "Golf equipment and pro shop" },
+    "tagline": {
+      "no": "Varer klubben kjøper inn for videresalg til spillerne.",
+      "en": "Goods the club buys in to resell to players."
+    },
+    "description": {
+      "no": [
+        "Sortiment til proshopen, med marginer som gir mening for klubben.",
+        "Vi leverer i kartongstørrelser tilpasset norske klubber, slik at man ikke må binde opp kapital i et helt års forbruk for å få fornuftig innkjøpspris."
+      ],
+      "en": [
+        "A pro shop range with margins that make sense for the club.",
+        "We deliver in case sizes suited to Norwegian clubs, so you do not have to tie up capital in a full year of stock just to reach a sensible purchase price."
+      ]
+    }
+  },
+  {
+    "slug": "profilprodukter",
+    "order": 5,
+    "icon": "tag",
+    "accent": "#7A3F3F",
+    "name": { "no": "Profilprodukter", "en": "Branded merchandise" },
+    "tagline": {
+      "no": "Caps, hansker og greengafler med klubbens egen logo.",
+      "en": "Caps, gloves and pitch repair tools carrying the club's own logo."
+    },
+    "description": {
+      "no": [
+        "Produkter som trykkes eller broderes med klubbens logo, til proshop, sponsorer og turneringer.",
+        "Vi tar oss av oppsett av logofilen og sender digital korrektur før produksjon, slik at klubben slipper å være mellomledd mot fabrikken."
+      ],
+      "en": [
+        "Products printed or embroidered with the club's logo, for the pro shop, sponsors and tournaments.",
+        "We handle artwork setup and send a digital proof before production, so the club does not have to act as go-between with the factory."
+      ]
+    }
+  }
+]

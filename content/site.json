@@ -1,0 +1,190 @@
+{
+  "brand": {
+    "name": "NSports",
+    "legalName": { "no": "Norsk Golfallianse AS", "en": "Norsk Golfallianse AS" },
+    "tagline": {
+      "no": "Utstyr til golfklubber og anlegg",
+      "en": "Equipment for golf clubs and facilities"
+    }
+  },
+  "contact": {
+    "email": "post@nsports.no",
+    "phone": "+47 00 00 00 00",
+    "orgNumber": "000 000 000",
+    "address": {
+      "street": "Gateadresse 1",
+      "postalCode": "0000",
+      "city": "Poststed",
+      "country": { "no": "Norge", "en": "Norway" }
+    }
+  },
+  "seo": {
+    "title": {
+      "no": "NSports — utstyr til golfklubber og anlegg",
+      "en": "NSports — equipment for golf clubs and facilities"
+    },
+    "description": {
+      "no": "NSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber, proshoper og anlegg. Be om tilbud direkte.",
+      "en": "NSports imports golf cars, range equipment, robotics and branded merchandise for golf clubs, pro shops and facilities. Request a quote directly."
+    }
+  },
+  "hero": {
+    "eyebrow": { "no": "Norsk Golfallianse", "en": "Norsk Golfallianse" },
+    "title": {
+      "no": "Utstyret golfanlegget faktisk trenger",
+      "en": "The equipment a golf facility actually needs"
+    },
+    "body": {
+      "no": "NSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber og proshoper. Vi velger få leverandører og står for dem over tid, slik at klubben kan kjøpe det samme igjen om tre år.",
+      "en": "NSports imports golf cars, range equipment, robotics and branded merchandise for Norwegian golf clubs and pro shops. We work with few suppliers and stand behind them over time, so a club can reorder the same thing three years from now."
+    }
+  },
+  "valueProps": [
+    {
+      "icon": "truck",
+      "title": { "no": "Importert direkte", "en": "Imported directly" },
+      "body": {
+        "no": "Vi kjøper fra fabrikk uten mellomledd. Det holder prisen nede og gjør at vi kjenner produktet, ikke bare katalogen.",
+        "en": "We buy from the factory without intermediaries. That keeps prices down and means we know the product, not just the catalogue."
+      }
+    },
+    {
+      "icon": "shield",
+      "title": { "no": "Deler på lager", "en": "Parts in stock" },
+      "body": {
+        "no": "Vi holder slitedeler til golfbiler og maskiner i Norge. Et anlegg midt i høysesongen kan ikke vente seks uker på en leveranse.",
+        "en": "We stock wear parts for golf cars and machines in Norway. A facility in peak season cannot wait six weeks for a shipment."
+      }
+    },
+    {
+      "icon": "leaf",
+      "title": { "no": "Valgt for nordisk klima", "en": "Chosen for a Nordic climate" },
+      "body": {
+        "no": "Utstyret er valgt ut fra å tåle fukt, salt og temperaturskifter gjennom en norsk sesong — ikke ut fra en sørlandsk testbane.",
+        "en": "Equipment is selected to withstand damp, salt and temperature swings through a Nordic season, not a test course in a mild climate."
+      }
+    }
+  ],
+  "process": [
+    {
+      "title": { "no": "Ta kontakt", "en": "Get in touch" },
+      "body": {
+        "no": "Fortell hva anlegget trenger og omtrent hvor mange. Du trenger ikke ha en ferdig kravspesifikasjon.",
+        "en": "Tell us what the facility needs and roughly how many. You do not need a finished specification."
+      }
+    },
+    {
+      "title": { "no": "Tilbud innen én virkedag", "en": "Quote within one business day" },
+      "body": {
+        "no": "Du får pris ut fra antall og leveringssted, med leveringstid og eventuelle alternativer.",
+        "en": "You receive a price based on quantity and delivery location, with lead time and any alternatives."
+      }
+    },
+    {
+      "title": { "no": "Levering til anlegget", "en": "Delivery to the facility" },
+      "body": {
+        "no": "Vi leverer på pall til anlegget. Større utstyr settes i drift og gjennomgås på stedet.",
+        "en": "We deliver on pallets to the facility. Larger equipment is commissioned and demonstrated on site."
+      }
+    },
+    {
+      "title": { "no": "Oppfølging etterpå", "en": "Support afterwards" },
+      "body": {
+        "no": "Deler, reklamasjon og gjenkjøp går gjennom samme kontaktperson. Du slipper å forklare saken på nytt.",
+        "en": "Parts, warranty claims and reordering go through the same contact. You never have to explain the case from scratch."
+      }
+    }
+  ],
+  "about": {
+    "lead": {
+      "no": "NSports er importvirksomheten til Norsk Golfallianse. Vi henter inn utstyr til golfklubber, proshoper og anlegg, og står for produktene vi tar inn.",
+      "en": "NSports is the import arm of Norsk Golfallianse. We source equipment for golf clubs, pro shops and facilities, and stand behind the products we bring in."
+    },
+    "sections": [
+      {
+        "heading": { "no": "Hvorfor vi begynte", "en": "Why we started" },
+        "body": {
+          "no": [
+            "Norske golfklubber kjøper mye av det samme utstyret, ofte hver for seg og i små kvanta. Prisen blir deretter, og hver klubb må gjøre den samme jobben med å finne en leverandør som svarer på e-post.",
+            "NSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris — også for en klubb som skal ha to golfbiler og ikke tjue."
+          ],
+          "en": [
+            "Norwegian golf clubs buy much of the same equipment, often separately and in small quantities. The price reflects that, and every club has to repeat the same work of finding a supplier who answers email.",
+            "NSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price — including for a club that needs two golf cars rather than twenty."
+          ]
+        }
+      },
+      {
+        "heading": { "no": "Hvordan vi velger produkter", "en": "How we choose products" },
+        "body": {
+          "no": [
+            "Vi tar inn få produkter og beholder dem lenge. Et produkt må tåle nordisk klima, ha deler som kan skaffes, og kunne kjøpes igjen i samme utførelse om tre år.",
+            "Det siste punktet er undervurdert. En klubb som har kjøpt tolv bagskap, vil ha nummer tretten til å se likt ut. Derfor bytter vi ikke leverandør for å spare noen kroner per enhet."
+          ],
+          "en": [
+            "We take on few products and keep them for a long time. A product must withstand a Nordic climate, have parts that can be sourced, and be reorderable in the same version three years later.",
+            "That last point is underrated. A club that has bought twelve bag lockers wants number thirteen to match. So we do not switch supplier to save a few kroner per unit."
+          ]
+        }
+      },
+      {
+        "heading": { "no": "Hvem vi leverer til", "en": "Who we supply" },
+        "body": {
+          "no": [
+            "Hovedvekten er golfklubber og anlegg som kjøper til drift: golfbiler, rangeutstyr, bagskap og maskiner.",
+            "I tillegg leverer vi salgsvarer og profilprodukter til proshoper, og enkeltprodukter som AI-trallen selges også direkte til spillere.",
+            "Vi selger i dag i Norge. Sverige og Danmark er neste steg, og nettsiden er bygget for å tas i bruk på flere språk når den tid kommer."
+          ],
+          "en": [
+            "The main focus is golf clubs and facilities buying for operations: golf cars, range equipment, bag lockers and machinery.",
+            "We also supply retail lines and branded merchandise to pro shops, and individual products such as the AI trolley are sold directly to players.",
+            "We currently sell in Norway. Sweden and Denmark are the next step, and this site is built to run in several languages when that time comes."
+          ]
+        }
+      }
+    ]
+  },
+  "contactPage": {
+    "lead": {
+      "no": "Fortell kort hva du trenger, så kommer vi tilbake med pris og leveringstid. Vi svarer normalt innen én virkedag.",
+      "en": "Tell us briefly what you need and we will come back with a price and lead time. We normally reply within one business day."
+    },
+    "faq": [
+      {
+        "question": { "no": "Selger dere til privatpersoner?", "en": "Do you sell to private customers?" },
+        "answer": {
+          "no": "Hovedvekten er klubber og anlegg, men enkelte produkter — som AI-golftrallen, golfsko og premium golfball — selges også direkte til privatpersoner. Ta kontakt, så sier vi fra hva som gjelder for produktet du er ute etter.",
+          "en": "Our main focus is clubs and facilities, but some products — such as the AI golf trolley, golf shoes and the premium golf ball — are also sold directly to private customers. Get in touch and we will tell you what applies to the product you are after."
+        }
+      },
+      {
+        "question": { "no": "Hva koster produktene?", "en": "What do the products cost?" },
+        "answer": {
+          "no": "Prisen avhenger av antall og leveringssted, og vi oppgir den derfor i tilbud framfor på nettsiden. Bruk «Be om tilbud» på produktet, så får du pris med leveringstid.",
+          "en": "Price depends on quantity and delivery location, so we give it in a quote rather than on the site. Use “Request a quote” on the product and you will receive a price with lead time."
+        }
+      },
+      {
+        "question": { "no": "Kan vi få produktene med klubbens logo?", "en": "Can we get products with our club logo?" },
+        "answer": {
+          "no": "Ja, på rangeballer, premium golfball, pegger, caps, hansker og greengafler. Vi setter opp trykk- eller broderifilen og sender digital korrektur til godkjenning før produksjon. Minsteantall varierer per produkt og står oppgitt på produktsiden.",
+          "en": "Yes, on range balls, the premium golf ball, tees, caps, gloves and pitch repair tools. We prepare the print or embroidery file and send a digital proof for approval before production. Minimum quantities vary by product and are listed on the product page."
+        }
+      },
+      {
+        "question": { "no": "Hvor lang er leveringstiden?", "en": "What are the lead times?" },
+        "answer": {
+          "no": "Lagerførte varer sendes normalt innen to til fem virkedager. Golfbiler, maskiner og alt med logo bestilles fra fabrikk, og der er leveringstiden tre til seks uker. Vi oppgir alltid faktisk leveringstid i tilbudet.",
+          "en": "Stocked items normally ship within two to five business days. Golf cars, machinery and anything carrying a logo are ordered from the factory, with a lead time of three to six weeks. We always state the actual lead time in the quote."
+        }
+      },
+      {
+        "question": { "no": "Leverer dere til Sverige og Danmark?", "en": "Do you deliver to Sweden and Denmark?" },
+        "answer": {
+          "no": "Vi er i gang med å bygge opp salg i Sverige og Danmark. Ta kontakt, så avklarer vi frakt og vilkår for konkrete leveranser allerede nå.",
+          "en": "We are in the process of building up sales in Sweden and Denmark. Get in touch and we will confirm shipping and terms for specific deliveries already now."
+        }
+      }
+    ]
+  }
+}

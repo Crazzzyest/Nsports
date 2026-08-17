@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/*
+  Designsystem for NSports.
+  Fargene er holdt i en dempet grønn- og sandpalett slik at produktbildene
+  er det som gir siden farge. Aksentfargen i messing brukes sparsomt.
+*/
+@theme {
+  --color-paper: #ffffff;
+  --color-sand: #f7f5f0;
+  --color-sand-deep: #efece3;
+  --color-line: #e3dfd5;
+  --color-line-strong: #cfc9ba;
+
+  --color-ink: #14181a;
+  --color-ink-soft: #3d4744;
+  --color-ink-muted: #6b756f;
+
+  --color-pine-50: #eef4f0;
+  --color-pine-100: #d6e5dc;
+  --color-pine-200: #a9c8b7;
+  --color-pine-400: #3f7a62;
+  --color-pine: #0e4c3a;
+  --color-pine-dark: #08321f;
+
+  --color-brass: #a8802f;
+  --color-brass-soft: #f3ead6;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-card: 0.875rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--color-pine);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Uten dette hopper layouten når en dialog låser rullingen. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility text-balance-none {
+  text-wrap: initial;
+}
+
+/* Diagonal stripe brukt som plassholder der produktbildet ennå ikke er levert. */
+@utility placeholder-weave {
+  background-image: repeating-linear-gradient(
+    135deg,
+    color-mix(in srgb, currentColor 7%, transparent) 0 2px,
+    transparent 2px 11px
+  );
+}

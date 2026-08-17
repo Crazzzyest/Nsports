@@ -1,0 +1,10 @@
+# Tekstfiler lagres med LF i repoet, uansett hvilket operativsystem de
+# redigeres på. Uten dette får Windows- og Linux-maskiner differ på hele filer.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.pdf binary

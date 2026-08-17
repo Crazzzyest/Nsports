@@ -1,0 +1,1169 @@
+[
+  {
+    "slug": "elektrisk-golfbil",
+    "category": "golfbiler",
+    "order": 1,
+    "featured": true,
+    "audience": ["klubb"],
+    "name": { "no": "Elektrisk golfbil", "en": "Electric golf car" },
+    "tagline": {
+      "no": "Litiumdrevet golfbil i to- og firesetersutgave, bygget for utleie og daglig drift.",
+      "en": "Lithium-powered golf car in two- and four-seat versions, built for rental and daily operation."
+    },
+    "description": {
+      "no": [
+        "En robust elektrisk golfbil beregnet på klubber som leier ut til spillere og samtidig trenger transport for banemannskapet. Litiumbatteriet gir full runde på én lading og lades opp igjen fra vanlig stikkontakt over natten.",
+        "Karosseriet er i slagfast plast som ikke ruster, og understellet er galvanisert. Det betyr mindre vedlikehold gjennom en norsk sesong med fukt, salt og temperaturskifter. Vi holder deler på lager i Norge, slik at en bil ikke blir stående gjennom høysesongen i påvente av en leveranse fra Asia."
+      ],
+      "en": [
+        "A rugged electric golf car intended for clubs that rent to players while also needing transport for the greenkeeping team. The lithium battery covers a full round on one charge and recharges overnight from a standard socket.",
+        "The body is impact-resistant plastic that will not rust, and the chassis is galvanised. That means less maintenance through a Norwegian season of damp, salt and shifting temperatures. We keep parts in stock in Norway, so a car does not sit idle through peak season waiting for a shipment from Asia."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Litiumbatteri med full runde på én lading",
+        "Lades fra vanlig 230 V stikkontakt",
+        "Rustfritt karosseri og galvanisert understell",
+        "Reservedeler på lager i Norge"
+      ],
+      "en": [
+        "Lithium battery covering a full round on one charge",
+        "Charges from a standard 230 V socket",
+        "Rust-free body and galvanised chassis",
+        "Spare parts stocked in Norway"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Seter", "en": "Seats" },
+        "value": { "no": "2 eller 4 (2+2)", "en": "2 or 4 (2+2)" }
+      },
+      {
+        "label": { "no": "Motor", "en": "Motor" },
+        "value": { "no": "AC, 3,0 kW", "en": "AC, 3.0 kW" }
+      },
+      {
+        "label": { "no": "Batteri", "en": "Battery" },
+        "value": { "no": "Litium 48 V / 105 Ah", "en": "Lithium 48 V / 105 Ah" }
+      },
+      {
+        "label": { "no": "Rekkevidde", "en": "Range" },
+        "value": { "no": "Inntil 60 km per lading", "en": "Up to 60 km per charge" }
+      },
+      {
+        "label": { "no": "Ladetid", "en": "Charging time" },
+        "value": { "no": "5–6 timer fra tomt", "en": "5–6 hours from empty" }
+      },
+      {
+        "label": { "no": "Toppfart", "en": "Top speed" },
+        "value": { "no": "24 km/t, kan sperres ned", "en": "24 km/h, can be limited" }
+      },
+      {
+        "label": { "no": "Mål (L × B × H)", "en": "Dimensions (L × W × H)" },
+        "value": { "no": "240 × 122 × 180 cm", "en": "240 × 122 × 180 cm" }
+      },
+      {
+        "label": { "no": "Egenvekt", "en": "Kerb weight" },
+        "value": { "no": "420 kg uten batteri", "en": "420 kg excluding battery" }
+      },
+      {
+        "label": { "no": "Nyttelast", "en": "Payload" },
+        "value": { "no": "340 kg", "en": "340 kg" }
+      },
+      {
+        "label": { "no": "Garanti", "en": "Warranty" },
+        "value": { "no": "2 år på bil, 3 år på batteri", "en": "2 years on the car, 3 years on the battery" }
+      }
+    ],
+    "variants": [
+      {
+        "name": { "no": "2-seter", "en": "2-seater" },
+        "note": { "no": "Med bagholder bak", "en": "With rear bag rack" }
+      },
+      {
+        "name": { "no": "4-seter (2+2)", "en": "4-seater (2+2)" },
+        "note": { "no": "Bakseter kan felles ned til lasteplan", "en": "Rear seats fold down into a cargo bed" }
+      },
+      {
+        "name": { "no": "Med frontrute og tak", "en": "With windscreen and roof" }
+      },
+      {
+        "name": { "no": "Nyttekjøretøy med lasteplan", "en": "Utility version with cargo bed" },
+        "note": { "no": "For banemannskap", "en": "For greenkeeping staff" }
+      }
+    ],
+    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "images": [
+      { "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
+      { "alt": { "no": "Førerplass og instrumenter", "en": "Driver's seat and instruments" } },
+      { "alt": { "no": "Golfbil i bruk på bane", "en": "Golf car in use on the course" } }
+    ]
+  },
+  {
+    "slug": "rangematte",
+    "category": "driving-range-og-anlegg",
+    "order": 1,
+    "featured": true,
+    "audience": ["klubb"],
+    "name": { "no": "Rangematte", "en": "Range mat" },
+    "tagline": {
+      "no": "Slagmatte med dypt fiberdekke som gir realistisk kontakt og skåner håndleddene.",
+      "en": "Hitting mat with a deep fibre surface that gives realistic contact and spares the wrists."
+    },
+    "description": {
+      "no": [
+        "Slagmatte til utslagsplasser innendørs og utendørs. Fiberdekket er høyere og tettere enn på en vanlig kunstgressmatte, slik at køllen kan gå gjennom underlaget i stedet for å stoppe i det. Det gir et slag som ligner mer på gress, og betydelig mindre belastning på albuer og håndledd.",
+        "Gummibunnen er sjiktet og demper støtet fra hardt slag. Matten ligger stabilt uten festing, også på asfalt og betong, og tåler å ligge ute gjennom sesongen."
+      ],
+      "en": [
+        "A hitting mat for indoor and outdoor tee positions. The fibre surface is taller and denser than on an ordinary artificial turf mat, letting the club travel through the surface rather than stopping in it. The result is a strike closer to real grass and considerably less strain on elbows and wrists.",
+        "The layered rubber base absorbs the shock of a heavy strike. The mat sits stable without fixing, including on asphalt and concrete, and withstands being left outdoors through the season."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Dypt fiberdekke som køllen går gjennom",
+        "Sjiktet gummibunn som demper støt",
+        "Ligger stabilt uten festing",
+        "UV-behandlet for utendørs bruk"
+      ],
+      "en": [
+        "Deep fibre surface the club travels through",
+        "Layered rubber base that absorbs shock",
+        "Stays in place without fixing",
+        "UV-treated for outdoor use"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Standardmål", "en": "Standard size" },
+        "value": { "no": "150 × 150 cm", "en": "150 × 150 cm" }
+      },
+      {
+        "label": { "no": "Totaltykkelse", "en": "Total thickness" },
+        "value": { "no": "60 mm", "en": "60 mm" }
+      },
+      {
+        "label": { "no": "Fiberhøyde", "en": "Pile height" },
+        "value": { "no": "38 mm", "en": "38 mm" }
+      },
+      {
+        "label": { "no": "Bunn", "en": "Base" },
+        "value": { "no": "Sjiktet gummi, 22 mm", "en": "Layered rubber, 22 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "34 kg", "en": "34 kg" }
+      },
+      {
+        "label": { "no": "Bruk", "en": "Use" },
+        "value": { "no": "Innendørs og utendørs", "en": "Indoor and outdoor" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "150 × 150 cm", "en": "150 × 150 cm" } },
+      { "name": { "no": "150 × 200 cm", "en": "150 × 200 cm" } },
+      {
+        "name": { "no": "Spesialmål", "en": "Custom size" },
+        "note": { "no": "Kappes etter tegning", "en": "Cut to drawing" }
+      }
+    ],
+    "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
+    "images": [
+      { "alt": { "no": "Rangematte sett ovenfra", "en": "Range mat seen from above" } },
+      { "alt": { "no": "Tverrsnitt av fiberdekke og gummibunn", "en": "Cross-section of fibre surface and rubber base" } },
+      { "alt": { "no": "Rangematte på utslagsplass", "en": "Range mat on a tee position" } }
+    ]
+  },
+  {
+    "slug": "peggbar-rangematte",
+    "category": "driving-range-og-anlegg",
+    "order": 2,
+    "featured": false,
+    "audience": ["klubb"],
+    "name": { "no": "Peggbar rangematte", "en": "Teeable range mat" },
+    "tagline": {
+      "no": "Rangematte der spilleren kan sette ned en vanlig trepegg hvor som helst i flaten.",
+      "en": "A range mat where the player can push an ordinary wooden tee in anywhere on the surface."
+    },
+    "description": {
+      "no": [
+        "Samme oppbygging som den vanlige rangematten, men med et dekke og en bunn som tåler at det settes ned pegger direkte i matten. Spilleren slipper faste peggehull og kan variere høyde og plassering slik man gjør på gress.",
+        "Løsningen er særlig aktuell på utslagsplasser der klubben vil tilby driverslag med vanlig pegg, uten at det slites hull i matten etter én sesong."
+      ],
+      "en": [
+        "The same construction as the standard range mat, but with a surface and base that tolerate tees being pushed straight into the mat. The player is freed from fixed tee holes and can vary height and placement the way they would on grass.",
+        "It is particularly relevant on tee positions where the club wants to offer driver shots with an ordinary tee, without the mat being worn through after a single season."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Trepegg kan settes ned hvor som helst i flaten",
+        "Ingen faste peggehull som begrenser plasseringen",
+        "Selvlukkende dekke som holder formen",
+        "Samme demping som standardmatten"
+      ],
+      "en": [
+        "A wooden tee can be placed anywhere on the surface",
+        "No fixed tee holes limiting placement",
+        "Self-closing surface that keeps its shape",
+        "The same shock absorption as the standard mat"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Standardmål", "en": "Standard size" },
+        "value": { "no": "150 × 150 cm", "en": "150 × 150 cm" }
+      },
+      {
+        "label": { "no": "Totaltykkelse", "en": "Total thickness" },
+        "value": { "no": "65 mm", "en": "65 mm" }
+      },
+      {
+        "label": { "no": "Fiberhøyde", "en": "Pile height" },
+        "value": { "no": "42 mm", "en": "42 mm" }
+      },
+      {
+        "label": { "no": "Peggtype", "en": "Tee type" },
+        "value": { "no": "Vanlig trepegg opptil 70 mm", "en": "Ordinary wooden tee up to 70 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "38 kg", "en": "38 kg" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "150 × 150 cm", "en": "150 × 150 cm" } },
+      { "name": { "no": "150 × 200 cm", "en": "150 × 200 cm" } }
+    ],
+    "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
+    "images": [{ "alt": { "no": "Peggbar rangematte med pegg satt ned i flaten", "en": "Teeable range mat with a tee pushed into the surface" } }]
+  },
+  {
+    "slug": "rangeballer-hvite",
+    "category": "driving-range-og-anlegg",
+    "order": 3,
+    "featured": true,
+    "audience": ["klubb"],
+    "name": { "no": "Rangeballer, hvite", "en": "Range balls, white" },
+    "tagline": {
+      "no": "Tolagsball i hvitt med hardt skall, laget for å tåle ballmaskin og vaskeanlegg.",
+      "en": "Two-piece white ball with a hard cover, made to survive ball machines and washing systems."
+    },
+    "description": {
+      "no": [
+        "Standard rangeball i hvitt til utslagsplass og ballautomat. Skallet er hardere enn på en spilleball, noe som gir kortere levetid på følelsen, men vesentlig lengre levetid på ballen. Det er den avveiningen som avgjør rangeøkonomien.",
+        "Ballene har jevn diameter og vekt, slik at de ikke setter seg fast i automat, plukker eller vaskeanlegg. Vi anbefaler å telle beholdningen ved sesongslutt og fylle på årlig framfor å bytte alt hvert tredje år."
+      ],
+      "en": [
+        "A standard white range ball for tee positions and ball dispensers. The cover is harder than on a playing ball, which shortens the life of the feel but considerably extends the life of the ball. That trade-off is what determines range economics.",
+        "The balls hold consistent diameter and weight, so they do not jam in dispensers, pickers or washing systems. We recommend counting stock at the end of the season and topping up annually rather than replacing everything every third year."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Tolags konstruksjon med hardt surlyn-skall",
+        "Jevn diameter som ikke setter seg fast i automat",
+        "Tåler vaskeanlegg uten å miste merking",
+        "Leveres med klubbens logo på bestilling"
+      ],
+      "en": [
+        "Two-piece construction with a hard surlyn cover",
+        "Consistent diameter that will not jam a dispenser",
+        "Withstands washing systems without losing its marking",
+        "Available with the club's logo to order"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Konstruksjon", "en": "Construction" },
+        "value": { "no": "Tolags, surlyn-skall", "en": "Two-piece, surlyn cover" }
+      },
+      {
+        "label": { "no": "Diameter", "en": "Diameter" },
+        "value": { "no": "42,7 mm", "en": "42.7 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,5 g", "en": "45.5 g" }
+      },
+      {
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "80", "en": "80" }
+      },
+      {
+        "label": { "no": "Fordypninger", "en": "Dimples" },
+        "value": { "no": "332", "en": "332" }
+      },
+      {
+        "label": { "no": "Merking", "en": "Marking" },
+        "value": { "no": "Én eller to røde striper", "en": "One or two red stripes" }
+      },
+      {
+        "label": { "no": "Kartong", "en": "Case" },
+        "value": { "no": "600 stk.", "en": "600 units" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Uten logo", "en": "Without logo" } },
+      {
+        "name": { "no": "Med klubblogo", "en": "With club logo" },
+        "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
+      },
+      { "name": { "no": "Én stripe eller to striper", "en": "One stripe or two stripes" } }
+    ],
+    "datasheets": [],
+    "images": [
+      { "alt": { "no": "Hvite rangeballer", "en": "White range balls" } },
+      { "alt": { "no": "Nærbilde av ballmerking", "en": "Close-up of the ball marking" } },
+      { "alt": { "no": "Rangeballer i ballkurv", "en": "Range balls in a ball basket" } }
+    ]
+  },
+  {
+    "slug": "rangeballer-gule",
+    "category": "driving-range-og-anlegg",
+    "order": 4,
+    "featured": false,
+    "audience": ["klubb"],
+    "name": { "no": "Rangeballer, gule", "en": "Range balls, yellow" },
+    "tagline": {
+      "no": "Samme ball i signalgult — enklere å se i skumring, regn og mot lys bakgrunn.",
+      "en": "The same ball in high-visibility yellow — easier to see at dusk, in rain and against a bright background."
+    },
+    "description": {
+      "no": [
+        "Teknisk identisk med den hvite rangeballen, men i gjennomfarget signalgult. Fargen ligger i selve skallet og ikke i et malingslag, så ballen holder seg synlig også etter en sesong med plukker og vask.",
+        "Mange klubber kjører gult på kveldsbelyst range og hvitt om sommeren, eller bruker to farger for å skille ballene på ulike deler av anlegget."
+      ],
+      "en": [
+        "Technically identical to the white range ball, but in solid high-visibility yellow. The colour sits in the cover itself rather than in a coat of paint, so the ball stays visible even after a season of picking and washing.",
+        "Many clubs run yellow on a floodlit range and white in summer, or use two colours to separate balls between different parts of the facility."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Gjennomfarget skall som ikke flasser",
+        "Tydelig synlig i skumring og under flomlys",
+        "Samme spillegenskaper som den hvite",
+        "Praktisk for å skille beholdninger på anlegget"
+      ],
+      "en": [
+        "Solid-coloured cover that will not flake",
+        "Clearly visible at dusk and under floodlights",
+        "Identical playing characteristics to the white ball",
+        "Practical for separating stock across the facility"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Konstruksjon", "en": "Construction" },
+        "value": { "no": "Tolags, surlyn-skall", "en": "Two-piece, surlyn cover" }
+      },
+      {
+        "label": { "no": "Diameter", "en": "Diameter" },
+        "value": { "no": "42,7 mm", "en": "42.7 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,5 g", "en": "45.5 g" }
+      },
+      {
+        "label": { "no": "Farge", "en": "Colour" },
+        "value": { "no": "Gjennomfarget signalgul", "en": "Solid high-visibility yellow" }
+      },
+      {
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "80", "en": "80" }
+      },
+      {
+        "label": { "no": "Kartong", "en": "Case" },
+        "value": { "no": "600 stk.", "en": "600 units" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Uten logo", "en": "Without logo" } },
+      {
+        "name": { "no": "Med klubblogo", "en": "With club logo" },
+        "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Gule rangeballer", "en": "Yellow range balls" } }]
+  },
+  {
+    "slug": "plastpegg-driving-range",
+    "category": "driving-range-og-anlegg",
+    "order": 5,
+    "featured": false,
+    "audience": ["klubb"],
+    "name": { "no": "Plastpegg til driving range", "en": "Rubber range tee" },
+    "tagline": {
+      "no": "Fast gummipegg til utslagsmatte, i fem høyder.",
+      "en": "Fixed rubber tee for hitting mats, in five heights."
+    },
+    "description": {
+      "no": [
+        "Gummipegg som settes ned i peggehullet på utslagsmatten og blir stående. Den bøyer seg unna i slaget i stedet for å knekke, og holder gjennom en hel sesong der en trepegg ville vart ett slag.",
+        "Leveres i fem høyder slik at anlegget kan tilby både jernslag og driver. Praktisk å ha et lite lager av flere høyder, siden det er en billig del som forsvinner."
+      ],
+      "en": [
+        "A rubber tee that sits in the tee hole of a hitting mat and stays there. It bends out of the way on impact instead of snapping, and lasts a full season where a wooden tee would last one shot.",
+        "Supplied in five heights so the facility can cater for both iron shots and driver. Worth keeping a small stock of several heights, as it is an inexpensive part that goes missing."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Bøyer seg i slaget i stedet for å knekke",
+        "Fem høyder fra 30 til 85 mm",
+        "Passer standard peggehull i utslagsmatte",
+        "Selges i poser à 50 stk."
+      ],
+      "en": [
+        "Bends on impact instead of snapping",
+        "Five heights from 30 to 85 mm",
+        "Fits standard tee holes in hitting mats",
+        "Sold in bags of 50"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Vulkanisert gummi", "en": "Vulcanised rubber" }
+      },
+      {
+        "label": { "no": "Høyder", "en": "Heights" },
+        "value": { "no": "30, 45, 55, 70 og 85 mm", "en": "30, 45, 55, 70 and 85 mm" }
+      },
+      {
+        "label": { "no": "Fotdiameter", "en": "Base diameter" },
+        "value": { "no": "22 mm", "en": "22 mm" }
+      },
+      {
+        "label": { "no": "Farge", "en": "Colour" },
+        "value": { "no": "Sort", "en": "Black" }
+      },
+      {
+        "label": { "no": "Pakning", "en": "Packaging" },
+        "value": { "no": "Pose à 50 stk.", "en": "Bag of 50" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "30 mm", "en": "30 mm" } },
+      { "name": { "no": "45 mm", "en": "45 mm" } },
+      { "name": { "no": "55 mm", "en": "55 mm" } },
+      { "name": { "no": "70 mm", "en": "70 mm" } },
+      { "name": { "no": "85 mm", "en": "85 mm" } },
+      {
+        "name": { "no": "Blandet pose", "en": "Mixed bag" },
+        "note": { "no": "10 stk. av hver høyde", "en": "10 of each height" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Plastpegger i ulike høyder", "en": "Rubber range tees in different heights" } }]
+  },
+  {
+    "slug": "bagskap",
+    "category": "driving-range-og-anlegg",
+    "order": 6,
+    "featured": true,
+    "audience": ["klubb"],
+    "name": { "no": "Bagskap", "en": "Bag storage locker" },
+    "tagline": {
+      "no": "Låsbart skap for oppbevaring av golfbag, med ventilasjon som tørker utstyret.",
+      "en": "Lockable cabinet for golf bag storage, ventilated so equipment dries out."
+    },
+    "description": {
+      "no": [
+        "Bagskap til klubbhus og garasje, i moduler som settes sammen til en vegg. Hvert rom tar en full bag med paraply og sko, og har perforerte flater i bakkant slik at våtutstyr faktisk tørker i stedet for å stå og mugne.",
+        "Skapene leveres i pulverlakkert stål og kan bestilles med sylinderlås, hengelåsbeslag eller kodelås. Bagskap er en av de enkleste inntektskildene en klubb har: fast årsleie per rom, nesten ingen drift."
+      ],
+      "en": [
+        "Bag lockers for clubhouses and garages, in modules that combine into a wall. Each compartment takes a full bag with umbrella and shoes, and has perforated panels at the back so wet equipment actually dries instead of sitting and going mouldy.",
+        "The lockers come in powder-coated steel and can be ordered with a cylinder lock, padlock hasp or combination lock. Bag storage is one of the simplest revenue streams a club has: a fixed annual rent per compartment and almost no running cost."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Modulbasert, settes sammen til ønsket bredde",
+        "Ventilerte rom som tørker vått utstyr",
+        "Pulverlakkert stål, egnet for uoppvarmet rom",
+        "Valgfri sylinderlås, hengelås eller kodelås"
+      ],
+      "en": [
+        "Modular, combined to any required width",
+        "Ventilated compartments that dry wet equipment",
+        "Powder-coated steel, suitable for unheated rooms",
+        "Choice of cylinder lock, padlock or combination lock"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Modulmål (B × D × H)", "en": "Module size (W × D × H)" },
+        "value": { "no": "120 × 60 × 195 cm", "en": "120 × 60 × 195 cm" }
+      },
+      {
+        "label": { "no": "Rom per modul", "en": "Compartments per module" },
+        "value": { "no": "4 eller 6", "en": "4 or 6" }
+      },
+      {
+        "label": { "no": "Romåpning (B × H)", "en": "Compartment opening (W × H)" },
+        "value": { "no": "38 × 95 cm", "en": "38 × 95 cm" }
+      },
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Pulverlakkert stål, 0,8 mm", "en": "Powder-coated steel, 0.8 mm" }
+      },
+      {
+        "label": { "no": "Ventilasjon", "en": "Ventilation" },
+        "value": { "no": "Perforert bakvegg og dør", "en": "Perforated back panel and door" }
+      },
+      {
+        "label": { "no": "Farge", "en": "Colour" },
+        "value": { "no": "Mørk grå eller grønn", "en": "Dark grey or green" }
+      },
+      {
+        "label": { "no": "Montering", "en": "Installation" },
+        "value": { "no": "Gulvstående, kan festes i vegg", "en": "Floor-standing, can be wall-anchored" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "4 rom per modul", "en": "4 compartments per module" } },
+      { "name": { "no": "6 rom per modul", "en": "6 compartments per module" } },
+      {
+        "name": { "no": "Kodelås", "en": "Combination lock" },
+        "note": { "no": "Slipper nøkkelhåndtering", "en": "Removes key handling" }
+      },
+      { "name": { "no": "Med navneskilt på dør", "en": "With name plate on the door" } }
+    ],
+    "datasheets": [{ "label": { "no": "Måltegning", "en": "Dimensional drawing" } }],
+    "images": [
+      { "alt": { "no": "Bagskap i rekke langs vegg", "en": "Bag lockers in a row along a wall" } },
+      { "alt": { "no": "Åpent bagskap med golfbag", "en": "Open bag locker with a golf bag" } },
+      { "alt": { "no": "Detalj av lås og navneskilt", "en": "Detail of lock and name plate" } }
+    ]
+  },
+  {
+    "slug": "automatisk-ballplukker",
+    "category": "robotikk-og-teknologi",
+    "order": 1,
+    "featured": true,
+    "audience": ["klubb"],
+    "name": { "no": "Automatisk ballplukker", "en": "Automated ball collector" },
+    "tagline": {
+      "no": "Selvgående robot som plukker rangen om natten og lader seg selv mellom øktene.",
+      "en": "A self-driving robot that clears the range at night and recharges itself between runs."
+    },
+    "description": {
+      "no": [
+        "En robot som kjører rangen etter et område du tegner opp én gang, og som går tilbake til ladestasjonen når batteriet er lavt eller området er ferdig. I praksis betyr det at rangen er tom om morgenen uten at noen har brukt to timer på traktor.",
+        "Roboten navigerer med satellittposisjonering og har hindringsdeteksjon som stopper for personer og utstyr. Den kan settes til å kjøre bare i tidsrom der rangen er stengt, slik at den aldri er i veien for spillere.",
+        "Regnestykket er enkelt for de fleste klubber: plukkingen er en fast daglig kostnad i arbeidstimer, som roboten fjerner nesten helt. Vi hjelper gjerne til med å sette opp regnestykket for deres anlegg."
+      ],
+      "en": [
+        "A robot that works the range within an area you map out once, and returns to its charging dock when the battery runs low or the area is finished. In practice it means the range is clear in the morning without anyone spending two hours on a tractor.",
+        "The robot navigates by satellite positioning and has obstacle detection that stops for people and equipment. It can be set to run only during hours when the range is closed, so it is never in the way of players.",
+        "The arithmetic is straightforward for most clubs: picking is a fixed daily cost in labour hours, and the robot removes nearly all of it. We are happy to help put the numbers together for your facility."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Kjører uten fører, også om natten",
+        "Går selv til lading og fortsetter der den slapp",
+        "Hindringsdeteksjon som stopper for personer",
+        "Området tegnes opp én gang i appen"
+      ],
+      "en": [
+        "Operates without a driver, including at night",
+        "Docks to charge on its own and resumes where it stopped",
+        "Obstacle detection that stops for people",
+        "The working area is mapped once in the app"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Kapasitet", "en": "Capacity" },
+        "value": { "no": "Inntil 4 000 baller per økt", "en": "Up to 4,000 balls per run" }
+      },
+      {
+        "label": { "no": "Arbeidsområde", "en": "Working area" },
+        "value": { "no": "Inntil 60 000 m²", "en": "Up to 60,000 m²" }
+      },
+      {
+        "label": { "no": "Navigasjon", "en": "Navigation" },
+        "value": { "no": "RTK-GPS med hindringsdeteksjon", "en": "RTK GPS with obstacle detection" }
+      },
+      {
+        "label": { "no": "Batteri", "en": "Battery" },
+        "value": { "no": "Litium, 5 timers drift", "en": "Lithium, 5 hours of operation" }
+      },
+      {
+        "label": { "no": "Lading", "en": "Charging" },
+        "value": { "no": "Automatisk dokking, 3 timer", "en": "Automatic docking, 3 hours" }
+      },
+      {
+        "label": { "no": "Mål (L × B × H)", "en": "Dimensions (L × W × H)" },
+        "value": { "no": "132 × 88 × 74 cm", "en": "132 × 88 × 74 cm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "96 kg", "en": "96 kg" }
+      },
+      {
+        "label": { "no": "Styring", "en": "Control" },
+        "value": { "no": "App for iOS og Android", "en": "App for iOS and Android" }
+      },
+      {
+        "label": { "no": "Beskyttelse", "en": "Protection rating" },
+        "value": { "no": "IP54, tåler regn", "en": "IP54, rain tolerant" }
+      }
+    ],
+    "variants": [
+      {
+        "name": { "no": "Standard", "en": "Standard" },
+        "note": { "no": "Robot, ladestasjon og app", "en": "Robot, charging dock and app" }
+      },
+      {
+        "name": { "no": "Med ekstra ballkurv", "en": "With additional ball hopper" },
+        "note": { "no": "Færre tømminger per natt", "en": "Fewer emptying stops per night" }
+      },
+      {
+        "name": { "no": "Med RTK-basestasjon", "en": "With RTK base station" },
+        "note": { "no": "Anbefales på anlegg med dårlig satellittdekning", "en": "Recommended where satellite coverage is poor" }
+      }
+    ],
+    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "images": [
+      { "alt": { "no": "Automatisk ballplukker på range", "en": "Automated ball collector on a range" } },
+      { "alt": { "no": "Ballplukker i ladestasjon", "en": "Ball collector in its charging dock" } },
+      { "alt": { "no": "Appen som viser oppsatt arbeidsområde", "en": "The app showing the mapped working area" } }
+    ]
+  },
+  {
+    "slug": "ai-golftralle",
+    "category": "robotikk-og-teknologi",
+    "order": 2,
+    "featured": true,
+    "audience": ["klubb", "proshop", "privat"],
+    "name": { "no": "AI-golftralle", "en": "AI golf trolley" },
+    "tagline": {
+      "no": "Elektrisk tralle som følger spilleren av seg selv, uten fjernkontroll i hånda.",
+      "en": "An electric trolley that follows the player on its own, with no remote in hand."
+    },
+    "description": {
+      "no": [
+        "Trallen kjenner igjen spilleren gjennom kamera og en liten sender i lomma, og følger etter i valgt avstand. Den stopper når spilleren stopper, går rundt hindringer og venter mens man slår.",
+        "For klubben er dette først og fremst et utleieprodukt: det er noe spillerne vil prøve, og det gir en ny inntektslinje uten at man må ansette noen. For proshopen er det et salgsprodukt til spillere som i dag bærer eller drar bagen selv.",
+        "Trallen kan også styres med fjernkontroll eller skyves manuelt, slik at den fungerer selv om batteriet går tomt midt i runden."
+      ],
+      "en": [
+        "The trolley recognises the player through a camera and a small transmitter in the pocket, and follows at a chosen distance. It stops when the player stops, steers around obstacles and waits while they play their shot.",
+        "For the club this is primarily a rental product: it is something players want to try, and it opens a new revenue line without hiring anyone. For the pro shop it is a retail product for players who currently carry or pull their own bag.",
+        "The trolley can also be driven by remote control or pushed manually, so it still works if the battery runs out mid-round."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Følger spilleren automatisk i valgt avstand",
+        "Stopper for hindringer og venter under slag",
+        "Fjernkontroll og manuell skyving som reserve",
+        "Batteri til 36 hull på én lading"
+      ],
+      "en": [
+        "Follows the player automatically at a chosen distance",
+        "Stops for obstacles and waits during shots",
+        "Remote control and manual pushing as a fallback",
+        "Battery for 36 holes on a single charge"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Følgemodus", "en": "Follow mode" },
+        "value": { "no": "Kamera og sender, 1–5 m avstand", "en": "Camera and transmitter, 1–5 m distance" }
+      },
+      {
+        "label": { "no": "Batteri", "en": "Battery" },
+        "value": { "no": "Litium 24 V / 20 Ah", "en": "Lithium 24 V / 20 Ah" }
+      },
+      {
+        "label": { "no": "Rekkevidde", "en": "Range" },
+        "value": { "no": "36 hull per lading", "en": "36 holes per charge" }
+      },
+      {
+        "label": { "no": "Stigningsevne", "en": "Gradient" },
+        "value": { "no": "Inntil 30 %", "en": "Up to 30%" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "14,5 kg inkludert batteri", "en": "14.5 kg including battery" }
+      },
+      {
+        "label": { "no": "Sammenlagt (L × B × H)", "en": "Folded (L × W × H)" },
+        "value": { "no": "72 × 58 × 42 cm", "en": "72 × 58 × 42 cm" }
+      },
+      {
+        "label": { "no": "Lastekapasitet", "en": "Load capacity" },
+        "value": { "no": "20 kg bag", "en": "20 kg bag" }
+      },
+      {
+        "label": { "no": "Ladetid", "en": "Charging time" },
+        "value": { "no": "4 timer", "en": "4 hours" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Standard", "en": "Standard" } },
+      {
+        "name": { "no": "Utleieutgave", "en": "Rental version" },
+        "note": { "no": "Med klubbmerking og forsterket ramme", "en": "With club branding and reinforced frame" }
+      },
+      {
+        "name": { "no": "Med ekstra batteri", "en": "With spare battery" },
+        "note": { "no": "For utleie med flere runder per dag", "en": "For rental with several rounds a day" }
+      }
+    ],
+    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "images": [
+      { "alt": { "no": "AI-golftralle med bag på bane", "en": "AI golf trolley carrying a bag on the course" } },
+      { "alt": { "no": "Trallen sammenlagt for transport", "en": "The trolley folded for transport" } },
+      { "alt": { "no": "Betjeningspanel og display", "en": "Control panel and display" } }
+    ]
+  },
+  {
+    "slug": "premium-golfball",
+    "category": "golfutstyr-og-proshop",
+    "order": 1,
+    "featured": false,
+    "audience": ["proshop", "privat"],
+    "name": { "no": "Premium golfball", "en": "Premium golf ball" },
+    "tagline": {
+      "no": "Trelagsball med uretanskall til proshopen, med margin klubben faktisk tjener på.",
+      "en": "Three-piece urethane ball for the pro shop, at a margin the club actually earns on."
+    },
+    "description": {
+      "no": [
+        "En ball i det øvre sjiktet, med myk uretankjerne og skall som gir grep rundt greenen. Beregnet på spillere som i dag kjøper merkeball, men der klubben sitter igjen med lite.",
+        "Selges som salgsvare til proshop, med eller uten klubblogo. Vi anbefaler å ta inn logotrykk fra første bestilling — det er nesten samme kostnad, og en logoball selges lettere som gave og turneringspremie."
+      ],
+      "en": [
+        "A ball in the upper tier, with a soft urethane core and a cover that grips around the green. Aimed at players who currently buy a branded ball, where the club is left with very little.",
+        "Sold as a retail line for the pro shop, with or without a club logo. We recommend adding logo printing from the first order — it costs almost the same, and a logo ball sells more easily as a gift and tournament prize."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Trelags konstruksjon med uretanskall",
+        "Mykt anslag og godt grep rundt greenen",
+        "Leveres i eske à 12 stk. for videresalg",
+        "Klubblogo fra 300 dusin"
+      ],
+      "en": [
+        "Three-piece construction with a urethane cover",
+        "Soft feel and strong greenside grip",
+        "Supplied in boxes of 12 for resale",
+        "Club logo from 300 dozen"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Konstruksjon", "en": "Construction" },
+        "value": { "no": "Trelags, uretanskall", "en": "Three-piece, urethane cover" }
+      },
+      {
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "90", "en": "90" }
+      },
+      {
+        "label": { "no": "Fordypninger", "en": "Dimples" },
+        "value": { "no": "338", "en": "338" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,8 g", "en": "45.8 g" }
+      },
+      {
+        "label": { "no": "Farge", "en": "Colour" },
+        "value": { "no": "Hvit eller matt gul", "en": "White or matte yellow" }
+      },
+      {
+        "label": { "no": "Salgsenhet", "en": "Retail unit" },
+        "value": { "no": "Eske à 12 stk.", "en": "Box of 12" }
+      },
+      {
+        "label": { "no": "Kartong", "en": "Case" },
+        "value": { "no": "24 esker", "en": "24 boxes" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Hvit", "en": "White" } },
+      { "name": { "no": "Matt gul", "en": "Matte yellow" } },
+      {
+        "name": { "no": "Med klubblogo", "en": "With club logo" },
+        "note": { "no": "Fra 300 dusin", "en": "From 300 dozen" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Premium golfball i eske", "en": "Premium golf ball in its box" } }]
+  },
+  {
+    "slug": "pegger",
+    "category": "golfutstyr-og-proshop",
+    "order": 2,
+    "featured": false,
+    "audience": ["proshop", "privat", "klubb"],
+    "name": { "no": "Pegger", "en": "Wooden tees" },
+    "tagline": {
+      "no": "Trepegger i bjørk, i fire lengder — løs vekt eller pose for videresalg.",
+      "en": "Birch wooden tees in four lengths — bulk or retail bags."
+    },
+    "description": {
+      "no": [
+        "Klassisk trepegg i bjørk med lakkert topp. Leveres både i løs vekt til klubbens eget forbruk og i poser med sperreetikett for salg i proshopen.",
+        "Trepegg er en typisk vare klubben kjøper for ofte og i for små kvanta. Vi setter gjerne opp en fast årsleveranse med to eller tre delleveringer, slik at prisen blir riktig uten at lageret fylles opp i mars."
+      ],
+      "en": [
+        "A classic birch wooden tee with a lacquered top. Supplied both in bulk for the club's own use and in bags with a barcode label for pro shop sale.",
+        "Wooden tees are a typical item clubs buy too often and in quantities that are too small. We are happy to set up a standing annual order with two or three part deliveries, so the price is right without filling the store room in March."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Bjørk med lakkert topp",
+        "Fire lengder fra 54 til 83 mm",
+        "Løs vekt eller pose à 100 med strekkode",
+        "Kan trykkes med klubbens navn"
+      ],
+      "en": [
+        "Birch with a lacquered top",
+        "Four lengths from 54 to 83 mm",
+        "Bulk or bags of 100 with barcode",
+        "Can be printed with the club's name"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Bjørk, lakkert topp", "en": "Birch, lacquered top" }
+      },
+      {
+        "label": { "no": "Lengder", "en": "Lengths" },
+        "value": { "no": "54, 70, 76 og 83 mm", "en": "54, 70, 76 and 83 mm" }
+      },
+      {
+        "label": { "no": "Farge", "en": "Colour" },
+        "value": { "no": "Natur, hvit, rød eller sort", "en": "Natural, white, red or black" }
+      },
+      {
+        "label": { "no": "Pakning", "en": "Packaging" },
+        "value": { "no": "Pose à 100 eller sekk à 5 000", "en": "Bag of 100 or sack of 5,000" }
+      },
+      {
+        "label": { "no": "Trykk", "en": "Printing" },
+        "value": { "no": "Ett farget trykk, fra 10 000 stk.", "en": "One-colour print, from 10,000 units" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "54 mm", "en": "54 mm" } },
+      { "name": { "no": "70 mm", "en": "70 mm" } },
+      { "name": { "no": "76 mm", "en": "76 mm" } },
+      { "name": { "no": "83 mm", "en": "83 mm" } },
+      {
+        "name": { "no": "Pose à 100 med strekkode", "en": "Bag of 100 with barcode" },
+        "note": { "no": "Klar for hylle i proshop", "en": "Shelf-ready for the pro shop" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Trepegger i ulike lengder", "en": "Wooden tees in various lengths" } }]
+  },
+  {
+    "slug": "golfsko",
+    "category": "golfutstyr-og-proshop",
+    "order": 3,
+    "featured": false,
+    "audience": ["proshop", "privat"],
+    "name": { "no": "Golfsko", "en": "Golf shoes" },
+    "tagline": {
+      "no": "Vanntett spikefri golfsko i herre- og damemodell, størrelse 36–48.",
+      "en": "Waterproof spikeless golf shoe in men's and women's fits, sizes 36–48."
+    },
+    "description": {
+      "no": [
+        "Spikefri golfsko med vanntett membran og en såle som gir grep på vått gress uten å ødelegge greenen. Beregnet på nordisk vær, der en runde ofte begynner i dugg og ender i regn.",
+        "Leveres i herre- og damelest i hele og halve størrelser. For proshopen anbefaler vi et grunnsortiment i midtstørrelsene og påfyll gjennom sesongen framfor full størrelsesserie fra start."
+      ],
+      "en": [
+        "A spikeless golf shoe with a waterproof membrane and an outsole that grips wet grass without damaging the green. Designed for Nordic weather, where a round often starts in dew and ends in rain.",
+        "Available in men's and women's lasts, in full and half sizes. For the pro shop we recommend a core range in the middle sizes with restocking through the season, rather than a full size run from the start."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Vanntett membran med to års garanti",
+        "Spikefri såle, tillatt på alle baner",
+        "Herre- og damelest",
+        "Hele og halve størrelser 36–48"
+      ],
+      "en": [
+        "Waterproof membrane with a two-year guarantee",
+        "Spikeless outsole, permitted on all courses",
+        "Men's and women's lasts",
+        "Full and half sizes 36–48"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Overdel", "en": "Upper" },
+        "value": { "no": "Syntetisk skinn med vanntett membran", "en": "Synthetic leather with waterproof membrane" }
+      },
+      {
+        "label": { "no": "Såle", "en": "Outsole" },
+        "value": { "no": "Spikefri gummi med grepsmønster", "en": "Spikeless rubber with traction pattern" }
+      },
+      {
+        "label": { "no": "Størrelser", "en": "Sizes" },
+        "value": { "no": "36–48, hele og halve", "en": "36–48, full and half" }
+      },
+      {
+        "label": { "no": "Lest", "en": "Last" },
+        "value": { "no": "Herre og dame", "en": "Men's and women's" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "355 g (str. 42)", "en": "355 g (size 42)" }
+      },
+      {
+        "label": { "no": "Garanti", "en": "Guarantee" },
+        "value": { "no": "2 år på vanntetthet", "en": "2 years on waterproofing" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Herre, hvit", "en": "Men's, white" } },
+      { "name": { "no": "Herre, sort", "en": "Men's, black" } },
+      { "name": { "no": "Dame, hvit", "en": "Women's, white" } },
+      { "name": { "no": "Dame, grå", "en": "Women's, grey" } }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Golfsko sett fra siden", "en": "Golf shoe seen from the side" } }]
+  },
+  {
+    "slug": "caps-med-logo",
+    "category": "profilprodukter",
+    "order": 1,
+    "featured": false,
+    "audience": ["klubb", "proshop"],
+    "name": { "no": "Caps med logo", "en": "Cap with logo" },
+    "tagline": {
+      "no": "Brodert caps i klubbens farger, med digital korrektur før produksjon.",
+      "en": "Embroidered cap in the club's colours, with a digital proof before production."
+    },
+    "description": {
+      "no": [
+        "Klassisk sekspanels caps i bomullstwill med brodert logo foran. Justerbar bak med spenne eller borrelås, så klubben slipper å bestille flere størrelser.",
+        "Vi setter opp broderifilen fra logoen deres og sender digital korrektur til godkjenning før noe produseres. Det tar vanligvis en virkedag, og det er der de fleste feilene fanges opp."
+      ],
+      "en": [
+        "A classic six-panel cotton twill cap with an embroidered logo on the front. Adjustable at the back with a buckle or hook-and-loop strap, so the club avoids ordering multiple sizes.",
+        "We prepare the embroidery file from your logo and send a digital proof for approval before anything is produced. It usually takes one business day, and that is where most mistakes get caught."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Brodert logo, inntil seks farger",
+        "Justerbar — én størrelse passer de fleste",
+        "Digital korrektur før produksjon",
+        "Minimum 50 stk. per bestilling"
+      ],
+      "en": [
+        "Embroidered logo, up to six colours",
+        "Adjustable — one size fits most",
+        "Digital proof before production",
+        "Minimum 50 units per order"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Bomullstwill, 260 g/m²", "en": "Cotton twill, 260 g/m²" }
+      },
+      {
+        "label": { "no": "Modell", "en": "Style" },
+        "value": { "no": "Sekspanels, buet skygge", "en": "Six-panel, curved peak" }
+      },
+      {
+        "label": { "no": "Lukking", "en": "Closure" },
+        "value": { "no": "Metallspenne eller borrelås", "en": "Metal buckle or hook-and-loop" }
+      },
+      {
+        "label": { "no": "Dekor", "en": "Decoration" },
+        "value": { "no": "Broderi foran, valgfritt trykk bak", "en": "Embroidery on the front, optional print at the back" }
+      },
+      {
+        "label": { "no": "Minsteantall", "en": "Minimum order" },
+        "value": { "no": "50 stk.", "en": "50 units" }
+      },
+      {
+        "label": { "no": "Leveringstid", "en": "Lead time" },
+        "value": { "no": "3–4 uker etter godkjent korrektur", "en": "3–4 weeks after proof approval" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Bomullstwill", "en": "Cotton twill" } },
+      {
+        "name": { "no": "Teknisk stoff", "en": "Technical fabric" },
+        "note": { "no": "Pustende, for turnering", "en": "Breathable, for tournament use" }
+      },
+      { "name": { "no": "Visor uten pull", "en": "Visor without crown" } }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Caps med brodert klubblogo", "en": "Cap with embroidered club logo" } }]
+  },
+  {
+    "slug": "golfhanske-med-logo",
+    "category": "profilprodukter",
+    "order": 2,
+    "featured": false,
+    "audience": ["klubb", "proshop"],
+    "name": { "no": "Golfhanske med logo", "en": "Golf glove with logo" },
+    "tagline": {
+      "no": "Cabretta-hanske med klubbens logo på borrelåsen.",
+      "en": "Cabretta leather glove with the club's logo on the closure tab."
+    },
+    "description": {
+      "no": [
+        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrelåsen — det er der den vises når spilleren står over ballen.",
+        "Leveres i seks størrelser for høyre- og venstrehendte. En logohanske er den enkleste sponsorartikkelen en klubb har, siden den brukes opp og kjøpes igjen."
+      ],
+      "en": [
+        "A golf glove in cabretta leather, the softest and most widely used glove leather. The logo is applied to the closure tab — that is where it shows when the player stands over the ball.",
+        "Available in six sizes for right- and left-handed players. A logo glove is the simplest sponsor item a club has, because it wears out and gets bought again."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Cabretta-skinn, 0,7 mm",
+        "Logo på borrelås, opptil fire farger",
+        "Seks størrelser, høyre og venstre",
+        "Minimum 100 stk. per bestilling"
+      ],
+      "en": [
+        "Cabretta leather, 0.7 mm",
+        "Logo on the closure tab, up to four colours",
+        "Six sizes, right and left hand",
+        "Minimum 100 units per order"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Cabretta-skinn, 0,7 mm", "en": "Cabretta leather, 0.7 mm" }
+      },
+      {
+        "label": { "no": "Størrelser", "en": "Sizes" },
+        "value": { "no": "S, M, ML, L, XL, XXL", "en": "S, M, ML, L, XL, XXL" }
+      },
+      {
+        "label": { "no": "Hånd", "en": "Hand" },
+        "value": { "no": "Høyre og venstre", "en": "Right and left" }
+      },
+      {
+        "label": { "no": "Dekor", "en": "Decoration" },
+        "value": { "no": "Trykk på borrelås, inntil 4 farger", "en": "Print on closure tab, up to 4 colours" }
+      },
+      {
+        "label": { "no": "Minsteantall", "en": "Minimum order" },
+        "value": { "no": "100 stk.", "en": "100 units" }
+      },
+      {
+        "label": { "no": "Leveringstid", "en": "Lead time" },
+        "value": { "no": "3–4 uker etter godkjent korrektur", "en": "3–4 weeks after proof approval" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Herre, høyre hånd", "en": "Men's, right hand" } },
+      { "name": { "no": "Herre, venstre hånd", "en": "Men's, left hand" } },
+      { "name": { "no": "Dame, høyre hånd", "en": "Women's, right hand" } },
+      { "name": { "no": "Dame, venstre hånd", "en": "Women's, left hand" } },
+      {
+        "name": { "no": "Regnhanske i par", "en": "Rain gloves, pair" },
+        "note": { "no": "Syntetisk, selges parvis", "en": "Synthetic, sold in pairs" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Golfhanske med logo på borrelås", "en": "Golf glove with logo on the closure tab" } }]
+  },
+  {
+    "slug": "greengaffel-med-logo",
+    "category": "profilprodukter",
+    "order": 3,
+    "featured": false,
+    "audience": ["klubb", "proshop"],
+    "name": { "no": "Greengaffel med logo", "en": "Pitch repair tool with logo" },
+    "tagline": {
+      "no": "Greengaffel i metall med avtakbar ballmarkør i klubbens farger.",
+      "en": "Metal pitch repair tool with a detachable ball marker in the club's colours."
+    },
+    "description": {
+      "no": [
+        "Greengaffel i børstet metall med magnetfeste for ballmarkør. Markøren er emaljert i klubbens farger, og gaffelen kan graveres med klubbnavn.",
+        "Dette er den rimeligste profilartikkelen med lengst levetid — en gaffel blir liggende i bagen i årevis. Vanlig bruk er velkomstgave til nye medlemmer, premie i klubbturneringer eller salgsvare i proshopen."
+      ],
+      "en": [
+        "A brushed metal pitch repair tool with a magnetic seat for the ball marker. The marker is enamelled in the club's colours, and the tool can be engraved with the club name.",
+        "This is the least expensive branded item with the longest life — a repair tool stays in the bag for years. It is typically used as a welcome gift for new members, a prize in club competitions or a retail line in the pro shop."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Børstet metall med magnetfeste",
+        "Emaljert markør i inntil fire farger",
+        "Gravering av klubbnavn mulig",
+        "Minimum 100 stk. per bestilling"
+      ],
+      "en": [
+        "Brushed metal with a magnetic seat",
+        "Enamelled marker in up to four colours",
+        "Engraving of the club name available",
+        "Minimum 100 units per order"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Materiale", "en": "Material" },
+        "value": { "no": "Sinklegering, børstet finish", "en": "Zinc alloy, brushed finish" }
+      },
+      {
+        "label": { "no": "Mål", "en": "Dimensions" },
+        "value": { "no": "78 × 22 mm", "en": "78 × 22 mm" }
+      },
+      {
+        "label": { "no": "Markør", "en": "Marker" },
+        "value": { "no": "25 mm, emaljert, magnetisk", "en": "25 mm, enamelled, magnetic" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "34 g", "en": "34 g" }
+      },
+      {
+        "label": { "no": "Minsteantall", "en": "Minimum order" },
+        "value": { "no": "100 stk.", "en": "100 units" }
+      },
+      {
+        "label": { "no": "Leveringstid", "en": "Lead time" },
+        "value": { "no": "4 uker etter godkjent korrektur", "en": "4 weeks after proof approval" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Sølv", "en": "Silver" } },
+      { "name": { "no": "Sort", "en": "Black" } },
+      {
+        "name": { "no": "Med gravering", "en": "With engraving" },
+        "note": { "no": "Klubbnavn på skaftet", "en": "Club name on the shaft" }
+      },
+      {
+        "name": { "no": "Med gaveeske", "en": "With gift box" },
+        "note": { "no": "For velkomstgave og premie", "en": "For welcome gifts and prizes" }
+      }
+    ],
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Greengaffel med ballmarkør", "en": "Pitch repair tool with ball marker" } }]
+  }
+]
