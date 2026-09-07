@@ -682,8 +682,8 @@
     "audience": ["proshop", "privat"],
     "name": { "no": "Premium golfball", "en": "Premium golf ball" },
     "tagline": {
-      "no": "Trelagsball med uretanskall til proshopen, med margin klubben faktisk tjener på.",
-      "en": "Three-piece urethane ball for the pro shop, at a margin the club actually earns on."
+      "no": "Tre- og firelagsball med uretanskall til proshopen, med margin klubben faktisk tjener på.",
+      "en": "Three- and four-piece urethane ball for the pro shop, at a margin the club actually earns on."
     },
     "description": {
       "no": [
@@ -697,13 +697,13 @@
     },
     "highlights": {
       "no": [
-        "Trelags konstruksjon med uretanskall",
+        "Tre- og firelags konstruksjon med uretanskall",
         "Mykt anslag og godt grep rundt greenen",
         "Leveres i eske à 12 stk. for videresalg",
         "Klubblogo fra 300 dusin"
       ],
       "en": [
-        "Three-piece construction with a urethane cover",
+        "Three- and four-piece construction with a urethane cover",
         "Soft feel and strong greenside grip",
         "Supplied in boxes of 12 for resale",
         "Club logo from 300 dozen"
@@ -712,7 +712,7 @@
     "specs": [
       {
         "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Trelags, uretanskall", "en": "Three-piece, urethane cover" }
+        "value": { "no": "Tre- og firelags, uretanskall", "en": "Three- and four-piece, urethane cover" }
       },
       {
         "label": { "no": "Kompresjon", "en": "Compression" },
@@ -748,7 +748,13 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Premium golfball i eske", "en": "Premium golf ball in its box" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/premium-golfball.jpg",
+        "fit": "cover",
+        "alt": { "no": "Premium golfball i eske, tre- og firelags", "en": "Premium golf ball in its box, three- and four-piece" }
+      }
+    ]
   },
   {
     "slug": "pegger",
