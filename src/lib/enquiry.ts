@@ -145,6 +145,8 @@ async function sendEnquiryEmail(message: {
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
+        // Hindrer dobbeltsending hvis samme henvendelse prøves på nytt.
+        "Idempotency-Key": `enquiry/${message.replyTo}/${message.subject}`.slice(0, 256),
       },
       body: JSON.stringify({
         // Resends delte testdomene fungerer uten at nsports.no er verifisert.
