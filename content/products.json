@@ -966,7 +966,12 @@
       { "name": { "no": "Visor uten pull", "en": "Visor without crown" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Caps med brodert klubblogo", "en": "Cap with embroidered club logo" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/caps-med-logo.jpg",
+        "alt": { "no": "Hvit caps med Meland Golf-logo sett fra tre vinkler", "en": "White cap with the Meland Golf logo seen from three angles" }
+      }
+    ]
   },
   {
     "slug": "golfhanske-med-logo",
