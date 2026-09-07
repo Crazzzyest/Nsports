@@ -334,8 +334,8 @@
     "audience": ["klubb"],
     "name": { "no": "Plastpegg til driving range", "en": "Rubber range tee" },
     "tagline": {
-      "no": "Fast gummipegg til utslagsmatte, i fem høyder.",
-      "en": "Fixed rubber tee for hitting mats, in five heights."
+      "no": "Gummipegg til utslagsmatte, kan justeres i ulike høyder.",
+      "en": "Rubber tee for hitting mats, adjustable to different heights."
     },
     "description": {
       "no": [
@@ -395,7 +395,12 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Plastpegger i ulike høyder", "en": "Rubber range tees in different heights" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/gummipegg.jpg",
+        "alt": { "no": "Justerbar gummipegg til utslagsmatte", "en": "Adjustable rubber tee for hitting mats" }
+      }
+    ]
   },
   {
     "slug": "bagskap",
