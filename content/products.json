@@ -824,7 +824,13 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Trepegger i ulike lengder", "en": "Wooden tees in various lengths" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/pegger.jpg",
+        "fit": "cover",
+        "alt": { "no": "Hvite trepegger med Meland Golf-logo", "en": "White wooden tees with the Meland Golf logo" }
+      }
+    ]
   },
   {
     "slug": "golfsko",
