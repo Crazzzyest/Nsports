@@ -183,7 +183,7 @@
   {
     "slug": "peggbar-rangematte",
     "category": "driving-range-og-anlegg",
-    "order": 2,
+    "order": 3,
     "featured": false,
     "audience": ["klubb"],
     "name": { "no": "Peggbar rangematte", "en": "Teeable range mat" },
@@ -247,7 +247,7 @@
   {
     "slug": "rangeballer-gule",
     "category": "driving-range-og-anlegg",
-    "order": 3,
+    "order": 2,
     "featured": true,
     "audience": ["klubb"],
     "name": { "no": "Rangeballer", "en": "Range balls" },
