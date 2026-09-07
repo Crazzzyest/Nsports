@@ -1148,5 +1148,68 @@
         "alt": { "no": "Greengafler med Meland Golf-ballmarkør i sort, oransje og blå", "en": "Pitch repair tools with Meland Golf ball marker in black, orange and blue" }
       }
     ]
+  },
+  {
+    "slug": "gaveartikler",
+    "category": "profilprodukter",
+    "order": 4,
+    "featured": false,
+    "audience": ["klubb", "proshop"],
+    "name": { "no": "Gaveartikler", "en": "Gift items" },
+    "tagline": {
+      "no": "Gaveesker med logo både på eske og innhold som golfballer, markører osv.",
+      "en": "Gift sets with the logo on both the box and the contents such as golf balls, markers and more."
+    },
+    "description": {
+      "no": [
+        "Ferdig sammensatte gaveesker der både esken og innholdet er merket med klubbens logo. Settene kombinerer golfballer, ballmarkører, greengafler, tees og annet tilbehør i eksklusiv innpakning.",
+        "Eskene finnes i flere utførelser — fra elegant sort presenteske og børstet metallboks til skinnetui og fargede sett — og passer som velkomstgave til nye medlemmer, premie i turneringer eller sponsor- og gjestegave."
+      ],
+      "en": [
+        "Ready-made gift sets where both the box and the contents carry the club's logo. The sets combine golf balls, ball markers, pitch repair tools, tees and other accessories in premium packaging.",
+        "The boxes come in several styles — from an elegant black presentation box and brushed metal tin to a leather case and colour sets — and work as a welcome gift for new members, a tournament prize or a sponsor and guest gift."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Logo både på eske og innhold",
+        "Golfballer, markører, greengaffel og tees i settet",
+        "Flere utførelser i eske, metall og skinn",
+        "Passer til velkomstgave, premie og sponsorgave"
+      ],
+      "en": [
+        "Logo on both the box and the contents",
+        "Golf balls, markers, pitch repair tool and tees included",
+        "Several styles in box, metal and leather",
+        "Suits welcome gifts, prizes and sponsor gifts"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Innhold", "en": "Contents" },
+        "value": { "no": "Golfballer, markører, greengaffel, tees m.m.", "en": "Golf balls, markers, pitch tool, tees and more" }
+      },
+      {
+        "label": { "no": "Logo", "en": "Logo" },
+        "value": { "no": "Trykk på eske og innhold", "en": "Print on box and contents" }
+      },
+      {
+        "label": { "no": "Utførelser", "en": "Styles" },
+        "value": { "no": "Presenteske, metallboks, skinnetui", "en": "Presentation box, metal tin, leather case" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Sort presenteske", "en": "Black presentation box" } },
+      { "name": { "no": "Metallboks", "en": "Metal tin" } },
+      { "name": { "no": "Skinnetui", "en": "Leather case" } }
+    ],
+    "datasheets": [],
+    "images": [
+      {
+        "src": "/bilder/produkter/gaveesker.jpg",
+        "fit": "cover",
+        "alt": { "no": "Gaveesker med Meland Golf-logo med golfballer, markører og greengafler", "en": "Gift sets with the Meland Golf logo containing golf balls, markers and pitch repair tools" }
+      }
+    ]
   }
 ]
