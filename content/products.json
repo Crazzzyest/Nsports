@@ -748,7 +748,13 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Premium golfball i eske", "en": "Premium golf ball in its box" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/premium-golfball.jpg",
+        "fit": "cover",
+        "alt": { "no": "Viktor Tour og Tour X premium golfball-esker", "en": "Viktor Tour and Tour X premium golf ball boxes" }
+      }
+    ]
   },
   {
     "slug": "pegger",
