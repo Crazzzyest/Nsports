@@ -42,9 +42,9 @@ export function SiteHeader({ locale, dict }: { locale: Locale; dict: Dictionary 
               label={dict.language.label}
               className="hidden sm:flex"
             />
-            <ButtonLink href={cta.href} className="hidden lg:inline-flex">
-              {cta.label}
-            </ButtonLink>
+            <div className="hidden lg:block">
+              <ButtonLink href={cta.href}>{cta.label}</ButtonLink>
+            </div>
             <MobileNav
               items={items}
               cta={cta}

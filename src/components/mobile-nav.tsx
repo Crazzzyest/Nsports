@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
 import { CloseIcon, MenuIcon } from "@/components/icons";
 import { LanguageSwitcher } from "@/components/language-switcher";
@@ -22,6 +23,11 @@ export function MobileNav({
   labels: { menu: string; close: string; language: string };
 }) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -52,8 +58,9 @@ export function MobileNav({
         <MenuIcon className="h-5 w-5" />
       </button>
 
-      {open ? (
-        <div className="fixed inset-0 z-50 bg-paper">
+      {open && mounted
+        ? createPortal(
+        <div className="fixed inset-0 z-50 overflow-y-auto bg-paper">
           <div className="flex h-16 items-center justify-between border-b border-line px-5">
             <Logo />
             <button
@@ -98,8 +105,10 @@ export function MobileNav({
               />
             </div>
           </nav>
-        </div>
-      ) : null}
+        </div>,
+            document.body,
+          )
+        : null}
     </div>
   );
 }
