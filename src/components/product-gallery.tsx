@@ -37,7 +37,7 @@ export function ProductGallery({
           accent={accent}
           icon={icon}
           index={active}
-          sizes="(max-width: 1024px) 100vw, 55vw"
+          sizes="(max-width: 1024px) 92vw, 55vw"
           priority
           missingLabel={dict.product.imageMissing}
         />

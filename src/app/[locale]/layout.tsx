@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 
-import { DraftBanner } from "@/components/draft-banner";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getCategories, getSite } from "@/lib/content";
@@ -63,7 +62,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={localeHtmlLang[locale]}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full bg-paper antialiased`}
     >
       <body className="flex min-h-full flex-col bg-paper">
         <a
@@ -73,7 +72,6 @@ export default async function LocaleLayout({
           {dict.nav.skipToContent}
         </a>
 
-        <DraftBanner text={dict.draftBanner.text} />
         <SiteHeader locale={locale} dict={dict} />
 
         <main id="innhold" className="flex-1">

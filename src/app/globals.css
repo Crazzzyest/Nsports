@@ -40,6 +40,17 @@
 
   body {
     background-color: var(--color-paper);
+    /* Et dempet lys øverst gir siden dybde uten å ta oppmerksomhet fra
+       produktbildene. Glødet er begrenset til toppen, så resten er rent. */
+    background-image:
+      radial-gradient(
+        110% 52% at 50% -8%,
+        color-mix(in srgb, var(--color-pine-50) 72%, transparent) 0%,
+        color-mix(in srgb, var(--color-sand) 60%, transparent) 42%,
+        transparent 72%
+      );
+    background-repeat: no-repeat;
+    background-size: 100% 640px;
     color: var(--color-ink);
     font-family: var(--font-sans);
     text-rendering: optimizeLegibility;

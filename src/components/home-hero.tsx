@@ -24,12 +24,12 @@ export function HomeHero({
   const [lead, ...rest] = showcase;
 
   return (
-    <section className="relative overflow-hidden bg-sand">
+    <section className="relative overflow-hidden bg-gradient-to-b from-sand via-sand to-paper">
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.55]"
+        className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(80% 60% at 12% 0%, var(--color-pine-50) 0%, transparent 60%)",
+            "radial-gradient(72% 68% at 14% 0%, color-mix(in srgb, var(--color-pine-50) 85%, transparent) 0%, transparent 58%), radial-gradient(48% 55% at 92% 8%, var(--color-brass-soft) 0%, transparent 55%)",
         }}
       />
 
@@ -62,7 +62,7 @@ export function HomeHero({
                 dict={dict}
                 priority
                 className="col-span-2 aspect-16/10"
-                sizes="(max-width: 1024px) 100vw, 45vw"
+                sizes="(max-width: 1024px) 92vw, 45vw"
               />
               {rest.slice(0, 2).map((entry) => (
                 <ShowcaseTile
@@ -71,7 +71,7 @@ export function HomeHero({
                   locale={locale}
                   dict={dict}
                   className="aspect-4/3"
-                  sizes="(max-width: 1024px) 50vw, 22vw"
+                  sizes="(max-width: 1024px) 45vw, 22vw"
                 />
               ))}
             </div>
