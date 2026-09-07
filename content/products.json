@@ -186,7 +186,7 @@
     "order": 4,
     "featured": false,
     "audience": ["klubb"],
-    "name": { "no": "Paraply", "en": "Umbrella" },
+    "name": { "no": "TourParaply", "en": "TourParaply" },
     "tagline": {
       "no": "Golfparaply med logo i tourstørrelse.",
       "en": "Golf umbrella with logo in tour size."
@@ -234,7 +234,13 @@
       { "name": { "no": "Med klubblogo", "en": "With club logo" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Golfparaply med logo i tourstørrelse", "en": "Golf umbrella with logo in tour size" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/paraply.jpg",
+        "fit": "cover",
+        "alt": { "no": "Golfparaply med Meland Golf-logo i tourstørrelse på banen", "en": "Golf umbrella with the Meland Golf logo in tour size on the course" }
+      }
+    ]
   },
   {
     "slug": "rangeballer-gule",
