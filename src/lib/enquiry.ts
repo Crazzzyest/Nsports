@@ -99,7 +99,7 @@ export async function handleEnquiry(
   `;
 
   const sent = await sendEnquiryEmail({
-    to: process.env.ENQUIRY_TO ?? site.contact.email,
+    to: process.env.ENQUIRY_TO ?? "edsongreistad99@gmail.com",
     replyTo: values.email!,
     subject,
     text,
@@ -147,7 +147,9 @@ async function sendEnquiryEmail(message: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: process.env.ENQUIRY_FROM ?? "NSports <post@nsports.no>",
+        // Resends delte testdomene fungerer uten at nsports.no er verifisert.
+        // Bytt til ENQUIRY_FROM med eget verifisert domene når det er klart.
+        from: process.env.ENQUIRY_FROM ?? "NSports <onboarding@resend.dev>",
         to: [message.to],
         reply_to: message.replyTo,
         subject: message.subject,
