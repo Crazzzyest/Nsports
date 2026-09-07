@@ -171,7 +171,11 @@
     ],
     "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
     "images": [
-      { "alt": { "no": "Rangematte sett ovenfra", "en": "Range mat seen from above" } },
+      {
+        "src": "/bilder/produkter/rangematte.jpg",
+        "fit": "cover",
+        "alt": { "no": "Rangematte med Meland Golf-logo sett ovenfra", "en": "Range mat with the Meland Golf logo seen from above" }
+      },
       { "alt": { "no": "Tverrsnitt av fiberdekke og gummibunn", "en": "Cross-section of fibre surface and rubber base" } },
       { "alt": { "no": "Rangematte på utslagsplass", "en": "Range mat on a tee position" } }
     ]
