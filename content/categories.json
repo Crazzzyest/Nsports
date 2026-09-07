@@ -22,7 +22,7 @@
   },
   {
     "slug": "driving-range-og-anlegg",
-    "order": 2,
+    "order": 3,
     "icon": "target",
     "accent": "#5B7B3F",
     "name": { "no": "Driving range og anlegg", "en": "Driving range and facilities" },
@@ -43,7 +43,7 @@
   },
   {
     "slug": "robotikk-og-teknologi",
-    "order": 3,
+    "order": 2,
     "icon": "robot",
     "accent": "#2B4C6F",
     "name": { "no": "Robotikk og teknologi", "en": "Robotics and technology" },
