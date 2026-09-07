@@ -8,13 +8,13 @@
     }
   },
   "contact": {
-    "email": "post@nsports.no",
-    "phone": "+47 00 00 00 00",
+    "email": "frank@nsports.no",
+    "phone": "916 82 317",
     "orgNumber": "000 000 000",
     "address": {
-      "street": "Gateadresse 1",
-      "postalCode": "0000",
-      "city": "Poststed",
+      "street": "Beitingsvegen 50",
+      "postalCode": "5918",
+      "city": "Frekhaug",
       "country": { "no": "Norge", "en": "Norway" }
     }
   },
@@ -60,8 +60,8 @@
       "icon": "leaf",
       "title": { "no": "Valgt for nordisk klima", "en": "Chosen for a Nordic climate" },
       "body": {
-        "no": "Utstyret er valgt ut fra å tåle fukt, salt og temperaturskifter gjennom en norsk sesong — ikke ut fra en sørlandsk testbane.",
-        "en": "Equipment is selected to withstand damp, salt and temperature swings through a Nordic season, not a test course in a mild climate."
+        "no": "Utstyret er valgt ut fra å tåle fukt og temperaturskifter gjennom en norsk sesong, og er testet grundig på Meland i fuktig og røft terreng.",
+        "en": "Equipment is selected to withstand damp and temperature swings through a Nordic season, and has been thoroughly tested at Meland in wet and rough terrain."
       }
     }
   ],
@@ -174,8 +174,8 @@
       {
         "question": { "no": "Hvor lang er leveringstiden?", "en": "What are the lead times?" },
         "answer": {
-          "no": "Lagerførte varer sendes normalt innen to til fem virkedager. Golfbiler, maskiner og alt med logo bestilles fra fabrikk, og der er leveringstiden tre til seks uker. Vi oppgir alltid faktisk leveringstid i tilbudet.",
-          "en": "Stocked items normally ship within two to five business days. Golf cars, machinery and anything carrying a logo are ordered from the factory, with a lead time of three to six weeks. We always state the actual lead time in the quote."
+          "no": "Varer bestilles til golfsesongen, og både produksjonstid og leveringstid varierer fra produkt til produkt. Et eksempel: en golfbil har rundt fem til seks ukers produksjonstid, og frakten kommer i tillegg med om lag to måneder. Vi bruker lokalt speditørfirma, pakker og losser selv, og sender omgående når vi har mottatt varene. Vi oppgir alltid faktisk produksjons- og leveringstid i tilbudet.",
+          "en": "Products are ordered ahead of the golf season, and both production and shipping times vary from product to product. For example, a golf car has roughly five to six weeks of production time, with shipping adding around two months on top. We use a local freight company, pack and unload the goods ourselves, and ship immediately once we have received them. We always state the actual production and delivery time in the quote."
         }
       },
       {

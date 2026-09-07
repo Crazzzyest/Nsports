@@ -32,6 +32,11 @@ export interface ProductImage {
   /** Sti under /public, f.eks. "/bilder/produkter/golfbil-1.jpg". Uten sti vises en plassholder. */
   src?: string;
   alt: Localized;
+  /**
+   * Hvordan bildet fyller rammen. "contain" (standard) passer produktfoto på
+   * hvit bakgrunn, mens "cover" fyller hele flaten og egner seg for helfoto.
+   */
+  fit?: "contain" | "cover";
 }
 
 export interface Spec {

@@ -95,7 +95,7 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
+      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
       { "alt": { "no": "Førerplass og instrumenter", "en": "Driver's seat and instruments" } },
       { "alt": { "no": "Golfbil i bruk på bane", "en": "Golf car in use on the course" } }
     ]
@@ -171,188 +171,110 @@
     ],
     "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
     "images": [
-      { "alt": { "no": "Rangematte sett ovenfra", "en": "Range mat seen from above" } },
+      {
+        "src": "/bilder/produkter/rangematte.jpg",
+        "fit": "cover",
+        "alt": { "no": "Rangematte med Meland Golf-logo sett ovenfra", "en": "Range mat with the Meland Golf logo seen from above" }
+      },
       { "alt": { "no": "Tverrsnitt av fiberdekke og gummibunn", "en": "Cross-section of fibre surface and rubber base" } },
       { "alt": { "no": "Rangematte på utslagsplass", "en": "Range mat on a tee position" } }
     ]
   },
   {
-    "slug": "peggbar-rangematte",
-    "category": "driving-range-og-anlegg",
-    "order": 2,
+    "slug": "paraply",
+    "category": "golfutstyr-og-proshop",
+    "order": 4,
     "featured": false,
     "audience": ["klubb"],
-    "name": { "no": "Peggbar rangematte", "en": "Teeable range mat" },
+    "name": { "no": "TourParaply", "en": "TourParaply" },
     "tagline": {
-      "no": "Rangematte der spilleren kan sette ned en vanlig trepegg hvor som helst i flaten.",
-      "en": "A range mat where the player can push an ordinary wooden tee in anywhere on the surface."
+      "no": "Golfparaply med logo i tourstørrelse.",
+      "en": "Golf umbrella with logo in tour size."
     },
     "description": {
       "no": [
-        "Samme oppbygging som den vanlige rangematten, men med et dekke og en bunn som tåler at det settes ned pegger direkte i matten. Spilleren slipper faste peggehull og kan variere høyde og plassering slik man gjør på gress.",
-        "Løsningen er særlig aktuell på utslagsplasser der klubben vil tilby driverslag med vanlig pegg, uten at det slites hull i matten etter én sesong."
+        "Stor golfparaply i tourstørrelse som gir god dekning for både spiller og bag i regn og vind. Vindåpninger i duken slipper kastene gjennom, slik at paraplyen holder seg stabil i kuling.",
+        "Trykkes med klubbens eller sponsorens logo, og egner seg like godt til proshopen som til gjestegaver og turneringer."
       ],
       "en": [
-        "The same construction as the standard range mat, but with a surface and base that tolerate tees being pushed straight into the mat. The player is freed from fixed tee holes and can vary height and placement the way they would on grass.",
-        "It is particularly relevant on tee positions where the club wants to offer driver shots with an ordinary tee, without the mat being worn through after a single season."
+        "A large tour-size golf umbrella that gives good cover for both player and bag in rain and wind. Vents in the canopy let gusts pass through, so the umbrella stays stable in strong wind.",
+        "Printed with the club's or a sponsor's logo, and works just as well in the pro shop as for guest gifts and tournaments."
       ]
     },
     "highlights": {
       "no": [
-        "Trepegg kan settes ned hvor som helst i flaten",
-        "Ingen faste peggehull som begrenser plasseringen",
-        "Selvlukkende dekke som holder formen",
-        "Samme demping som standardmatten"
+        "Tourstørrelse med god dekning for spiller og bag",
+        "Vindåpninger som slipper kastene gjennom",
+        "Robust skaft og ribber for daglig bruk",
+        "Trykkes med klubbens eller sponsorens logo"
       ],
       "en": [
-        "A wooden tee can be placed anywhere on the surface",
-        "No fixed tee holes limiting placement",
-        "Self-closing surface that keeps its shape",
-        "The same shock absorption as the standard mat"
+        "Tour size with good cover for player and bag",
+        "Vented canopy that lets gusts pass through",
+        "Sturdy shaft and ribs for daily use",
+        "Printed with the club's or a sponsor's logo"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Standardmål", "en": "Standard size" },
-        "value": { "no": "150 × 150 cm", "en": "150 × 150 cm" }
+        "label": { "no": "Størrelse", "en": "Size" },
+        "value": { "no": "Tourstørrelse, ca. 130 cm diameter", "en": "Tour size, approx. 130 cm diameter" }
       },
       {
-        "label": { "no": "Totaltykkelse", "en": "Total thickness" },
-        "value": { "no": "65 mm", "en": "65 mm" }
+        "label": { "no": "Duk", "en": "Canopy" },
+        "value": { "no": "Vindåpen, dobbelt lag", "en": "Vented, double layer" }
       },
       {
-        "label": { "no": "Fiberhøyde", "en": "Pile height" },
-        "value": { "no": "42 mm", "en": "42 mm" }
-      },
-      {
-        "label": { "no": "Peggtype", "en": "Tee type" },
-        "value": { "no": "Vanlig trepegg opptil 70 mm", "en": "Ordinary wooden tee up to 70 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "38 kg", "en": "38 kg" }
-      }
-    ],
-    "variants": [
-      { "name": { "no": "150 × 150 cm", "en": "150 × 150 cm" } },
-      { "name": { "no": "150 × 200 cm", "en": "150 × 200 cm" } }
-    ],
-    "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
-    "images": [{ "alt": { "no": "Peggbar rangematte med pegg satt ned i flaten", "en": "Teeable range mat with a tee pushed into the surface" } }]
-  },
-  {
-    "slug": "rangeballer-hvite",
-    "category": "driving-range-og-anlegg",
-    "order": 3,
-    "featured": true,
-    "audience": ["klubb"],
-    "name": { "no": "Rangeballer, hvite", "en": "Range balls, white" },
-    "tagline": {
-      "no": "Tolagsball i hvitt med hardt skall, laget for å tåle ballmaskin og vaskeanlegg.",
-      "en": "Two-piece white ball with a hard cover, made to survive ball machines and washing systems."
-    },
-    "description": {
-      "no": [
-        "Standard rangeball i hvitt til utslagsplass og ballautomat. Skallet er hardere enn på en spilleball, noe som gir kortere levetid på følelsen, men vesentlig lengre levetid på ballen. Det er den avveiningen som avgjør rangeøkonomien.",
-        "Ballene har jevn diameter og vekt, slik at de ikke setter seg fast i automat, plukker eller vaskeanlegg. Vi anbefaler å telle beholdningen ved sesongslutt og fylle på årlig framfor å bytte alt hvert tredje år."
-      ],
-      "en": [
-        "A standard white range ball for tee positions and ball dispensers. The cover is harder than on a playing ball, which shortens the life of the feel but considerably extends the life of the ball. That trade-off is what determines range economics.",
-        "The balls hold consistent diameter and weight, so they do not jam in dispensers, pickers or washing systems. We recommend counting stock at the end of the season and topping up annually rather than replacing everything every third year."
-      ]
-    },
-    "highlights": {
-      "no": [
-        "Tolags konstruksjon med hardt surlyn-skall",
-        "Jevn diameter som ikke setter seg fast i automat",
-        "Tåler vaskeanlegg uten å miste merking",
-        "Leveres med klubbens logo på bestilling"
-      ],
-      "en": [
-        "Two-piece construction with a hard surlyn cover",
-        "Consistent diameter that will not jam a dispenser",
-        "Withstands washing systems without losing its marking",
-        "Available with the club's logo to order"
-      ]
-    },
-    "specs": [
-      {
-        "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Tolags, surlyn-skall", "en": "Two-piece, surlyn cover" }
-      },
-      {
-        "label": { "no": "Diameter", "en": "Diameter" },
-        "value": { "no": "42,7 mm", "en": "42.7 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "45,5 g", "en": "45.5 g" }
-      },
-      {
-        "label": { "no": "Kompresjon", "en": "Compression" },
-        "value": { "no": "80", "en": "80" }
-      },
-      {
-        "label": { "no": "Fordypninger", "en": "Dimples" },
-        "value": { "no": "332", "en": "332" }
-      },
-      {
-        "label": { "no": "Merking", "en": "Marking" },
-        "value": { "no": "Én eller to røde striper", "en": "One or two red stripes" }
-      },
-      {
-        "label": { "no": "Kartong", "en": "Case" },
-        "value": { "no": "600 stk.", "en": "600 units" }
+        "label": { "no": "Logo", "en": "Logo" },
+        "value": { "no": "Trykk med klubbens logo", "en": "Print with the club's logo" }
       }
     ],
     "variants": [
       { "name": { "no": "Uten logo", "en": "Without logo" } },
-      {
-        "name": { "no": "Med klubblogo", "en": "With club logo" },
-        "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
-      },
-      { "name": { "no": "Én stripe eller to striper", "en": "One stripe or two stripes" } }
+      { "name": { "no": "Med klubblogo", "en": "With club logo" } }
     ],
     "datasheets": [],
     "images": [
-      { "alt": { "no": "Hvite rangeballer", "en": "White range balls" } },
-      { "alt": { "no": "Nærbilde av ballmerking", "en": "Close-up of the ball marking" } },
-      { "alt": { "no": "Rangeballer i ballkurv", "en": "Range balls in a ball basket" } }
+      {
+        "src": "/bilder/produkter/paraply.jpg",
+        "fit": "cover",
+        "alt": { "no": "Golfparaply med Meland Golf-logo i tourstørrelse på banen", "en": "Golf umbrella with the Meland Golf logo in tour size on the course" }
+      }
     ]
   },
   {
     "slug": "rangeballer-gule",
     "category": "driving-range-og-anlegg",
-    "order": 4,
-    "featured": false,
+    "order": 2,
+    "featured": true,
     "audience": ["klubb"],
-    "name": { "no": "Rangeballer, gule", "en": "Range balls, yellow" },
+    "name": { "no": "Rangeballer", "en": "Range balls" },
     "tagline": {
-      "no": "Samme ball i signalgult — enklere å se i skumring, regn og mot lys bakgrunn.",
-      "en": "The same ball in high-visibility yellow — easier to see at dusk, in rain and against a bright background."
+      "no": "Tolagsball i signalgult med hardt skall, laget for å tåle ballmaskin og vaskeanlegg.",
+      "en": "Two-piece high-visibility yellow ball with a hard cover, made to survive ball machines and washing systems."
     },
     "description": {
       "no": [
-        "Teknisk identisk med den hvite rangeballen, men i gjennomfarget signalgult. Fargen ligger i selve skallet og ikke i et malingslag, så ballen holder seg synlig også etter en sesong med plukker og vask.",
-        "Mange klubber kjører gult på kveldsbelyst range og hvitt om sommeren, eller bruker to farger for å skille ballene på ulike deler av anlegget."
+        "Vår rangeball i gjennomfarget signalgult til utslagsplass og ballautomat. Skallet er hardere enn på en spilleball, noe som gir kortere levetid på følelsen, men vesentlig lengre levetid på ballen. Det er den avveiningen som avgjør rangeøkonomien.",
+        "Fargen ligger i selve skallet og ikke i et malingslag, så ballen holder seg tydelig synlig i skumring, regn og mot lys bakgrunn – også etter en sesong med plukker og vask. Ballene har jevn diameter og vekt, slik at de ikke setter seg fast i automat, plukker eller vaskeanlegg."
       ],
       "en": [
-        "Technically identical to the white range ball, but in solid high-visibility yellow. The colour sits in the cover itself rather than in a coat of paint, so the ball stays visible even after a season of picking and washing.",
-        "Many clubs run yellow on a floodlit range and white in summer, or use two colours to separate balls between different parts of the facility."
+        "Our range ball in solid high-visibility yellow for tee positions and ball dispensers. The cover is harder than on a playing ball, which shortens the life of the feel but considerably extends the life of the ball. That trade-off is what determines range economics.",
+        "The colour sits in the cover itself rather than in a coat of paint, so the ball stays clearly visible at dusk, in rain and against a bright background – even after a season of picking and washing. The balls hold consistent diameter and weight, so they do not jam in dispensers, pickers or washing systems."
       ]
     },
     "highlights": {
       "no": [
-        "Gjennomfarget skall som ikke flasser",
-        "Tydelig synlig i skumring og under flomlys",
-        "Samme spillegenskaper som den hvite",
-        "Praktisk for å skille beholdninger på anlegget"
+        "Tolags konstruksjon med hardt surlyn-skall",
+        "Gjennomfarget signalgult som ikke flasser",
+        "Jevn diameter som ikke setter seg fast i automat",
+        "Leveres med klubbens logo på bestilling"
       ],
       "en": [
-        "Solid-coloured cover that will not flake",
-        "Clearly visible at dusk and under floodlights",
-        "Identical playing characteristics to the white ball",
-        "Practical for separating stock across the facility"
+        "Two-piece construction with a hard surlyn cover",
+        "Solid high-visibility yellow that will not flake",
+        "Consistent diameter that will not jam a dispenser",
+        "Available with the club's logo to order"
       ]
     },
     "specs": [
@@ -377,6 +299,10 @@
         "value": { "no": "80", "en": "80" }
       },
       {
+        "label": { "no": "Merking", "en": "Marking" },
+        "value": { "no": "Én eller to sorte striper", "en": "One or two black stripes" }
+      },
+      {
         "label": { "no": "Kartong", "en": "Case" },
         "value": { "no": "600 stk.", "en": "600 units" }
       }
@@ -386,10 +312,17 @@
       {
         "name": { "no": "Med klubblogo", "en": "With club logo" },
         "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
-      }
+      },
+      { "name": { "no": "Én stripe eller to striper", "en": "One stripe or two stripes" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Gule rangeballer", "en": "Yellow range balls" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/rangeballer-gule.jpg",
+        "fit": "cover",
+        "alt": { "no": "Gule rangeballer med Meland Golf-logo", "en": "Yellow range balls with the Meland Golf logo" }
+      }
+    ]
   },
   {
     "slug": "plastpegg-driving-range",
@@ -399,8 +332,8 @@
     "audience": ["klubb"],
     "name": { "no": "Plastpegg til driving range", "en": "Rubber range tee" },
     "tagline": {
-      "no": "Fast gummipegg til utslagsmatte, i fem høyder.",
-      "en": "Fixed rubber tee for hitting mats, in five heights."
+      "no": "Gummipegg til utslagsmatte, kan justeres i ulike høyder.",
+      "en": "Rubber tee for hitting mats, adjustable to different heights."
     },
     "description": {
       "no": [
@@ -460,7 +393,12 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Plastpegger i ulike høyder", "en": "Rubber range tees in different heights" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/gummipegg.jpg",
+        "alt": { "no": "Justerbar gummipegg til utslagsmatte", "en": "Adjustable rubber tee for hitting mats" }
+      }
+    ]
   },
   {
     "slug": "bagskap",
@@ -470,8 +408,8 @@
     "audience": ["klubb"],
     "name": { "no": "Bagskap", "en": "Bag storage locker" },
     "tagline": {
-      "no": "Låsbart skap for oppbevaring av golfbag, med ventilasjon som tørker utstyret.",
-      "en": "Lockable cabinet for golf bag storage, ventilated so equipment dries out."
+      "no": "Låsbart skap (kodelås følger med). Mål: 120 cm høyde, 80 cm dybde og 80 cm bredde.",
+      "en": "Lockable cabinet (combination lock included). Dimensions: 120 cm height, 80 cm depth and 80 cm width."
     },
     "description": {
       "no": [
@@ -488,19 +426,19 @@
         "Modulbasert, settes sammen til ønsket bredde",
         "Ventilerte rom som tørker vått utstyr",
         "Pulverlakkert stål, egnet for uoppvarmet rom",
-        "Valgfri sylinderlås, hengelås eller kodelås"
+        "Kodelås følger med"
       ],
       "en": [
         "Modular, combined to any required width",
         "Ventilated compartments that dry wet equipment",
         "Powder-coated steel, suitable for unheated rooms",
-        "Choice of cylinder lock, padlock or combination lock"
+        "Combination lock included"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Modulmål (B × D × H)", "en": "Module size (W × D × H)" },
-        "value": { "no": "120 × 60 × 195 cm", "en": "120 × 60 × 195 cm" }
+        "label": { "no": "Mål (B × D × H)", "en": "Size (W × D × H)" },
+        "value": { "no": "80 × 80 × 120 cm", "en": "80 × 80 × 120 cm" }
       },
       {
         "label": { "no": "Rom per modul", "en": "Compartments per module" },
@@ -538,7 +476,11 @@
     ],
     "datasheets": [{ "label": { "no": "Måltegning", "en": "Dimensional drawing" } }],
     "images": [
-      { "alt": { "no": "Bagskap i rekke langs vegg", "en": "Bag lockers in a row along a wall" } },
+      {
+        "src": "/bilder/produkter/bagskap.jpg",
+        "fit": "cover",
+        "alt": { "no": "Bagskap med golfbag og tralle, med kodelås", "en": "Bag locker with a golf bag and trolley, with a combination lock" }
+      },
       { "alt": { "no": "Åpent bagskap med golfbag", "en": "Open bag locker with a golf bag" } },
       { "alt": { "no": "Detalj av lås og navneskilt", "en": "Detail of lock and name plate" } }
     ]
@@ -634,7 +576,10 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "alt": { "no": "Automatisk ballplukker på range", "en": "Automated ball collector on a range" } },
+      {
+        "src": "/bilder/produkter/ballplukker.png",
+        "alt": { "no": "Wayrobo automatisk ballplukker sett fra siden", "en": "Wayrobo automated ball collector seen from the side" }
+      },
       { "alt": { "no": "Ballplukker i ladestasjon", "en": "Ball collector in its charging dock" } },
       { "alt": { "no": "Appen som viser oppsatt arbeidsområde", "en": "The app showing the mapped working area" } }
     ]
@@ -723,7 +668,11 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "alt": { "no": "AI-golftralle med bag på bane", "en": "AI golf trolley carrying a bag on the course" } },
+      {
+        "src": "/bilder/produkter/ai-golftralle.jpg",
+        "fit": "contain",
+        "alt": { "no": "Robera AI-golftralle sett fra siden", "en": "Robera AI golf trolley seen from the side" }
+      },
       { "alt": { "no": "Trallen sammenlagt for transport", "en": "The trolley folded for transport" } },
       { "alt": { "no": "Betjeningspanel og display", "en": "Control panel and display" } }
     ]
@@ -736,8 +685,8 @@
     "audience": ["proshop", "privat"],
     "name": { "no": "Premium golfball", "en": "Premium golf ball" },
     "tagline": {
-      "no": "Trelagsball med uretanskall til proshopen, med margin klubben faktisk tjener på.",
-      "en": "Three-piece urethane ball for the pro shop, at a margin the club actually earns on."
+      "no": "Tre- og firelagsball med uretanskall til proshopen, med margin klubben faktisk tjener på.",
+      "en": "Three- and four-piece urethane ball for the pro shop, at a margin the club actually earns on."
     },
     "description": {
       "no": [
@@ -751,13 +700,13 @@
     },
     "highlights": {
       "no": [
-        "Trelags konstruksjon med uretanskall",
+        "Tre- og firelags konstruksjon med uretanskall",
         "Mykt anslag og godt grep rundt greenen",
         "Leveres i eske à 12 stk. for videresalg",
         "Klubblogo fra 300 dusin"
       ],
       "en": [
-        "Three-piece construction with a urethane cover",
+        "Three- and four-piece construction with a urethane cover",
         "Soft feel and strong greenside grip",
         "Supplied in boxes of 12 for resale",
         "Club logo from 300 dozen"
@@ -766,7 +715,7 @@
     "specs": [
       {
         "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Trelags, uretanskall", "en": "Three-piece, urethane cover" }
+        "value": { "no": "Tre- og firelags, uretanskall", "en": "Three- and four-piece, urethane cover" }
       },
       {
         "label": { "no": "Kompresjon", "en": "Compression" },
@@ -802,7 +751,13 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Premium golfball i eske", "en": "Premium golf ball in its box" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/premium-golfball.jpg",
+        "fit": "cover",
+        "alt": { "no": "Viktor Tour og Tour X premium golfball-esker", "en": "Viktor Tour and Tour X premium golf ball boxes" }
+      }
+    ]
   },
   {
     "slug": "pegger",
@@ -872,7 +827,13 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Trepegger i ulike lengder", "en": "Wooden tees in various lengths" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/pegger.jpg",
+        "fit": "cover",
+        "alt": { "no": "Hvite trepegger med Meland Golf-logo", "en": "White wooden tees with the Meland Golf logo" }
+      }
+    ]
   },
   {
     "slug": "golfsko",
@@ -942,7 +903,13 @@
       { "name": { "no": "Dame, grå", "en": "Women's, grey" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Golfsko sett fra siden", "en": "Golf shoe seen from the side" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/golfsko.jpg",
+        "fit": "contain",
+        "alt": { "no": "Southport golfsko i fire fargevarianter", "en": "Southport golf shoes in four colour variants" }
+      }
+    ]
   },
   {
     "slug": "caps-med-logo",
@@ -1014,7 +981,12 @@
       { "name": { "no": "Visor uten pull", "en": "Visor without crown" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Caps med brodert klubblogo", "en": "Cap with embroidered club logo" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/caps-med-logo.jpg",
+        "alt": { "no": "Hvit caps med Meland Golf-logo sett fra tre vinkler", "en": "White cap with the Meland Golf logo seen from three angles" }
+      }
+    ]
   },
   {
     "slug": "golfhanske-med-logo",
@@ -1029,7 +1001,7 @@
     },
     "description": {
       "no": [
-        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrelåsen — det er der den vises når spilleren står over ballen.",
+        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrel��sen — det er der den vises når spilleren står over ballen.",
         "Leveres i seks størrelser for høyre- og venstrehendte. En logohanske er den enkleste sponsorartikkelen en klubb har, siden den brukes opp og kjøpes igjen."
       ],
       "en": [
@@ -1088,7 +1060,12 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Golfhanske med logo på borrelås", "en": "Golf glove with logo on the closure tab" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/golfhanske.jpg",
+        "alt": { "no": "Golfhansker med Meland Golf-logo og norsk flagg på borrelåsen", "en": "Golf gloves with the Meland Golf logo and Norwegian flag on the closure tab" }
+      }
+    ]
   },
   {
     "slug": "greengaffel-med-logo",
@@ -1164,6 +1141,75 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Greengaffel med ballmarkør", "en": "Pitch repair tool with ball marker" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/greengaffel.jpg",
+        "fit": "cover",
+        "alt": { "no": "Greengafler med Meland Golf-ballmarkør i sort, oransje og blå", "en": "Pitch repair tools with Meland Golf ball marker in black, orange and blue" }
+      }
+    ]
+  },
+  {
+    "slug": "gaveartikler",
+    "category": "profilprodukter",
+    "order": 4,
+    "featured": false,
+    "audience": ["klubb", "proshop"],
+    "name": { "no": "Gaveartikler", "en": "Gift items" },
+    "tagline": {
+      "no": "Gaveesker med logo både på eske og innhold som golfballer, markører osv.",
+      "en": "Gift sets with the logo on both the box and the contents such as golf balls, markers and more."
+    },
+    "description": {
+      "no": [
+        "Ferdig sammensatte gaveesker der både esken og innholdet er merket med klubbens logo. Settene kombinerer golfballer, ballmarkører, greengafler, tees og annet tilbehør i eksklusiv innpakning.",
+        "Eskene finnes i flere utførelser — fra elegant sort presenteske og børstet metallboks til skinnetui og fargede sett — og passer som velkomstgave til nye medlemmer, premie i turneringer eller sponsor- og gjestegave."
+      ],
+      "en": [
+        "Ready-made gift sets where both the box and the contents carry the club's logo. The sets combine golf balls, ball markers, pitch repair tools, tees and other accessories in premium packaging.",
+        "The boxes come in several styles — from an elegant black presentation box and brushed metal tin to a leather case and colour sets — and work as a welcome gift for new members, a tournament prize or a sponsor and guest gift."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "Logo både på eske og innhold",
+        "Golfballer, markører, greengaffel og tees i settet",
+        "Flere utførelser i eske, metall og skinn",
+        "Passer til velkomstgave, premie og sponsorgave"
+      ],
+      "en": [
+        "Logo on both the box and the contents",
+        "Golf balls, markers, pitch repair tool and tees included",
+        "Several styles in box, metal and leather",
+        "Suits welcome gifts, prizes and sponsor gifts"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Innhold", "en": "Contents" },
+        "value": { "no": "Golfballer, markører, greengaffel, tees m.m.", "en": "Golf balls, markers, pitch tool, tees and more" }
+      },
+      {
+        "label": { "no": "Logo", "en": "Logo" },
+        "value": { "no": "Trykk på eske og innhold", "en": "Print on box and contents" }
+      },
+      {
+        "label": { "no": "Utførelser", "en": "Styles" },
+        "value": { "no": "Presenteske, metallboks, skinnetui", "en": "Presentation box, metal tin, leather case" }
+      }
+    ],
+    "variants": [
+      { "name": { "no": "Sort presenteske", "en": "Black presentation box" } },
+      { "name": { "no": "Metallboks", "en": "Metal tin" } },
+      { "name": { "no": "Skinnetui", "en": "Leather case" } }
+    ],
+    "datasheets": [],
+    "images": [
+      {
+        "src": "/bilder/produkter/gaveesker.jpg",
+        "fit": "cover",
+        "alt": { "no": "Gaveesker med Meland Golf-logo med golfballer, markører og greengafler", "en": "Gift sets with the Meland Golf logo containing golf balls, markers and pitch repair tools" }
+      }
+    ]
   }
 ]
