@@ -181,68 +181,60 @@
     ]
   },
   {
-    "slug": "peggbar-rangematte",
-    "category": "driving-range-og-anlegg",
-    "order": 3,
+    "slug": "paraply",
+    "category": "golfutstyr-og-proshop",
+    "order": 4,
     "featured": false,
     "audience": ["klubb"],
-    "name": { "no": "Peggbar rangematte", "en": "Teeable range mat" },
+    "name": { "no": "Paraply", "en": "Umbrella" },
     "tagline": {
-      "no": "Rangematte der spilleren kan sette ned en vanlig trepegg hvor som helst i flaten.",
-      "en": "A range mat where the player can push an ordinary wooden tee in anywhere on the surface."
+      "no": "Golfparaply med logo i tourstørrelse.",
+      "en": "Golf umbrella with logo in tour size."
     },
     "description": {
       "no": [
-        "Samme oppbygging som den vanlige rangematten, men med et dekke og en bunn som tåler at det settes ned pegger direkte i matten. Spilleren slipper faste peggehull og kan variere høyde og plassering slik man gjør på gress.",
-        "Løsningen er særlig aktuell på utslagsplasser der klubben vil tilby driverslag med vanlig pegg, uten at det slites hull i matten etter én sesong."
+        "Stor golfparaply i tourstørrelse som gir god dekning for både spiller og bag i regn og vind. Vindåpninger i duken slipper kastene gjennom, slik at paraplyen holder seg stabil i kuling.",
+        "Trykkes med klubbens eller sponsorens logo, og egner seg like godt til proshopen som til gjestegaver og turneringer."
       ],
       "en": [
-        "The same construction as the standard range mat, but with a surface and base that tolerate tees being pushed straight into the mat. The player is freed from fixed tee holes and can vary height and placement the way they would on grass.",
-        "It is particularly relevant on tee positions where the club wants to offer driver shots with an ordinary tee, without the mat being worn through after a single season."
+        "A large tour-size golf umbrella that gives good cover for both player and bag in rain and wind. Vents in the canopy let gusts pass through, so the umbrella stays stable in strong wind.",
+        "Printed with the club's or a sponsor's logo, and works just as well in the pro shop as for guest gifts and tournaments."
       ]
     },
     "highlights": {
       "no": [
-        "Trepegg kan settes ned hvor som helst i flaten",
-        "Ingen faste peggehull som begrenser plasseringen",
-        "Selvlukkende dekke som holder formen",
-        "Samme demping som standardmatten"
+        "Tourstørrelse med god dekning for spiller og bag",
+        "Vindåpninger som slipper kastene gjennom",
+        "Robust skaft og ribber for daglig bruk",
+        "Trykkes med klubbens eller sponsorens logo"
       ],
       "en": [
-        "A wooden tee can be placed anywhere on the surface",
-        "No fixed tee holes limiting placement",
-        "Self-closing surface that keeps its shape",
-        "The same shock absorption as the standard mat"
+        "Tour size with good cover for player and bag",
+        "Vented canopy that lets gusts pass through",
+        "Sturdy shaft and ribs for daily use",
+        "Printed with the club's or a sponsor's logo"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Standardmål", "en": "Standard size" },
-        "value": { "no": "150 × 150 cm", "en": "150 × 150 cm" }
+        "label": { "no": "Størrelse", "en": "Size" },
+        "value": { "no": "Tourstørrelse, ca. 130 cm diameter", "en": "Tour size, approx. 130 cm diameter" }
       },
       {
-        "label": { "no": "Totaltykkelse", "en": "Total thickness" },
-        "value": { "no": "65 mm", "en": "65 mm" }
+        "label": { "no": "Duk", "en": "Canopy" },
+        "value": { "no": "Vindåpen, dobbelt lag", "en": "Vented, double layer" }
       },
       {
-        "label": { "no": "Fiberhøyde", "en": "Pile height" },
-        "value": { "no": "42 mm", "en": "42 mm" }
-      },
-      {
-        "label": { "no": "Peggtype", "en": "Tee type" },
-        "value": { "no": "Vanlig trepegg opptil 70 mm", "en": "Ordinary wooden tee up to 70 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "38 kg", "en": "38 kg" }
+        "label": { "no": "Logo", "en": "Logo" },
+        "value": { "no": "Trykk med klubbens logo", "en": "Print with the club's logo" }
       }
     ],
     "variants": [
-      { "name": { "no": "150 × 150 cm", "en": "150 × 150 cm" } },
-      { "name": { "no": "150 × 200 cm", "en": "150 × 200 cm" } }
+      { "name": { "no": "Uten logo", "en": "Without logo" } },
+      { "name": { "no": "Med klubblogo", "en": "With club logo" } }
     ],
-    "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
-    "images": [{ "alt": { "no": "Peggbar rangematte med pegg satt ned i flaten", "en": "Teeable range mat with a tee pushed into the surface" } }]
+    "datasheets": [],
+    "images": [{ "alt": { "no": "Golfparaply med logo i tourstørrelse", "en": "Golf umbrella with logo in tour size" } }]
   },
   {
     "slug": "rangeballer-gule",
