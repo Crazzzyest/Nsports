@@ -241,118 +241,38 @@
     "images": [{ "alt": { "no": "Peggbar rangematte med pegg satt ned i flaten", "en": "Teeable range mat with a tee pushed into the surface" } }]
   },
   {
-    "slug": "rangeballer-hvite",
+    "slug": "rangeballer-gule",
     "category": "driving-range-og-anlegg",
     "order": 3,
     "featured": true,
     "audience": ["klubb"],
-    "name": { "no": "Rangeballer, hvite", "en": "Range balls, white" },
+    "name": { "no": "Rangeballer", "en": "Range balls" },
     "tagline": {
-      "no": "Tolagsball i hvitt med hardt skall, laget for å tåle ballmaskin og vaskeanlegg.",
-      "en": "Two-piece white ball with a hard cover, made to survive ball machines and washing systems."
+      "no": "Tolagsball i signalgult med hardt skall, laget for å tåle ballmaskin og vaskeanlegg.",
+      "en": "Two-piece high-visibility yellow ball with a hard cover, made to survive ball machines and washing systems."
     },
     "description": {
       "no": [
-        "Standard rangeball i hvitt til utslagsplass og ballautomat. Skallet er hardere enn på en spilleball, noe som gir kortere levetid på følelsen, men vesentlig lengre levetid på ballen. Det er den avveiningen som avgjør rangeøkonomien.",
-        "Ballene har jevn diameter og vekt, slik at de ikke setter seg fast i automat, plukker eller vaskeanlegg. Vi anbefaler å telle beholdningen ved sesongslutt og fylle på årlig framfor å bytte alt hvert tredje år."
+        "Vår rangeball i gjennomfarget signalgult til utslagsplass og ballautomat. Skallet er hardere enn på en spilleball, noe som gir kortere levetid på følelsen, men vesentlig lengre levetid på ballen. Det er den avveiningen som avgjør rangeøkonomien.",
+        "Fargen ligger i selve skallet og ikke i et malingslag, så ballen holder seg tydelig synlig i skumring, regn og mot lys bakgrunn – også etter en sesong med plukker og vask. Ballene har jevn diameter og vekt, slik at de ikke setter seg fast i automat, plukker eller vaskeanlegg."
       ],
       "en": [
-        "A standard white range ball for tee positions and ball dispensers. The cover is harder than on a playing ball, which shortens the life of the feel but considerably extends the life of the ball. That trade-off is what determines range economics.",
-        "The balls hold consistent diameter and weight, so they do not jam in dispensers, pickers or washing systems. We recommend counting stock at the end of the season and topping up annually rather than replacing everything every third year."
+        "Our range ball in solid high-visibility yellow for tee positions and ball dispensers. The cover is harder than on a playing ball, which shortens the life of the feel but considerably extends the life of the ball. That trade-off is what determines range economics.",
+        "The colour sits in the cover itself rather than in a coat of paint, so the ball stays clearly visible at dusk, in rain and against a bright background – even after a season of picking and washing. The balls hold consistent diameter and weight, so they do not jam in dispensers, pickers or washing systems."
       ]
     },
     "highlights": {
       "no": [
         "Tolags konstruksjon med hardt surlyn-skall",
+        "Gjennomfarget signalgult som ikke flasser",
         "Jevn diameter som ikke setter seg fast i automat",
-        "Tåler vaskeanlegg uten å miste merking",
         "Leveres med klubbens logo på bestilling"
       ],
       "en": [
         "Two-piece construction with a hard surlyn cover",
+        "Solid high-visibility yellow that will not flake",
         "Consistent diameter that will not jam a dispenser",
-        "Withstands washing systems without losing its marking",
         "Available with the club's logo to order"
-      ]
-    },
-    "specs": [
-      {
-        "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Tolags, surlyn-skall", "en": "Two-piece, surlyn cover" }
-      },
-      {
-        "label": { "no": "Diameter", "en": "Diameter" },
-        "value": { "no": "42,7 mm", "en": "42.7 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "45,5 g", "en": "45.5 g" }
-      },
-      {
-        "label": { "no": "Kompresjon", "en": "Compression" },
-        "value": { "no": "80", "en": "80" }
-      },
-      {
-        "label": { "no": "Fordypninger", "en": "Dimples" },
-        "value": { "no": "332", "en": "332" }
-      },
-      {
-        "label": { "no": "Merking", "en": "Marking" },
-        "value": { "no": "Én eller to røde striper", "en": "One or two red stripes" }
-      },
-      {
-        "label": { "no": "Kartong", "en": "Case" },
-        "value": { "no": "600 stk.", "en": "600 units" }
-      }
-    ],
-    "variants": [
-      { "name": { "no": "Uten logo", "en": "Without logo" } },
-      {
-        "name": { "no": "Med klubblogo", "en": "With club logo" },
-        "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
-      },
-      { "name": { "no": "Én stripe eller to striper", "en": "One stripe or two stripes" } }
-    ],
-    "datasheets": [],
-    "images": [
-      { "alt": { "no": "Hvite rangeballer", "en": "White range balls" } },
-      { "alt": { "no": "Nærbilde av ballmerking", "en": "Close-up of the ball marking" } },
-      { "alt": { "no": "Rangeballer i ballkurv", "en": "Range balls in a ball basket" } }
-    ]
-  },
-  {
-    "slug": "rangeballer-gule",
-    "category": "driving-range-og-anlegg",
-    "order": 4,
-    "featured": false,
-    "audience": ["klubb"],
-    "name": { "no": "Rangeballer, gule", "en": "Range balls, yellow" },
-    "tagline": {
-      "no": "Samme ball i signalgult — enklere å se i skumring, regn og mot lys bakgrunn.",
-      "en": "The same ball in high-visibility yellow — easier to see at dusk, in rain and against a bright background."
-    },
-    "description": {
-      "no": [
-        "Teknisk identisk med den hvite rangeballen, men i gjennomfarget signalgult. Fargen ligger i selve skallet og ikke i et malingslag, så ballen holder seg synlig også etter en sesong med plukker og vask.",
-        "Mange klubber kjører gult på kveldsbelyst range og hvitt om sommeren, eller bruker to farger for å skille ballene på ulike deler av anlegget."
-      ],
-      "en": [
-        "Technically identical to the white range ball, but in solid high-visibility yellow. The colour sits in the cover itself rather than in a coat of paint, so the ball stays visible even after a season of picking and washing.",
-        "Many clubs run yellow on a floodlit range and white in summer, or use two colours to separate balls between different parts of the facility."
-      ]
-    },
-    "highlights": {
-      "no": [
-        "Gjennomfarget skall som ikke flasser",
-        "Tydelig synlig i skumring og under flomlys",
-        "Samme spillegenskaper som den hvite",
-        "Praktisk for å skille beholdninger på anlegget"
-      ],
-      "en": [
-        "Solid-coloured cover that will not flake",
-        "Clearly visible at dusk and under floodlights",
-        "Identical playing characteristics to the white ball",
-        "Practical for separating stock across the facility"
       ]
     },
     "specs": [
@@ -377,6 +297,10 @@
         "value": { "no": "80", "en": "80" }
       },
       {
+        "label": { "no": "Merking", "en": "Marking" },
+        "value": { "no": "Én eller to sorte striper", "en": "One or two black stripes" }
+      },
+      {
         "label": { "no": "Kartong", "en": "Case" },
         "value": { "no": "600 stk.", "en": "600 units" }
       }
@@ -386,10 +310,17 @@
       {
         "name": { "no": "Med klubblogo", "en": "With club logo" },
         "note": { "no": "Minimum 3 000 stk.", "en": "Minimum 3,000 units" }
-      }
+      },
+      { "name": { "no": "Én stripe eller to striper", "en": "One stripe or two stripes" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Gule rangeballer", "en": "Yellow range balls" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/rangeballer-gule.jpg",
+        "fit": "cover",
+        "alt": { "no": "Gule rangeballer med Meland Golf-logo", "en": "Yellow range balls with the Meland Golf logo" }
+      }
+    ]
   },
   {
     "slug": "plastpegg-driving-range",

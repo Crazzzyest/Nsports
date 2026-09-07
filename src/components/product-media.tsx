@@ -36,6 +36,7 @@ export function ProductMedia({
   const alt = image?.alt?.no ?? "";
 
   if (image?.src) {
+    const cover = image.fit === "cover";
     return (
       <Image
         src={image.src}
@@ -43,7 +44,7 @@ export function ProductMedia({
         fill
         sizes={sizes}
         priority={priority}
-        className={cn("object-contain p-2", className)}
+        className={cn(cover ? "object-cover" : "object-contain p-2", className)}
       />
     );
   }
