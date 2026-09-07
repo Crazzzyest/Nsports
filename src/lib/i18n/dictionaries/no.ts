@@ -108,9 +108,6 @@ const no = {
     body: "Adressen kan være skrevet feil, eller siden kan være flyttet.",
     action: "Gå til forsiden",
   },
-  draftBanner: {
-    text: "Forhåndsvisning: produktbilder og spesifikasjoner er foreløpige og skal erstattes med endelig materiell.",
-  },
 };
 
 export type Dictionary = typeof no;

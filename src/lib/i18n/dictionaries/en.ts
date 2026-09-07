@@ -100,9 +100,6 @@ const en: Dictionary = {
     body: "The address may be mistyped, or the page may have moved.",
     action: "Go to the front page",
   },
-  draftBanner: {
-    text: "Preview: product photos and specifications are provisional and will be replaced with final material.",
-  },
 };
 
 export default en;

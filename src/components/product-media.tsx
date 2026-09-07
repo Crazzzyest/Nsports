@@ -19,6 +19,7 @@ export function ProductMedia({
   seed,
   sizes,
   priority = false,
+  quality = 68,
   missingLabel,
   className,
 }: {
@@ -30,6 +31,7 @@ export function ProductMedia({
   seed?: string;
   sizes: string;
   priority?: boolean;
+  quality?: number;
   missingLabel: string;
   className?: string;
 }) {
@@ -43,6 +45,7 @@ export function ProductMedia({
         alt={alt}
         fill
         sizes={sizes}
+        quality={quality}
         priority={priority}
         className={cn(cover ? "object-cover" : "object-contain p-2", className)}
       />

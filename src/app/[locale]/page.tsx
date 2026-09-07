@@ -1,6 +1,5 @@
 import { CategoryCard } from "@/components/category-card";
 import { HomeHero } from "@/components/home-hero";
-import { Icon } from "@/components/icons";
 import {
   ButtonLink,
   Container,
@@ -42,16 +41,11 @@ export default async function HomePage({
         <Container size="wide">
           <ul className="grid gap-8 sm:grid-cols-3 sm:gap-10">
             {site.valueProps.map((prop) => (
-              <li key={pick(prop.title, locale)} className="flex gap-4">
-                <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-pine-50 text-pine">
-                  <Icon name={prop.icon} className="h-5.5 w-5.5" />
-                </span>
-                <div>
-                  <h2 className="text-base font-semibold text-ink">{pick(prop.title, locale)}</h2>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink-muted">
-                    {pick(prop.body, locale)}
-                  </p>
-                </div>
+              <li key={pick(prop.title, locale)} className="border-t-2 border-pine pt-5">
+                <h2 className="text-base font-semibold text-ink">{pick(prop.title, locale)}</h2>
+                <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+                  {pick(prop.body, locale)}
+                </p>
               </li>
             ))}
           </ul>

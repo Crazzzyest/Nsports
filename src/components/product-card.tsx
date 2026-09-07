@@ -39,7 +39,7 @@ export function ProductCard({
           accent={category.accent}
           icon={category.icon}
           seed={product.slug}
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 30vw"
           priority={priority}
           missingLabel={dict.product.imageMissing}
           className="transition-transform duration-500 group-hover:scale-[1.03]"

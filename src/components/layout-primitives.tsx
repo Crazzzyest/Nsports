@@ -35,7 +35,7 @@ export function Section({
 }) {
   const tones = {
     paper: "bg-paper",
-    sand: "bg-sand",
+    sand: "bg-gradient-to-b from-sand to-sand-deep",
     pine: "bg-pine text-paper",
   };
   return (
