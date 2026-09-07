@@ -43,7 +43,7 @@ export function ProductMedia({
         fill
         sizes={sizes}
         priority={priority}
-        className={cn("object-contain p-4", className)}
+        className={cn("object-contain p-2", className)}
       />
     );
   }

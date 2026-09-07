@@ -95,7 +95,7 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "src": "/bilder/produkter/golfbil.jpg", "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
+      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
       { "alt": { "no": "Førerplass og instrumenter", "en": "Driver's seat and instruments" } },
       { "alt": { "no": "Golfbil i bruk på bane", "en": "Golf car in use on the course" } }
     ]
