@@ -1040,7 +1040,12 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Golfhanske med logo på borrelås", "en": "Golf glove with logo on the closure tab" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/golfhanske.jpg",
+        "alt": { "no": "Golfhansker med Meland Golf-logo og norsk flagg på borrelåsen", "en": "Golf gloves with the Meland Golf logo and Norwegian flag on the closure tab" }
+      }
+    ]
   },
   {
     "slug": "greengaffel-med-logo",
