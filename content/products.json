@@ -573,7 +573,10 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "alt": { "no": "Automatisk ballplukker på range", "en": "Automated ball collector on a range" } },
+      {
+        "src": "/bilder/produkter/ballplukker.png",
+        "alt": { "no": "Wayrobo automatisk ballplukker sett fra siden", "en": "Wayrobo automated ball collector seen from the side" }
+      },
       { "alt": { "no": "Ballplukker i ladestasjon", "en": "Ball collector in its charging dock" } },
       { "alt": { "no": "Appen som viser oppsatt arbeidsområde", "en": "The app showing the mapped working area" } }
     ]
@@ -968,7 +971,7 @@
     },
     "description": {
       "no": [
-        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrelåsen — det er der den vises når spilleren står over ballen.",
+        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrel��sen — det er der den vises når spilleren står over ballen.",
         "Leveres i seks størrelser for høyre- og venstrehendte. En logohanske er den enkleste sponsorartikkelen en klubb har, siden den brukes opp og kjøpes igjen."
       ],
       "en": [
