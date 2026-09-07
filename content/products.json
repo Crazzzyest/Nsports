@@ -667,8 +667,8 @@
     "images": [
       {
         "src": "/bilder/produkter/ai-golftralle.jpg",
-        "fit": "contain",
-        "alt": { "no": "AI-golftralle sett fra siden på kunstgress", "en": "AI golf trolley seen from the side on artificial turf" }
+        "fit": "cover",
+        "alt": { "no": "AI-golftralle på green med utsikt mot fjorden", "en": "AI golf trolley on a green with a view over the fjord" }
       },
       { "alt": { "no": "Trallen sammenlagt for transport", "en": "The trolley folded for transport" } },
       { "alt": { "no": "Betjeningspanel og display", "en": "Control panel and display" } }
