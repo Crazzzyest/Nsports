@@ -665,7 +665,11 @@
     ],
     "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
     "images": [
-      { "alt": { "no": "AI-golftralle med bag på bane", "en": "AI golf trolley carrying a bag on the course" } },
+      {
+        "src": "/bilder/produkter/ai-golftralle.jpg",
+        "fit": "cover",
+        "alt": { "no": "AI-golftralle sett fra siden på kunstgress", "en": "AI golf trolley seen from the side on artificial turf" }
+      },
       { "alt": { "no": "Trallen sammenlagt for transport", "en": "The trolley folded for transport" } },
       { "alt": { "no": "Betjeningspanel og display", "en": "Control panel and display" } }
     ]
