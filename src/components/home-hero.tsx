@@ -101,17 +101,19 @@ function ShowcaseTile({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-(--radius-card) border border-line bg-paper ${className}`}
+      className={`flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper ${className}`}
     >
-      <ProductMedia
-        image={product.images[0]}
-        accent={category.accent}
-        icon={category.icon}
-        sizes={sizes}
-        priority={priority}
-        missingLabel={dict.product.imageMissing}
-      />
-      <span className="absolute left-3 top-3 rounded-full bg-paper/90 px-2.5 py-1 text-xs font-medium text-ink">
+      <div className="relative flex-1">
+        <ProductMedia
+          image={product.images[0]}
+          accent={category.accent}
+          icon={category.icon}
+          sizes={sizes}
+          priority={priority}
+          missingLabel={dict.product.imageMissing}
+        />
+      </div>
+      <span className="truncate border-t border-line px-3 py-2 text-xs font-medium text-ink">
         {pick(product.name, locale)}
       </span>
     </div>
