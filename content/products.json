@@ -900,7 +900,13 @@
       { "name": { "no": "Dame, grå", "en": "Women's, grey" } }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Golfsko sett fra siden", "en": "Golf shoe seen from the side" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/golfsko.jpg",
+        "fit": "contain",
+        "alt": { "no": "Southport golfsko i fire fargevarianter", "en": "Southport golf shoes in four colour variants" }
+      }
+    ]
   },
   {
     "slug": "caps-med-logo",
