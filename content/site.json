@@ -8,13 +8,13 @@
     }
   },
   "contact": {
-    "email": "post@nsports.no",
-    "phone": "+47 00 00 00 00",
+    "email": "frank@nsports.no",
+    "phone": "916 82 317",
     "orgNumber": "000 000 000",
     "address": {
-      "street": "Gateadresse 1",
-      "postalCode": "0000",
-      "city": "Poststed",
+      "street": "Beitingsvegen 50",
+      "postalCode": "5918",
+      "city": "Frekhaug",
       "country": { "no": "Norge", "en": "Norway" }
     }
   },
