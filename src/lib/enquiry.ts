@@ -1,4 +1,4 @@
-import { getProduct, getSite } from "@/lib/content";
+import { getProduct } from "@/lib/content";
 import type { EnquiryField, EnquiryState } from "@/lib/enquiry-types";
 import { pick, type Locale } from "@/lib/i18n/config";
 
@@ -61,10 +61,7 @@ export async function handleEnquiry(
     return { status: "error", errors: {}, values };
   }
 
-  const [site, product] = await Promise.all([
-    getSite(),
-    values.product ? getProduct(values.product) : Promise.resolve(undefined),
-  ]);
+  const product = values.product ? await getProduct(values.product) : undefined;
 
   const productName = product ? pick(product.name, locale) : "Generell henvendelse";
   const lines: [string, string][] = [
