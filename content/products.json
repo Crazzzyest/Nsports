@@ -405,8 +405,8 @@
     "audience": ["klubb"],
     "name": { "no": "Bagskap", "en": "Bag storage locker" },
     "tagline": {
-      "no": "Låsbart skap for oppbevaring av golfbag, med ventilasjon som tørker utstyret.",
-      "en": "Lockable cabinet for golf bag storage, ventilated so equipment dries out."
+      "no": "Låsbart skap (kodelås følger med). Mål: 120 cm høyde, 80 cm dybde og 80 cm bredde.",
+      "en": "Lockable cabinet (combination lock included). Dimensions: 120 cm height, 80 cm depth and 80 cm width."
     },
     "description": {
       "no": [
@@ -423,19 +423,19 @@
         "Modulbasert, settes sammen til ønsket bredde",
         "Ventilerte rom som tørker vått utstyr",
         "Pulverlakkert stål, egnet for uoppvarmet rom",
-        "Valgfri sylinderlås, hengelås eller kodelås"
+        "Kodelås følger med"
       ],
       "en": [
         "Modular, combined to any required width",
         "Ventilated compartments that dry wet equipment",
         "Powder-coated steel, suitable for unheated rooms",
-        "Choice of cylinder lock, padlock or combination lock"
+        "Combination lock included"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Modulmål (B × D × H)", "en": "Module size (W × D × H)" },
-        "value": { "no": "120 × 60 × 195 cm", "en": "120 × 60 × 195 cm" }
+        "label": { "no": "Mål (B × D × H)", "en": "Size (W × D × H)" },
+        "value": { "no": "80 × 80 × 120 cm", "en": "80 × 80 × 120 cm" }
       },
       {
         "label": { "no": "Rom per modul", "en": "Compartments per module" },
@@ -473,7 +473,11 @@
     ],
     "datasheets": [{ "label": { "no": "Måltegning", "en": "Dimensional drawing" } }],
     "images": [
-      { "alt": { "no": "Bagskap i rekke langs vegg", "en": "Bag lockers in a row along a wall" } },
+      {
+        "src": "/bilder/produkter/bagskap.jpg",
+        "fit": "cover",
+        "alt": { "no": "Bagskap med golfbag og tralle, med kodelås", "en": "Bag locker with a golf bag and trolley, with a combination lock" }
+      },
       { "alt": { "no": "Åpent bagskap med golfbag", "en": "Open bag locker with a golf bag" } },
       { "alt": { "no": "Detalj av lås og navneskilt", "en": "Detail of lock and name plate" } }
     ]
