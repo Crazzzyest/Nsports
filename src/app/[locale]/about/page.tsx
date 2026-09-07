@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { Icon } from "@/components/icons";
 import {
   ButtonLink,
   Container,
@@ -102,12 +101,9 @@ export default async function AboutPage({
         <Container size="wide">
           <ul className="grid gap-8 sm:grid-cols-3 sm:gap-10">
             {site.valueProps.map((prop) => (
-              <li key={pick(prop.title, locale)}>
-                <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-pine-50 text-pine">
-                  <Icon name={prop.icon} className="h-5.5 w-5.5" />
-                </span>
-                <h3 className="mt-4 text-base font-semibold text-ink">{pick(prop.title, locale)}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-ink-muted">
+              <li key={pick(prop.title, locale)} className="border-t-2 border-pine pt-5">
+                <h3 className="text-base font-semibold text-ink">{pick(prop.title, locale)}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                   {pick(prop.body, locale)}
                 </p>
               </li>
