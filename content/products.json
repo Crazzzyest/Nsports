@@ -1126,6 +1126,12 @@
       }
     ],
     "datasheets": [],
-    "images": [{ "alt": { "no": "Greengaffel med ballmarkør", "en": "Pitch repair tool with ball marker" } }]
+    "images": [
+      {
+        "src": "/bilder/produkter/greengaffel.jpg",
+        "fit": "cover",
+        "alt": { "no": "Greengafler med Meland Golf-ballmarkør i sort, oransje og blå", "en": "Pitch repair tools with Meland Golf ball marker in black, orange and blue" }
+      }
+    ]
   }
 ]
