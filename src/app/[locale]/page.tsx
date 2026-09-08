@@ -82,17 +82,19 @@ export default async function HomePage({
       {/* Allianseideen */}
       <Section>
         <Container size="narrow">
-          <h2 className="text-3xl font-semibold text-balance sm:text-4xl">
-            {pick(home.alliance.heading, locale)}
-          </h2>
-          <Prose className="mt-5">
-            {pick(home.alliance.body, locale).map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </Prose>
-          <ButtonLink href={routes.about(locale)} size="lg" className="mt-8">
-            {pick(home.alliance.cta, locale)}
-          </ButtonLink>
+          <div className="flex flex-col items-center text-center">
+            <h2 className="text-3xl font-semibold text-balance sm:text-4xl">
+              {pick(home.alliance.heading, locale)}
+            </h2>
+            <Prose className="mt-5">
+              {pick(home.alliance.body, locale).map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </Prose>
+            <ButtonLink href={routes.about(locale)} size="lg" className="mt-8">
+              {pick(home.alliance.cta, locale)}
+            </ButtonLink>
+          </div>
         </Container>
       </Section>
 
