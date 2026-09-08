@@ -964,11 +964,7 @@
       { "name": { "no": "Herre, høyre hånd", "en": "Men's, right hand" } },
       { "name": { "no": "Herre, venstre hånd", "en": "Men's, left hand" } },
       { "name": { "no": "Dame, høyre hånd", "en": "Women's, right hand" } },
-      { "name": { "no": "Dame, venstre hånd", "en": "Women's, left hand" } },
-      {
-        "name": { "no": "Regnhanske i par", "en": "Rain gloves, pair" },
-        "note": { "no": "Syntetisk, selges parvis", "en": "Synthetic, sold in pairs" }
-      }
+      { "name": { "no": "Dame, venstre hånd", "en": "Women's, left hand" } }
     ],
     "datasheets": [],
     "images": [
