@@ -49,10 +49,10 @@
       },
       "primaryCta": { "no": "Se våre produkter", "en": "See our products" },
       "secondaryCta": { "no": "Kontakt oss", "en": "Contact us" },
-      "image": "/bilder/forside/hero-golfanlegg.png",
+      "image": "/bilder/forside/hovedbilde.png",
       "imageAlt": {
-        "no": "Moderne nordisk golfanlegg med driving range, golfbiler og grønne fairwayer.",
-        "en": "Modern Nordic golf facility with a driving range, golf cars and green fairways."
+        "no": "Blå elektrisk golfbil med automatisk ballplukker og AI-golftralle på en nordisk golfbane ved vann.",
+        "en": "Blue electric golf car with an automatic ball picker and an AI golf trolley on a Nordic golf course by the water."
       }
     },
     "benefits": [

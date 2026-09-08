@@ -27,25 +27,9 @@ export default async function HomePage({
   const [site, categories] = await Promise.all([getSite(), getCategoriesWithProducts()]);
   const home = site.home;
 
-  // Hero-collagen: golfbil, ballplukker og el-tralle, hentet fra produktene
-  // slik at flisene lenker til riktig produktside.
-  const heroShowcase = [
-    "elektriske-golfbiler-og-nyttekjoretoy",
-    "automatisk-ballplukker",
-    "ai-golftralle",
-  ]
-    .map((slug) => {
-      for (const category of categories) {
-        const product = category.products.find((entry) => entry.slug === slug);
-        if (product) return { product, category };
-      }
-      return null;
-    })
-    .filter((entry): entry is NonNullable<typeof entry> => entry !== null);
-
   return (
     <>
-      <HomeHero site={site} locale={locale} dict={dict} showcase={heroShowcase} />
+      <HomeHero site={site} locale={locale} />
 
       {/* Fordeler rett under hovedbildet */}
       <Section className="border-b border-line py-14 sm:py-20">
