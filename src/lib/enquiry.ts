@@ -1,3 +1,5 @@
+import { createHash } from "node:crypto";
+
 import { getProduct } from "@/lib/content";
 import type { EnquiryField, EnquiryState } from "@/lib/enquiry-types";
 import { pick, type Locale } from "@/lib/i18n/config";
@@ -142,8 +144,14 @@ async function sendEnquiryEmail(message: {
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
-        // Hindrer dobbeltsending hvis samme henvendelse prøves på nytt.
-        "Idempotency-Key": `enquiry/${message.replyTo}/${message.subject}`.slice(0, 256),
+        // Nøkkelen bygges fra selve innholdet, ikke avsender + emne (emnet er
+        // nesten alltid "Generell henvendelse", så to ulike henvendelser fra
+        // samme person ville ellers kollidert). Et dobbeltklikk sender identisk
+        // payload → samme hash → dedupliseres. Tidsvinduet slipper gjennom en
+        // bevisst identisk gjeninnsending senere (Resend-nøkler utløper etter 24t).
+        "Idempotency-Key": `enquiry/${createHash("sha256")
+          .update(`${message.replyTo}\n${message.text}`)
+          .digest("hex")}/${Math.floor(Date.now() / 600_000)}`,
       },
       body: JSON.stringify({
         // Resends delte testdomene fungerer uten at nsports.no er verifisert.
