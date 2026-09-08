@@ -24,8 +24,13 @@ export function ProductGallery({
   dict: Dictionary;
 }) {
   const [active, setActive] = useState(0);
-  const total = Math.max(images.length, 1);
-  const current = images[active];
+  // Bare bilder som faktisk er lastet opp teller som slides. Da slipper vi
+  // plassholdere i galleriet når et produkt foreløpig har ett ekte bilde.
+  // Har produktet ingen ekte bilder, viser vi én plassholder i stedet.
+  const realImages = images.filter((image) => image.src);
+  const gallery = realImages.length > 0 ? realImages : images.slice(0, 1);
+  const total = Math.max(gallery.length, 1);
+  const current = gallery[active];
 
   const step = (direction: number) => setActive((index) => (index + direction + total) % total);
 
@@ -67,7 +72,7 @@ export function ProductGallery({
 
       {total > 1 ? (
         <ul className="mt-3 grid grid-cols-4 gap-3 sm:grid-cols-5">
-          {images.map((image, index) => (
+          {gallery.map((image, index) => (
             <li key={index}>
               <button
                 type="button"
