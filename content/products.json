@@ -770,14 +770,14 @@
         "Et prisgunstig alternativ for golfklubber og proshoper som ønsker å tilby gode golfsko uten at sluttprisen blir unødvendig høy.",
         "Skoene er valgt med tanke på norske golfforhold, hvor vått gress, morgendugg og skiftende vær er en naturlig del av sesongen. Modellene er vannavvisende og leveres med 1 års garanti på vannavvisningen.",
         "Alle modellene har BOA-snøring, som gjør det raskt og enkelt å justere passformen gjennom runden. Den spikefrie sålen gir godt grep på banen og gjør samtidig skoene praktiske både på og utenfor golfbanen.",
-        "Skoene leveres i dame- og herremodeller og kun i hele størrelser fra 36 til 46.",
+        "Skoene leveres i dame- og herremodeller i størrelser fra 36 til 46.",
         "For proshopen gir dette et oversiktlig sortiment med færre størrelsesvarianter å lagerføre, kombinert med en attraktiv innkjøpspris og mulighet for en konkurransedyktig utsalgspris."
       ],
       "en": [
         "A cost-effective option for golf clubs and pro shops that want to offer good golf shoes without an unnecessarily high end price.",
         "The shoes are chosen with Norwegian golf conditions in mind, where wet grass, morning dew and changing weather are a natural part of the season. The models are water-repellent and come with a 1-year guarantee on the water repellency.",
         "Every model has BOA lacing, which makes it quick and easy to adjust the fit through the round. The spikeless outsole gives good grip on the course and at the same time makes the shoes practical both on and off the golf course.",
-        "The shoes come in women's and men's models and only in full sizes from 36 to 46.",
+        "The shoes come in women's and men's models in sizes from 36 to 46.",
         "For the pro shop this gives a clear range with fewer size variants to stock, combined with an attractive purchase price and the opportunity for a competitive retail price."
       ]
     },
@@ -787,7 +787,7 @@
         "Vannavvisende med 1 års garanti",
         "Spikefri såle med godt grep",
         "Modeller til både dame og herre",
-        "Kun hele størrelser fra 36 til 46",
+        "Størrelser fra 36 til 46",
         "Prisgunstig alternativ for proshop og golfspiller"
       ],
       "en": [
@@ -795,7 +795,7 @@
         "Water-repellent with a 1-year guarantee",
         "Spikeless outsole with good grip",
         "Models for both women and men",
-        "Full sizes only, from 36 to 46",
+        "Sizes from 36 to 46",
         "Cost-effective option for the pro shop and the golfer"
       ]
     },
@@ -810,7 +810,7 @@
       },
       {
         "label": { "no": "Størrelser", "en": "Sizes" },
-        "value": { "no": "36–46, kun hele størrelser", "en": "36–46, full sizes only" }
+        "value": { "no": "36–46", "en": "36–46" }
       },
       {
         "label": { "no": "Modeller", "en": "Models" },

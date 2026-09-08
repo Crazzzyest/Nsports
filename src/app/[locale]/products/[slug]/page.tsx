@@ -94,8 +94,8 @@ export async function generateMetadata({
         en: "Golf shoes with BOA lacing for the pro shop and golfer | Norsk Golfallianse",
       },
       description: {
-        no: "Prisgunstige golfsko av høy kvalitet med BOA-snøring på alle modeller. Vannavvisende med 1 års garanti, spikefri såle og kun hele størrelser 36–46.",
-        en: "Cost-effective, high-quality golf shoes with BOA lacing on every model. Water-repellent with a 1-year guarantee, a spikeless outsole and full sizes only, 36–46.",
+        no: "Prisgunstige golfsko av høy kvalitet med BOA-snøring på alle modeller. Vannavvisende med 1 års garanti, spikefri såle og størrelser 36–46.",
+        en: "Cost-effective, high-quality golf shoes with BOA lacing on every model. Water-repellent with a 1-year guarantee, a spikeless outsole and sizes 36–46.",
       },
     },
   };
