@@ -7,6 +7,7 @@ import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primiti
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
+import { RangeballShowcase } from "@/components/rangeball-showcase";
 import { RangematteShowcase } from "@/components/rangematte-showcase";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
 import { WayroboShowcase } from "@/components/wayrobo-showcase";
@@ -41,20 +42,30 @@ export async function generateMetadata({
 
   const image = product.images.find((entry) => entry.src)?.src;
 
-  // Rangematten har egne, søkeoptimaliserte metatekster.
-  const seoOverride =
-    slug === "rangematte"
-      ? {
-          title: {
-            no: "Rangematter for driving range og golfanlegg | Norsk Golfallianse",
-            en: "Range mats for driving ranges and golf facilities | Norsk Golfallianse",
-          },
-          description: {
-            no: "Slitesterke og støtdempende rangematter for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig som standardmatte og peggbar matte.",
-            en: "Durable, shock-absorbing range mats for golf clubs and driving ranges. Tested at Meland Golfklubb and available as a standard mat and a tee-through mat.",
-          },
-        }
-      : null;
+  // Enkelte produkter har egne, søkeoptimaliserte metatekster.
+  const seoOverrides: Record<string, { title: { no: string; en: string }; description: { no: string; en: string } }> = {
+    rangematte: {
+      title: {
+        no: "Rangematter for driving range og golfanlegg | Norsk Golfallianse",
+        en: "Range mats for driving ranges and golf facilities | Norsk Golfallianse",
+      },
+      description: {
+        no: "Slitesterke og støtdempende rangematter for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig som standardmatte og peggbar matte.",
+        en: "Durable, shock-absorbing range mats for golf clubs and driving ranges. Tested at Meland Golfklubb and available as a standard mat and a tee-through mat.",
+      },
+    },
+    "rangeballer-gule": {
+      title: {
+        no: "Slitesterke rangeballer for golfklubber | Norsk Golfallianse",
+        en: "Durable range balls for golf clubs | Norsk Golfallianse",
+      },
+      description: {
+        no: "Prisgunstige tolags rangeballer for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig med egen klubblogo fra 10 000 baller.",
+        en: "Cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with your own club logo from 10,000 balls.",
+      },
+    },
+  };
+  const seoOverride = seoOverrides[slug] ?? null;
 
   const metadata = buildMetadata({
     locale,
@@ -105,6 +116,7 @@ export default async function ProductPage({
   const isWayrobo = product.slug === "automatisk-ballplukker";
   const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
   const isRangematte = product.slug === "rangematte";
+  const isRangeball = product.slug === "rangeballer-gule";
 
   return (
     <>
@@ -145,6 +157,13 @@ export default async function ProductPage({
         />
       ) : isRangematte ? (
         <RangematteShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isRangeball ? (
+        <RangeballShowcase
           product={product}
           category={category}
           locale={locale}
