@@ -7,6 +7,7 @@ import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primiti
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { BagskapShowcase } from "@/components/bagskap-showcase";
+import { GolfballShowcase } from "@/components/golfball-showcase";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
 import { PeggerShowcase } from "@/components/pegger-showcase";
 import { RangeballShowcase } from "@/components/rangeball-showcase";
@@ -141,6 +142,7 @@ export default async function ProductPage({
   const isRangeball = product.slug === "rangeballer-gule";
   const isBagskap = product.slug === "bagskap";
   const isPegger = product.slug === "pegger";
+  const isGolfball = product.slug === "premium-golfball";
 
   return (
     <>
@@ -202,6 +204,13 @@ export default async function ProductPage({
         />
       ) : isPegger ? (
         <PeggerShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isGolfball ? (
+        <GolfballShowcase
           product={product}
           category={category}
           locale={locale}
