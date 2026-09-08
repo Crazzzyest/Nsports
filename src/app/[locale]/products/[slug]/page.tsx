@@ -6,6 +6,7 @@ import { CheckIcon, DownloadIcon } from "@/components/icons";
 import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primitives";
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
+import { RoberaProShowcase } from "@/components/robera-pro-showcase";
 import {
   getCategories,
   getCategory,
@@ -74,6 +75,9 @@ export default async function ProductPage({
   const highlights = pick(product.highlights, locale);
   const description = pick(product.description, locale);
 
+  // Robera Pro har en egen, mer utfyllende salgsside enn den generiske malen.
+  const isRobera = product.slug === "ai-golftralle";
+
   return (
     <>
       <Container size="wide" className="pt-8">
@@ -90,6 +94,15 @@ export default async function ProductPage({
         </nav>
       </Container>
 
+      {isRobera ? (
+        <RoberaProShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : (
+        <>
       <Container size="wide" className="py-8 sm:py-12">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-14">
           <ProductGallery
@@ -247,6 +260,8 @@ export default async function ProductPage({
           </div>
         </Container>
       </div>
+        </>
+      )}
 
       {related.length > 0 ? (
         <Container size="wide" className="py-14 sm:py-20">

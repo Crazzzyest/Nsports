@@ -590,91 +590,83 @@
     "order": 2,
     "featured": true,
     "audience": ["klubb", "proshop", "privat"],
-    "name": { "no": "AI-golftralle", "en": "AI golf trolley" },
+    "name": { "no": "Robera Pro AI el-tralle", "en": "Robera Pro AI el-tralle" },
     "tagline": {
-      "no": "Elektrisk tralle som følger spilleren av seg selv, uten fjernkontroll i hånda.",
-      "en": "An electric trolley that follows the player on its own, with no remote in hand."
+      "no": "Neste generasjon elektrisk golftralle med AI Follow Me — trallen følger spilleren automatisk gjennom runden.",
+      "en": "The next generation electric golf trolley with AI Follow Me — it follows the player automatically through the round."
     },
     "description": {
       "no": [
-        "Trallen kjenner igjen spilleren gjennom kamera og en liten sender i lomma, og følger etter i valgt avstand. Den stopper når spilleren stopper, går rundt hindringer og venter mens man slår.",
-        "For klubben er dette først og fremst et utleieprodukt: det er noe spillerne vil prøve, og det gir en ny inntektslinje uten at man må ansette noen. For proshopen er det et salgsprodukt til spillere som i dag bærer eller drar bagen selv.",
-        "Trallen kan også styres med fjernkontroll eller skyves manuelt, slik at den fungerer selv om batteriet går tomt midt i runden."
+        "Robera Pro er neste generasjon elektrisk golftralle. Med avansert AI-teknologi, kamera og sensorer følger trallen spilleren automatisk gjennom golfrunden, uten behov for å holde fjernkontrollen i hånden.",
+        "AI Follow Me gir følelsen av å ha sin egen caddie på banen. Trallen registrerer spilleren og omgivelsene, navigerer rundt hindringer og er utviklet for å stoppe før blant annet bunkere og vann.",
+        "Ønsker spilleren å styre selv, følger fjernkontroll med."
       ],
       "en": [
-        "The trolley recognises the player through a camera and a small transmitter in the pocket, and follows at a chosen distance. It stops when the player stops, steers around obstacles and waits while they play their shot.",
-        "For the club this is primarily a rental product: it is something players want to try, and it opens a new revenue line without hiring anyone. For the pro shop it is a retail product for players who currently carry or pull their own bag.",
-        "The trolley can also be driven by remote control or pushed manually, so it still works if the battery runs out mid-round."
+        "Robera Pro is the next generation electric golf trolley. With advanced AI technology, a camera and sensors, it follows the player automatically through the round, with no need to hold a remote in hand.",
+        "AI Follow Me gives the feeling of having your own caddie on the course. The trolley registers the player and the surroundings, navigates around obstacles and is developed to stop before bunkers and water, among other things.",
+        "If the player wants to steer themselves, a remote control is included."
       ]
     },
     "highlights": {
       "no": [
-        "Følger spilleren automatisk i valgt avstand",
-        "Stopper for hindringer og venter under slag",
-        "Fjernkontroll og manuell skyving som reserve",
-        "Batteri til 36 hull på én lading"
+        "AI Follow Me med justerbar følgeavstand opptil 5 meter",
+        "RGB- og TOF-basert kamerateknologi",
+        "Intelligent hindringsdeteksjon",
+        "Registrerer bunkere, vann og andre hindringer",
+        "Navigerer rundt spillere, golfbagger og andre objekter",
+        "Fjernkontroll med rekkevidde opptil 100 meter",
+        "Hastighetskontroll nivå 1–9",
+        "Marching Mode, hvor trallen kan bevege seg foran spilleren",
+        "Stabil i hellinger opptil 25 grader",
+        "Batteri dimensjonert for en 18-hulls golfrunde, avhengig av terreng og belastning"
       ],
       "en": [
-        "Follows the player automatically at a chosen distance",
-        "Stops for obstacles and waits during shots",
-        "Remote control and manual pushing as a fallback",
-        "Battery for 36 holes on a single charge"
+        "AI Follow Me with adjustable follow distance up to 5 metres",
+        "RGB and TOF based camera technology",
+        "Intelligent obstacle detection",
+        "Registers bunkers, water and other obstacles",
+        "Navigates around players, golf bags and other objects",
+        "Remote control with a range of up to 100 metres",
+        "Speed control levels 1–9",
+        "Marching Mode, where the trolley can move ahead of the player",
+        "Stable on slopes up to 25 degrees",
+        "Battery sized for an 18-hole round, depending on terrain and load"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Følgemodus", "en": "Follow mode" },
-        "value": { "no": "Kamera og sender, 1–5 m avstand", "en": "Camera and transmitter, 1–5 m distance" }
+        "label": { "no": "Følgeavstand", "en": "Follow distance" },
+        "value": { "no": "Opptil 5 meter", "en": "Up to 5 metres" }
+      },
+      {
+        "label": { "no": "Kamerateknologi", "en": "Camera technology" },
+        "value": { "no": "RGB og TOF", "en": "RGB and TOF" }
+      },
+      {
+        "label": { "no": "Fjernkontroll", "en": "Remote control" },
+        "value": { "no": "Rekkevidde opptil 100 meter", "en": "Range up to 100 metres" }
+      },
+      {
+        "label": { "no": "Hastighet", "en": "Speed" },
+        "value": { "no": "Nivå 1–9", "en": "Levels 1–9" }
+      },
+      {
+        "label": { "no": "Stigning", "en": "Incline" },
+        "value": { "no": "Opptil 25 grader", "en": "Up to 25 degrees" }
       },
       {
         "label": { "no": "Batteri", "en": "Battery" },
-        "value": { "no": "Litium 24 V / 20 Ah", "en": "Lithium 24 V / 20 Ah" }
-      },
-      {
-        "label": { "no": "Rekkevidde", "en": "Range" },
-        "value": { "no": "36 hull per lading", "en": "36 holes per charge" }
-      },
-      {
-        "label": { "no": "Stigningsevne", "en": "Gradient" },
-        "value": { "no": "Inntil 30 %", "en": "Up to 30%" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "14,5 kg inkludert batteri", "en": "14.5 kg including battery" }
-      },
-      {
-        "label": { "no": "Sammenlagt (L × B × H)", "en": "Folded (L × W × H)" },
-        "value": { "no": "72 × 58 × 42 cm", "en": "72 × 58 × 42 cm" }
-      },
-      {
-        "label": { "no": "Lastekapasitet", "en": "Load capacity" },
-        "value": { "no": "20 kg bag", "en": "20 kg bag" }
-      },
-      {
-        "label": { "no": "Ladetid", "en": "Charging time" },
-        "value": { "no": "4 timer", "en": "4 hours" }
+        "value": { "no": "Dimensjonert for en 18-hulls runde", "en": "Sized for an 18-hole round" }
       }
     ],
-    "variants": [
-      { "name": { "no": "Standard", "en": "Standard" } },
-      {
-        "name": { "no": "Utleieutgave", "en": "Rental version" },
-        "note": { "no": "Med klubbmerking og forsterket ramme", "en": "With club branding and reinforced frame" }
-      },
-      {
-        "name": { "no": "Med ekstra batteri", "en": "With spare battery" },
-        "note": { "no": "For utleie med flere runder per dag", "en": "For rental with several rounds a day" }
-      }
-    ],
-    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "variants": [],
+    "datasheets": [],
     "images": [
       {
         "src": "/bilder/produkter/ai-golftralle.jpg",
         "fit": "contain",
-        "alt": { "no": "Robera AI-golftralle sett fra siden", "en": "Robera AI golf trolley seen from the side" }
-      },
-      { "alt": { "no": "Trallen sammenlagt for transport", "en": "The trolley folded for transport" } },
-      { "alt": { "no": "Betjeningspanel og display", "en": "Control panel and display" } }
+        "alt": { "no": "Robera Pro AI el-tralle sett fra siden", "en": "Robera Pro AI el-tralle seen from the side" }
+      }
     ]
   },
   {
