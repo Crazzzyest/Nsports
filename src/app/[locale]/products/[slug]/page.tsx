@@ -109,7 +109,7 @@ export async function generateMetadata({
     images: image ? [absoluteUrl(image)] : undefined,
   });
 
-  // Absolutt tittel hindrer at side-malen «%s — NSports» legges til.
+  // Absolutt tittel hindrer at side-malen «%s — NordicSports» legges til.
   if (seoOverride) {
     metadata.title = { absolute: pick(seoOverride.title, locale) };
   }

@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "NSports",
+    "name": "NordicSports",
     "legalName": { "no": "Norsk Golfallianse", "en": "Norsk Golfallianse" },
     "tagline": {
       "no": "Utstyr til golfklubber og anlegg",
@@ -20,12 +20,12 @@
   },
   "seo": {
     "title": {
-      "no": "NSports — utstyr til golfklubber og anlegg",
-      "en": "NSports — equipment for golf clubs and facilities"
+      "no": "NordicSports — utstyr til golfklubber og anlegg",
+      "en": "NordicSports — equipment for golf clubs and facilities"
     },
     "description": {
-      "no": "NSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber, proshoper og anlegg. Be om tilbud direkte.",
-      "en": "NSports imports golf cars, range equipment, robotics and branded merchandise for golf clubs, pro shops and facilities. Request a quote directly."
+      "no": "NordicSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber, proshoper og anlegg. Be om tilbud direkte.",
+      "en": "NordicSports imports golf cars, range equipment, robotics and branded merchandise for golf clubs, pro shops and facilities. Request a quote directly."
     }
   },
   "hero": {
@@ -35,8 +35,8 @@
       "en": "The equipment a golf facility actually needs"
     },
     "body": {
-      "no": "NSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber og proshoper. Vi velger få leverandører og står for dem over tid, slik at klubben kan kjøpe det samme igjen om tre år.",
-      "en": "NSports imports golf cars, range equipment, robotics and branded merchandise for Norwegian golf clubs and pro shops. We work with few suppliers and stand behind them over time, so a club can reorder the same thing three years from now."
+      "no": "NordicSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber og proshoper. Vi velger få leverandører og står for dem over tid, slik at klubben kan kjøpe det samme igjen om tre år.",
+      "en": "NordicSports imports golf cars, range equipment, robotics and branded merchandise for Norwegian golf clubs and pro shops. We work with few suppliers and stand behind them over time, so a club can reorder the same thing three years from now."
     }
   },
   "home": {
@@ -44,8 +44,8 @@
       "eyebrow": { "no": "Norsk Golfallianse", "en": "Norsk Golfallianse" },
       "title": { "no": "Sammen kjøper vi smartere", "en": "Buying smarter, together" },
       "body": {
-        "no": "NSports gir golfklubber direkte tilgang til nøye utvalgte produkter, færre mellomledd og bedre innkjøpsmuligheter.",
-        "en": "NSports gives golf clubs direct access to carefully selected products, fewer intermediaries and better purchasing opportunities."
+        "no": "NordicSports gir golfklubber direkte tilgang til nøye utvalgte produkter, færre mellomledd og bedre innkjøpsmuligheter.",
+        "en": "NordicSports gives golf clubs direct access to carefully selected products, fewer intermediaries and better purchasing opportunities."
       },
       "primaryCta": { "no": "Se våre produkter", "en": "See our products" },
       "secondaryCta": { "no": "Kontakt oss", "en": "Contact us" },
@@ -98,15 +98,15 @@
         "no": [
           "Norsk Golfallianse ble etablert for å gi golfklubbene bedre innkjøpsmuligheter. Mange klubber trenger de samme produktene, men kjøper hver for seg og i små kvanta.",
           "Ved å samle behov, kjøpe direkte fra produsenter og samordne frakt kan vi redusere unødvendige mellomledd. Det gir bedre betingelser, også for klubben som trenger to golfbiler og ikke tjue.",
-          "NSports kombinerer produsentkontakt og importkompetanse med praktisk erfaring fra daglig drift av golfklubb."
+          "NordicSports kombinerer produsentkontakt og importkompetanse med praktisk erfaring fra daglig drift av golfklubb."
         ],
         "en": [
           "Norsk Golfallianse was established to give golf clubs better purchasing opportunities. Many clubs need the same products but buy separately and in small quantities.",
           "By pooling needs, buying directly from manufacturers and coordinating shipping, we can reduce unnecessary intermediaries. That gives better terms — also for the club that needs two golf cars, not twenty.",
-          "NSports combines manufacturer contact and import expertise with practical experience from the daily operation of a golf club."
+          "NordicSports combines manufacturer contact and import expertise with practical experience from the daily operation of a golf club."
         ]
       },
-      "cta": { "no": "Les mer om NSports", "en": "Read more about NSports" },
+      "cta": { "no": "Les mer om NordicSports", "en": "Read more about NordicSports" },
       "image": "/bilder/forside/allianse-golfklubb.png",
       "imageAlt": {
         "no": "Rekke med elektriske golfbiler oppstilt ved et nordisk klubbhus.",
@@ -203,8 +203,8 @@
   ],
   "about": {
     "lead": {
-      "no": "NSports er importvirksomheten til Norsk Golfallianse. Vi henter inn utstyr til golfklubber, proshoper og anlegg, og står for produktene vi tar inn.",
-      "en": "NSports is the import arm of Norsk Golfallianse. We source equipment for golf clubs, pro shops and facilities, and stand behind the products we bring in."
+      "no": "NordicSports er importvirksomheten til Norsk Golfallianse. Vi henter inn utstyr til golfklubber, proshoper og anlegg, og står for produktene vi tar inn.",
+      "en": "NordicSports is the import arm of Norsk Golfallianse. We source equipment for golf clubs, pro shops and facilities, and stand behind the products we bring in."
     },
     "sections": [
       {
@@ -212,11 +212,11 @@
         "body": {
           "no": [
             "Norske golfklubber kjøper mye av det samme utstyret, ofte hver for seg og i små kvanta. Prisen blir deretter, og hver klubb må gjøre den samme jobben med å finne en leverandør som svarer på e-post.",
-            "NSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris — også for en klubb som skal ha to golfbiler og ikke tjue."
+            "NordicSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris — også for en klubb som skal ha to golfbiler og ikke tjue."
           ],
           "en": [
             "Norwegian golf clubs buy much of the same equipment, often separately and in small quantities. The price reflects that, and every club has to repeat the same work of finding a supplier who answers email.",
-            "NSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price — including for a club that needs two golf cars rather than twenty."
+            "NordicSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price — including for a club that needs two golf cars rather than twenty."
           ]
         }
       },

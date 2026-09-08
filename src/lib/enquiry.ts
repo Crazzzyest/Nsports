@@ -156,7 +156,7 @@ async function sendEnquiryEmail(message: {
       body: JSON.stringify({
         // Resends delte testdomene fungerer uten at nsports.no er verifisert.
         // Bytt til ENQUIRY_FROM med eget verifisert domene når det er klart.
-        from: process.env.ENQUIRY_FROM ?? "NSports <onboarding@resend.dev>",
+        from: process.env.ENQUIRY_FROM ?? "NordicSports <onboarding@resend.dev>",
         to: [message.to],
         reply_to: message.replyTo,
         subject: message.subject,
