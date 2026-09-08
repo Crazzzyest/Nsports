@@ -9,6 +9,7 @@ import { ProductGallery } from "@/components/product-gallery";
 import { BagskapShowcase } from "@/components/bagskap-showcase";
 import { GolfballShowcase } from "@/components/golfball-showcase";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
+import { GolfskoShowcase } from "@/components/golfsko-showcase";
 import { PeggerShowcase } from "@/components/pegger-showcase";
 import { RangeballShowcase } from "@/components/rangeball-showcase";
 import { RangematteShowcase } from "@/components/rangematte-showcase";
@@ -87,6 +88,16 @@ export async function generateMetadata({
         en: "White-painted wooden tees in 40, 70 and 85 mm, available in bags of 30 tees, as a mixed bag and with logo printing. We also import plastic tees for golf simulators.",
       },
     },
+    golfsko: {
+      title: {
+        no: "Golfsko med BOA-snøring for proshop og golfspiller | Norsk Golfallianse",
+        en: "Golf shoes with BOA lacing for the pro shop and golfer | Norsk Golfallianse",
+      },
+      description: {
+        no: "Prisgunstige golfsko av høy kvalitet med BOA-snøring på alle modeller. Vannavvisende med 1 års garanti, spikefri såle og kun hele størrelser 36–46.",
+        en: "Cost-effective, high-quality golf shoes with BOA lacing on every model. Water-repellent with a 1-year guarantee, a spikeless outsole and full sizes only, 36–46.",
+      },
+    },
   };
   const seoOverride = seoOverrides[slug] ?? null;
 
@@ -143,6 +154,7 @@ export default async function ProductPage({
   const isBagskap = product.slug === "bagskap";
   const isPegger = product.slug === "pegger";
   const isGolfball = product.slug === "premium-golfball";
+  const isGolfsko = product.slug === "golfsko";
 
   return (
     <>
@@ -211,6 +223,13 @@ export default async function ProductPage({
         />
       ) : isGolfball ? (
         <GolfballShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isGolfsko ? (
+        <GolfskoShowcase
           product={product}
           category={category}
           locale={locale}
