@@ -11,7 +11,10 @@ type Copy = { no: string; en: string };
 type CopyList = { no: string[]; en: string[] };
 
 const copy = {
-  heroTitle: { no: "Elektriske golfbiler fra BorCart", en: "Electric golf cars from BorCart" },
+  heroTitle: {
+    no: "Elektriske golfbiler for profesjonelle anlegg",
+    en: "Electric golf cars for professional facilities",
+  },
   ceBadge: { no: "Alle biler leveres CE-sertifisert", en: "All cars delivered CE certified" },
   quoteCta: { no: "Be om tilbud", en: "Request a quote" },
 
@@ -107,7 +110,7 @@ const copy = {
   },
 
   fleetEyebrow: { no: "Flere kjøretøy", en: "More vehicles" },
-  fleetHeading: { no: "Flere kjøretøy fra BorCart", en: "More vehicles from BorCart" },
+  fleetHeading: { no: "Flere elektriske kjøretøy", en: "More electric vehicles" },
 
   batteryEyebrow: { no: "Batteri og lading", en: "Battery and charging" },
   batteryHeading: { no: "Kraftige litiumbatterier", en: "Powerful lithium batteries" },
@@ -164,11 +167,11 @@ const copy = {
   importHeading: { no: "Vi håndterer hele importen", en: "We handle the whole import" },
   importBody: {
     no: [
-      "Vi hjelper dere med valg av modell, utstyr, profilering, import og levering. Dette gjør det enklere å bestille biler direkte fra BorCart uten å måtte håndtere hele importprosessen selv.",
+      "Vi hjelper dere gjennom hele prosessen, fra valg av modell og utstyr til profilering, transport, import og ferdig levering. Dere får ett kontaktpunkt og en trygg og oversiktlig leveranse tilpasset deres anlegg.",
       "Kontakt oss for produktinformasjon, forventet leveringstid og tilbud.",
     ],
     en: [
-      "We help you with the choice of model, equipment, branding, import and delivery. This makes it easier to order cars directly from BorCart without having to handle the entire import process yourself.",
+      "We guide you through the whole process, from the choice of model and equipment to branding, transport, import and finished delivery. You get a single point of contact and a secure, clear delivery tailored to your facility.",
       "Contact us for product information, expected delivery time and a quote.",
     ],
   },
@@ -194,7 +197,7 @@ function getFleet(locale: Locale) {
           "The cars can be delivered with six or eight forward-facing seats, roof, windscreen, lights, mirrors and other desired equipment.",
         ],
       },
-      alt: { no: "6- og 8-seters elektrisk passasjerbil fra BorCart", en: "6- and 8-seat electric passenger car from BorCart" },
+      alt: { no: "6- og 8-seters elektrisk passasjerbil", en: "6- and 8-seat electric passenger car" },
     },
     {
       title: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
@@ -208,7 +211,7 @@ function getFleet(locale: Locale) {
           "The solution can be delivered with refrigeration, storage, serving surfaces, roof and the club's own branding.",
         ],
       },
-      alt: { no: "Buggybar og serveringsvogn fra BorCart", en: "Buggy bar and service cart from BorCart" },
+      alt: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
     },
     {
       title: { no: "Elektriske arbeidsbiler", en: "Electric utility vehicles" },
@@ -240,12 +243,12 @@ function getFleet(locale: Locale) {
           "CE certified",
         ],
       },
-      alt: { no: "Elektrisk arbeidsbil med lasteplan fra BorCart", en: "Electric utility vehicle with cargo bed from BorCart" },
+      alt: { no: "Elektrisk arbeidsbil med lasteplan", en: "Electric utility vehicle with cargo bed" },
     },
   ];
 }
 
-export function BorCartShowcase({
+export function GolfCarShowcase({
   product,
   category,
   locale,
@@ -384,7 +387,7 @@ export function BorCartShowcase({
         </div>
       </Container>
 
-      {/* Flere kjøretøy fra BorCart */}
+      {/* Flere elektriske kjøretøy */}
       <div className="border-y border-line bg-sand">
         <Container size="wide" className="py-16 sm:py-24">
           <div className="max-w-2xl">

@@ -6,7 +6,7 @@ import { CheckIcon, DownloadIcon } from "@/components/icons";
 import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primitives";
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
-import { BorCartShowcase } from "@/components/borcart-showcase";
+import { GolfCarShowcase } from "@/components/golfcar-showcase";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
 import { WayroboShowcase } from "@/components/wayrobo-showcase";
 import {
@@ -80,7 +80,7 @@ export default async function ProductPage({
   // Robera Pro og Wayrobo har egne, mer utfyllende salgssider enn den generiske malen.
   const isRobera = product.slug === "ai-golftralle";
   const isWayrobo = product.slug === "automatisk-ballplukker";
-  const isBorCart = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
+  const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
 
   return (
     <>
@@ -112,8 +112,8 @@ export default async function ProductPage({
           locale={locale}
           dict={dict}
         />
-      ) : isBorCart ? (
-        <BorCartShowcase
+      ) : isGolfCar ? (
+        <GolfCarShowcase
           product={product}
           category={category}
           locale={locale}

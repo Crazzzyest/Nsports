@@ -7,16 +7,16 @@
     "audience": ["klubb"],
     "name": { "no": "Elektriske golfbiler og nyttekjøretøy", "en": "Electric golf cars and utility vehicles" },
     "tagline": {
-      "no": "Import av elektriske golfbiler og nyttekjøretøy fra BorCart til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
-      "en": "Import of electric golf cars and utility vehicles from BorCart for golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia."
+      "no": "Vi leverer elektriske golfbiler og nyttekjøretøy til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
+      "en": "We supply electric golf cars and utility vehicles to golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia."
     },
     "description": {
       "no": [
-        "Vi tilbyr import av elektriske golfbiler og nyttekjøretøy fra BorCart til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
+        "Vi leverer elektriske golfbiler og nyttekjøretøy til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
         "Velg mellom en prisgunstig basicmodell, en fullt utstyrt premiummodell, passasjerbiler med seks eller åtte seter, buggybar og praktiske arbeidsbiler. Bilene kan tilpasses med ønsket farge, utstyr og egen logo."
       ],
       "en": [
-        "We offer import of electric golf cars and utility vehicles from BorCart for golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia.",
+        "We supply electric golf cars and utility vehicles to golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia.",
         "Choose between an affordable basic model, a fully equipped premium model, passenger cars with six or eight seats, a buggy bar and practical utility vehicles. The cars can be customised with your preferred colour, equipment and own logo."
       ]
     },
@@ -79,7 +79,7 @@
     "variants": [],
     "datasheets": [],
     "images": [
-      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektriske golfbiler og nyttekjøretøy fra BorCart", "en": "Electric golf cars and utility vehicles from BorCart" } }
+      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektriske golfbiler og nyttekjøretøy", "en": "Electric golf cars and utility vehicles" } }
     ]
   },
   {
