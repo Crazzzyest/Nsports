@@ -7,6 +7,7 @@ import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primiti
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
+import { WayroboShowcase } from "@/components/wayrobo-showcase";
 import {
   getCategories,
   getCategory,
@@ -75,8 +76,9 @@ export default async function ProductPage({
   const highlights = pick(product.highlights, locale);
   const description = pick(product.description, locale);
 
-  // Robera Pro har en egen, mer utfyllende salgsside enn den generiske malen.
+  // Robera Pro og Wayrobo har egne, mer utfyllende salgssider enn den generiske malen.
   const isRobera = product.slug === "ai-golftralle";
+  const isWayrobo = product.slug === "automatisk-ballplukker";
 
   return (
     <>
@@ -96,6 +98,13 @@ export default async function ProductPage({
 
       {isRobera ? (
         <RoberaProShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isWayrobo ? (
+        <WayroboShowcase
           product={product}
           category={category}
           locale={locale}
