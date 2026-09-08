@@ -8,6 +8,7 @@ import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { BagskapShowcase } from "@/components/bagskap-showcase";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
+import { PeggerShowcase } from "@/components/pegger-showcase";
 import { RangeballShowcase } from "@/components/rangeball-showcase";
 import { RangematteShowcase } from "@/components/rangematte-showcase";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
@@ -75,6 +76,16 @@ export async function generateMetadata({
         en: "A spacious, lockable bag locker with room for a golf bag and a golf trolley. Delivered flat-packed with a combination padlock and can give the golf club a steady rental income.",
       },
     },
+    pegger: {
+      title: {
+        no: "Trepegger med logotrykk og pegger til golfsimulator | Norsk Golfallianse",
+        en: "Wooden tees with logo printing and tees for golf simulators | Norsk Golfallianse",
+      },
+      description: {
+        no: "Hvitmalte trepegger i 40, 70 og 85 mm, tilgjengelig i poser med 30 pegger, som mixpose og med logotrykk. Vi importerer også plastpegger til golfsimulator.",
+        en: "White-painted wooden tees in 40, 70 and 85 mm, available in bags of 30 tees, as a mixed bag and with logo printing. We also import plastic tees for golf simulators.",
+      },
+    },
   };
   const seoOverride = seoOverrides[slug] ?? null;
 
@@ -129,6 +140,7 @@ export default async function ProductPage({
   const isRangematte = product.slug === "rangematte";
   const isRangeball = product.slug === "rangeballer-gule";
   const isBagskap = product.slug === "bagskap";
+  const isPegger = product.slug === "pegger";
 
   return (
     <>
@@ -183,6 +195,13 @@ export default async function ProductPage({
         />
       ) : isBagskap ? (
         <BagskapShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isPegger ? (
+        <PeggerShowcase
           product={product}
           category={category}
           locale={locale}
