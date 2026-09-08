@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "NSports",
-    "legalName": { "no": "Norsk Golfallianse AS", "en": "Norsk Golfallianse AS" },
+    "legalName": { "no": "Norsk Golfallianse", "en": "Norsk Golfallianse" },
     "tagline": {
       "no": "Utstyr til golfklubber og anlegg",
       "en": "Equipment for golf clubs and facilities"
@@ -41,7 +41,7 @@
   },
   "home": {
     "hero": {
-      "eyebrow": { "no": "Norsk Golfallianse AS", "en": "Norsk Golfallianse AS" },
+      "eyebrow": { "no": "Norsk Golfallianse", "en": "Norsk Golfallianse" },
       "title": { "no": "Sammen kjøper vi smartere", "en": "Buying smarter, together" },
       "body": {
         "no": "NSports gir golfklubber direkte tilgang til nøye utvalgte produkter, færre mellomledd og bedre innkjøpsmuligheter.",
