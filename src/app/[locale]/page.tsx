@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import { CategoryCard } from "@/components/category-card";
@@ -82,32 +81,18 @@ export default async function HomePage({
 
       {/* Allianseideen */}
       <Section>
-        <Container size="wide">
-          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <div className="relative aspect-4/3 overflow-hidden rounded-(--radius-card) border border-line">
-              <Image
-                src={home.alliance.image}
-                alt={pick(home.alliance.imageAlt, locale)}
-                fill
-                sizes="(max-width: 1024px) 92vw, 46vw"
-                className="object-cover"
-              />
-            </div>
-
-            <div>
-              <h2 className="text-3xl font-semibold sm:text-4xl">
-                {pick(home.alliance.heading, locale)}
-              </h2>
-              <Prose className="mt-5">
-                {pick(home.alliance.body, locale).map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </Prose>
-              <ButtonLink href={routes.about(locale)} size="lg" className="mt-8">
-                {pick(home.alliance.cta, locale)}
-              </ButtonLink>
-            </div>
-          </div>
+        <Container size="narrow">
+          <h2 className="text-3xl font-semibold text-balance sm:text-4xl">
+            {pick(home.alliance.heading, locale)}
+          </h2>
+          <Prose className="mt-5">
+            {pick(home.alliance.body, locale).map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </Prose>
+          <ButtonLink href={routes.about(locale)} size="lg" className="mt-8">
+            {pick(home.alliance.cta, locale)}
+          </ButtonLink>
         </Container>
       </Section>
 
