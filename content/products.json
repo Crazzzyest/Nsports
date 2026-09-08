@@ -888,10 +888,6 @@
       {
         "label": { "no": "Minsteantall", "en": "Minimum order" },
         "value": { "no": "50 stk.", "en": "50 units" }
-      },
-      {
-        "label": { "no": "Leveringstid", "en": "Lead time" },
-        "value": { "no": "3–4 uker etter godkjent korrektur", "en": "3–4 weeks after proof approval" }
       }
     ],
     "variants": [
@@ -965,10 +961,6 @@
       {
         "label": { "no": "Minsteantall", "en": "Minimum order" },
         "value": { "no": "100 stk.", "en": "100 units" }
-      },
-      {
-        "label": { "no": "Leveringstid", "en": "Lead time" },
-        "value": { "no": "3–4 uker etter godkjent korrektur", "en": "3–4 weeks after proof approval" }
       }
     ],
     "variants": [
@@ -1044,10 +1036,6 @@
       {
         "label": { "no": "Minsteantall", "en": "Minimum order" },
         "value": { "no": "100 stk.", "en": "100 units" }
-      },
-      {
-        "label": { "no": "Leveringstid", "en": "Lead time" },
-        "value": { "no": "4 uker etter godkjent korrektur", "en": "4 weeks after proof approval" }
       }
     ],
     "variants": [

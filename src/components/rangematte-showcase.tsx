@@ -57,8 +57,8 @@ const copy = {
     en: "Interested in range mats for your facility?",
   },
   ctaBody: {
-    no: "Vi hjelper dere med å velge riktig variant og gir tilbud basert på antall og leveringssted. Ta kontakt for pris, leveringstid og produktinformasjon. Vi svarer normalt innen én virkedag.",
-    en: "We help you choose the right version and provide a quote based on quantity and delivery location. Get in touch for price, delivery time and product information. We normally reply within one working day.",
+    no: "Vi hjelper dere med å velge riktig variant og gir tilbud basert på antall og leveringssted. Ta kontakt for pris og produktinformasjon. Vi svarer normalt innen én virkedag.",
+    en: "We help you choose the right version and provide a quote based on quantity and delivery location. Get in touch for price and product information. We normally reply within one working day.",
   },
 } satisfies Record<string, Copy | CopyList>;
 

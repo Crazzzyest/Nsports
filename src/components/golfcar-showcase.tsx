@@ -168,11 +168,11 @@ const copy = {
   importBody: {
     no: [
       "Vi hjelper dere gjennom hele prosessen, fra valg av modell og utstyr til profilering, transport, import og ferdig levering. Dere får ett kontaktpunkt og en trygg og oversiktlig leveranse tilpasset deres anlegg.",
-      "Kontakt oss for produktinformasjon, forventet leveringstid og tilbud.",
+      "Kontakt oss for produktinformasjon og tilbud.",
     ],
     en: [
       "We guide you through the whole process, from the choice of model and equipment to branding, transport, import and finished delivery. You get a single point of contact and a secure, clear delivery tailored to your facility.",
-      "Contact us for product information, expected delivery time and a quote.",
+      "Contact us for product information and a quote.",
     ],
   },
 

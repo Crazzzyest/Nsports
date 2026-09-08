@@ -54,8 +54,8 @@ const copy = {
     en: "Interested in bag lockers for your club?",
   },
   ctaBody: {
-    no: "Vi gir tilbud basert på antall og leveringssted. Ta kontakt for pris, leveringstid og mer informasjon. Vi svarer normalt innen én virkedag.",
-    en: "We provide a quote based on quantity and delivery location. Get in touch for price, delivery time and more information. We normally reply within one working day.",
+    no: "Vi gir tilbud basert på antall og leveringssted. Ta kontakt for pris og mer informasjon. Vi svarer normalt innen én virkedag.",
+    en: "We provide a quote based on quantity and delivery location. Get in touch for price and more information. We normally reply within one working day.",
   },
 } satisfies Record<string, Copy | CopyList>;
 

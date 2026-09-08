@@ -74,8 +74,8 @@ const copy = {
     en: "White-painted wooden tees can be delivered with the club's or company's logo. This makes the tees well suited as a branded product in the pro shop, for tournaments, sponsor events and corporate golf.",
   },
   brandingNote: {
-    no: "Ta kontakt for informasjon om trykk, antall og leveringstid.",
-    en: "Get in touch for information about printing, quantity and delivery time.",
+    no: "Ta kontakt for informasjon om trykk og antall.",
+    en: "Get in touch for information about printing and quantity.",
   },
 
   simEyebrow: { no: "Golfsimulator", en: "Golf simulator" },
@@ -113,8 +113,8 @@ const copy = {
     en: "Interested in tees for the club, pro shop or simulator?",
   },
   ctaBody: {
-    no: "Vi gir tilbud basert på type, antall, ønsket pakning, eventuell logoprofilering og leveringssted. Ta kontakt for mer informasjon om tilgjengelige alternativer og leveringstid. Vi svarer normalt innen én virkedag.",
-    en: "We provide a quote based on type, quantity, desired packaging, any logo branding and delivery location. Get in touch for more information about available options and delivery time. We normally reply within one working day.",
+    no: "Vi gir tilbud basert på type, antall, ønsket pakning, eventuell logoprofilering og leveringssted. Ta kontakt for mer informasjon om tilgjengelige alternativer. Vi svarer normalt innen én virkedag.",
+    en: "We provide a quote based on type, quantity, desired packaging, any logo branding and delivery location. Get in touch for more information about available options. We normally reply within one working day.",
   },
 } satisfies Record<string, Copy | CopyList>;
 

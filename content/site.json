@@ -76,8 +76,8 @@
     {
       "title": { "no": "Tilbud innen én virkedag", "en": "Quote within one business day" },
       "body": {
-        "no": "Du får pris ut fra antall og leveringssted, med leveringstid og eventuelle alternativer.",
-        "en": "You receive a price based on quantity and delivery location, with lead time and any alternatives."
+        "no": "Du får pris ut fra antall og leveringssted, med eventuelle alternativer.",
+        "en": "You receive a price based on quantity and delivery location, with any alternatives."
       }
     },
     {
@@ -146,8 +146,8 @@
   },
   "contactPage": {
     "lead": {
-      "no": "Fortell kort hva du trenger, så kommer vi tilbake med pris og leveringstid. Vi svarer normalt innen én virkedag.",
-      "en": "Tell us briefly what you need and we will come back with a price and lead time. We normally reply within one business day."
+          "no": "Fortell kort hva du trenger, så kommer vi tilbake med pris. Vi svarer normalt innen én virkedag.",
+          "en": "Tell us briefly what you need and we will come back with a price. We normally reply within one business day."
     },
     "faq": [
       {
@@ -160,8 +160,8 @@
       {
         "question": { "no": "Hva koster produktene?", "en": "What do the products cost?" },
         "answer": {
-          "no": "Prisen avhenger av antall og leveringssted, og vi oppgir den derfor i tilbud framfor på nettsiden. Bruk «Be om tilbud» på produktet, så får du pris med leveringstid.",
-          "en": "Price depends on quantity and delivery location, so we give it in a quote rather than on the site. Use “Request a quote” on the product and you will receive a price with lead time."
+          "no": "Prisen avhenger av antall og leveringssted, og vi oppgir den derfor i tilbud framfor på nettsiden. Bruk «Be om tilbud» på produktet, så får du pris.",
+          "en": "Price depends on quantity and delivery location, so we give it in a quote rather than on the site. Use “Request a quote” on the product and you will receive a price."
         }
       },
       {
@@ -169,13 +169,6 @@
         "answer": {
           "no": "Ja, på rangeballer, premium golfball, pegger, caps, hansker og greengafler. Vi setter opp trykk- eller broderifilen og sender digital korrektur til godkjenning før produksjon. Minsteantall varierer per produkt og står oppgitt på produktsiden.",
           "en": "Yes, on range balls, the premium golf ball, tees, caps, gloves and pitch repair tools. We prepare the print or embroidery file and send a digital proof for approval before production. Minimum quantities vary by product and are listed on the product page."
-        }
-      },
-      {
-        "question": { "no": "Hvor lang er leveringstiden?", "en": "What are the lead times?" },
-        "answer": {
-          "no": "Varer bestilles til golfsesongen, og både produksjonstid og leveringstid varierer fra produkt til produkt. Et eksempel: en golfbil har rundt fem til seks ukers produksjonstid, og frakten kommer i tillegg med om lag to måneder. Vi bruker lokalt speditørfirma, pakker og losser selv, og sender omgående når vi har mottatt varene. Vi oppgir alltid faktisk produksjons- og leveringstid i tilbudet.",
-          "en": "Products are ordered ahead of the golf season, and both production and shipping times vary from product to product. For example, a golf car has roughly five to six weeks of production time, with shipping adding around two months on top. We use a local freight company, pack and unload the goods ourselves, and ship immediately once we have received them. We always state the actual production and delivery time in the quote."
         }
       },
       {
