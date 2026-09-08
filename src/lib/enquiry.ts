@@ -142,8 +142,12 @@ async function sendEnquiryEmail(message: {
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
-        // Hindrer dobbeltsending hvis samme henvendelse prøves på nytt.
-        "Idempotency-Key": `enquiry/${message.replyTo}/${message.subject}`.slice(0, 256),
+        // Hindrer dobbeltsending ved raske retries/dobbeltklikk, men
+        // tidsvinduet gjør at en reell ny henvendelse med samme emne senere
+        // ikke blir stille droppet av Resend (nøkkelen utløper uansett etter 24t).
+        "Idempotency-Key": `enquiry/${message.replyTo}/${message.subject}/${Math.floor(
+          Date.now() / 600_000,
+        )}`.slice(0, 256),
       },
       body: JSON.stringify({
         // Resends delte testdomene fungerer uten at nsports.no er verifisert.
