@@ -90,76 +90,54 @@
     "audience": ["klubb"],
     "name": { "no": "Rangematte", "en": "Range mat" },
     "tagline": {
-      "no": "Slagmatte med dypt fiberdekke som gir realistisk kontakt og skåner håndleddene.",
-      "en": "Hitting mat with a deep fibre surface that gives realistic contact and spares the wrists."
+      "no": "Gjennomtestet kvalitetsmatte med solid oppbygning, god demping og naturtro spillefølelse. Utviklet for driving ranger og golfanlegg med høy aktivitet.",
+      "en": "A thoroughly tested quality mat with a solid build, good cushioning and a natural feel. Developed for driving ranges and golf facilities with high activity."
     },
     "description": {
       "no": [
-        "Slagmatte til utslagsplasser innendørs og utendørs. Fiberdekket er høyere og tettere enn på en vanlig kunstgressmatte, slik at køllen kan gå gjennom underlaget i stedet for å stoppe i det. Det gir et slag som ligner mer på gress, og betydelig mindre belastning på albuer og håndledd.",
-        "Gummibunnen er sjiktet og demper støtet fra hardt slag. Matten ligger stabilt uten festing, også på asfalt og betong, og tåler å ligge ute gjennom sesongen."
+        "Denne rangematten er utviklet for golfklubber og driving ranger som trenger en slitesterk matte med god spillefølelse og høy komfort.",
+        "Standardmatten er bygget opp med 10 mm NBR-gummi i bunnen, et 10 mm dempende 3D-fjæringslag og 15 mm nylongress på toppen. Den solide konstruksjonen gir god støtdemping og bidrar til å redusere belastningen på skuldre, albuer og håndledd ved gjentatte slag.",
+        "Matten er grundig testet ved Meland Golfklubb og er allerede tatt i bruk av flere norske golfklubber. Tilbakemeldingene har vært svært positive, både når det gjelder spillefølelse, demping og slitestyrke.",
+        "Matten har flere hull for gummipegg, slik at spilleren kan velge ulike plasseringer. Den kan også vendes og roteres når enkelte slagområder begynner å bli slitt. Det gir jevnere slitasje og bidrar til å forlenge mattens levetid."
       ],
       "en": [
-        "A hitting mat for indoor and outdoor tee positions. The fibre surface is taller and denser than on an ordinary artificial turf mat, letting the club travel through the surface rather than stopping in it. The result is a strike closer to real grass and considerably less strain on elbows and wrists.",
-        "The layered rubber base absorbs the shock of a heavy strike. The mat sits stable without fixing, including on asphalt and concrete, and withstands being left outdoors through the season."
+        "This range mat is developed for golf clubs and driving ranges that need a hard-wearing mat with a good playing feel and high comfort.",
+        "The standard mat is built up with 10 mm NBR rubber at the base, a 10 mm cushioning 3D suspension layer and 15 mm nylon grass on top. The solid construction gives good shock absorption and helps reduce the strain on shoulders, elbows and wrists during repeated shots.",
+        "The mat has been thoroughly tested at Meland Golfklubb and is already in use at several Norwegian golf clubs. The feedback has been very positive, both on playing feel, cushioning and durability.",
+        "The mat has several holes for a rubber tee, so the player can choose different positions. It can also be turned and rotated when certain hitting areas start to wear. This gives more even wear and helps extend the mat's lifespan."
       ]
     },
     "highlights": {
       "no": [
-        "Dypt fiberdekke som køllen går gjennom",
-        "Sjiktet gummibunn som demper støt",
-        "Ligger stabilt uten festing",
-        "UV-behandlet for utendørs bruk"
+        "Grundig testet ved Meland Golfklubb",
+        "Allerede tatt i bruk av flere norske golfklubber",
+        "Solid demping som reduserer belastningen ved gjentatte slag",
+        "Slitesterk konstruksjon for driving ranger med høy aktivitet",
+        "Flere hull for fleksibel plassering av gummipegg",
+        "Kan vendes og roteres for jevnere slitasje",
+        "Egnet for både innendørs og utendørs bruk",
+        "Tilgjengelig som standardmatte og peggbar matte"
       ],
       "en": [
-        "Deep fibre surface the club travels through",
-        "Layered rubber base that absorbs shock",
-        "Stays in place without fixing",
-        "UV-treated for outdoor use"
+        "Thoroughly tested at Meland Golfklubb",
+        "Already in use at several Norwegian golf clubs",
+        "Solid cushioning that reduces strain from repeated shots",
+        "Durable construction for high-activity driving ranges",
+        "Several holes for flexible placement of the rubber tee",
+        "Can be turned and rotated for more even wear",
+        "Suitable for both indoor and outdoor use",
+        "Available as a standard mat and a tee-through mat"
       ]
     },
-    "specs": [
-      {
-        "label": { "no": "Standardmål", "en": "Standard size" },
-        "value": { "no": "150 × 150 cm", "en": "150 × 150 cm" }
-      },
-      {
-        "label": { "no": "Totaltykkelse", "en": "Total thickness" },
-        "value": { "no": "60 mm", "en": "60 mm" }
-      },
-      {
-        "label": { "no": "Fiberhøyde", "en": "Pile height" },
-        "value": { "no": "38 mm", "en": "38 mm" }
-      },
-      {
-        "label": { "no": "Bunn", "en": "Base" },
-        "value": { "no": "Sjiktet gummi, 22 mm", "en": "Layered rubber, 22 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "34 kg", "en": "34 kg" }
-      },
-      {
-        "label": { "no": "Bruk", "en": "Use" },
-        "value": { "no": "Innendørs og utendørs", "en": "Indoor and outdoor" }
-      }
-    ],
-    "variants": [
-      { "name": { "no": "150 × 150 cm", "en": "150 × 150 cm" } },
-      { "name": { "no": "150 × 200 cm", "en": "150 × 200 cm" } },
-      {
-        "name": { "no": "Spesialmål", "en": "Custom size" },
-        "note": { "no": "Kappes etter tegning", "en": "Cut to drawing" }
-      }
-    ],
-    "datasheets": [{ "label": { "no": "Produktark", "en": "Product sheet" } }],
+    "specs": [],
+    "variants": [],
+    "datasheets": [],
     "images": [
       {
         "src": "/bilder/produkter/rangematte.jpg",
         "fit": "cover",
-        "alt": { "no": "Rangematte med Meland Golf-logo sett ovenfra", "en": "Range mat with the Meland Golf logo seen from above" }
-      },
-      { "alt": { "no": "Tverrsnitt av fiberdekke og gummibunn", "en": "Cross-section of fibre surface and rubber base" } },
-      { "alt": { "no": "Rangematte på utslagsplass", "en": "Range mat on a tee position" } }
+        "alt": { "no": "Rangematte for driving range med Meland Golfklubb-logo sett ovenfra", "en": "Range mat for a driving range with the Meland Golfklubb logo seen from above" }
+      }
     ]
   },
   {

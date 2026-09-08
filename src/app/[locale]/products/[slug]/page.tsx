@@ -7,6 +7,7 @@ import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primiti
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
+import { RangematteShowcase } from "@/components/rangematte-showcase";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
 import { WayroboShowcase } from "@/components/wayrobo-showcase";
 import {
@@ -40,13 +41,35 @@ export async function generateMetadata({
 
   const image = product.images.find((entry) => entry.src)?.src;
 
-  return buildMetadata({
+  // Rangematten har egne, søkeoptimaliserte metatekster.
+  const seoOverride =
+    slug === "rangematte"
+      ? {
+          title: {
+            no: "Rangematter for driving range og golfanlegg | Norsk Golfallianse",
+            en: "Range mats for driving ranges and golf facilities | Norsk Golfallianse",
+          },
+          description: {
+            no: "Slitesterke og støtdempende rangematter for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig som standardmatte og peggbar matte.",
+            en: "Durable, shock-absorbing range mats for golf clubs and driving ranges. Tested at Meland Golfklubb and available as a standard mat and a tee-through mat.",
+          },
+        }
+      : null;
+
+  const metadata = buildMetadata({
     locale,
     path: routes.product(locale, slug),
-    title: pick(product.name, locale),
-    description: pick(product.tagline, locale),
+    title: seoOverride ? pick(seoOverride.title, locale) : pick(product.name, locale),
+    description: seoOverride ? pick(seoOverride.description, locale) : pick(product.tagline, locale),
     images: image ? [absoluteUrl(image)] : undefined,
   });
+
+  // Absolutt tittel hindrer at side-malen «%s — NSports» legges til.
+  if (seoOverride) {
+    metadata.title = { absolute: pick(seoOverride.title, locale) };
+  }
+
+  return metadata;
 }
 
 export default async function ProductPage({
@@ -81,6 +104,7 @@ export default async function ProductPage({
   const isRobera = product.slug === "ai-golftralle";
   const isWayrobo = product.slug === "automatisk-ballplukker";
   const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
+  const isRangematte = product.slug === "rangematte";
 
   return (
     <>
@@ -114,6 +138,13 @@ export default async function ProductPage({
         />
       ) : isGolfCar ? (
         <GolfCarShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isRangematte ? (
+        <RangematteShowcase
           product={product}
           category={category}
           locale={locale}
