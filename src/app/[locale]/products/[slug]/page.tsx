@@ -60,8 +60,8 @@ export async function generateMetadata({
         en: "Durable range balls for golf clubs | Norsk Golfallianse",
       },
       description: {
-        no: "Prisgunstige tolags rangeballer for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig med egen klubblogo fra 10 000 baller.",
-        en: "Cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with your own club logo from 10,000 balls.",
+        no: "Slitesterke og prisgunstige tolags rangeballer for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig med klubblogo fra 10 000 baller.",
+        en: "Durable, cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with a club logo from 10,000 balls.",
       },
     },
   };

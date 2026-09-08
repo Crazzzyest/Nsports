@@ -210,85 +210,42 @@
     "audience": ["klubb"],
     "name": { "no": "Rangeballer", "en": "Range balls" },
     "tagline": {
-      "no": "Slitesterk tolags rangeball med stabil flukt og god spillefølelse. Grundig testet og utviklet for golfanlegg med høy aktivitet.",
-      "en": "A durable two-piece range ball with a stable flight and a good playing feel. Thoroughly tested and developed for golf facilities with high activity."
+      "no": "Slitesterk tolags rangeball utviklet for golfklubber og driving ranger. Et prisgunstig alternativ som er testet i daglig bruk ved Meland Golfklubb.",
+      "en": "A durable two-piece range ball developed for golf clubs and driving ranges. A cost-effective alternative tested in daily use at Meland Golfklubb."
     },
     "description": {
       "no": [
-        "Etter omfattende testing av rangeballer fra flere produsenter valgte vi denne slitesterke tolagsballen. Målet var å finne en rangeball som kombinerer god spillefølelse, stabil ballflukt og lang levetid med en pris som gir god økonomi for golfklubben.",
-        "Ballens solide surlyn-skall er utviklet for den tøffe hverdagen på en driving range. Den tåler gjentatte slag og hyppige runder gjennom ballplukker, vaskeanlegg og ballautomat.",
-        "Jevn diameter og vekt gir forutsigbar drift i anlegget og reduserer risikoen for at baller setter seg fast. Den tydelige signalfargen gjør ballene godt synlige på rangen, også under krevende lys- og værforhold.",
-        "Meland Golfklubb har benyttet rangeballene i daglig drift siden juli 2026. Tilbakemeldingene fra både medlemmer og gjester har vært svært positive, særlig når det gjelder spillefølelse og ballflukt.",
-        "For golfklubber som ønsker en tydeligere profil på treningsanlegget, kan ballene leveres med klubbens egen logo. Minste bestilling med egen logo er 10 000 baller."
+        "Etter testing av rangeballer fra flere forskjellige fabrikker valgte vi denne slitesterke tolagsballen. Målet var å finne en rangeball som kombinerer god kvalitet og lang levetid med en konkurransedyktig pris for golfklubbene.",
+        "Meland Golfklubb har benyttet ballene på driving rangen siden juli 2026. Tilbakemeldingene fra medlemmer og gjester har vært svært positive.",
+        "Rangeballene kan leveres med golfklubbens egen logo. Dette gir klubben mulighet til å skape et tydeligere og mer profesjonelt uttrykk på treningsanlegget. Minste bestilling med egen logo er 10 000 baller."
       ],
       "en": [
-        "After extensive testing of range balls from several manufacturers, we chose this durable two-piece ball. The goal was to find a range ball that combines a good playing feel, a stable ball flight and long life with a price that gives good economics for the golf club.",
-        "The ball's solid surlyn cover is developed for the tough everyday life on a driving range. It withstands repeated shots and frequent cycles through ball pickers, washing systems and ball dispensers.",
-        "A consistent diameter and weight give predictable operation in the facility and reduce the risk of balls jamming. The clear signal colour makes the balls easy to see on the range, even in demanding light and weather conditions.",
-        "Meland Golfklubb has used the range balls in daily operation since July 2026. Feedback from both members and guests has been very positive, particularly on playing feel and ball flight.",
-        "For golf clubs that want a clearer profile on the practice facility, the balls can be delivered with the club's own logo. The minimum order with your own logo is 10,000 balls."
+        "After testing range balls from several different factories, we chose this durable two-piece ball. The goal was to find a range ball that combines good quality and long life with a competitive price for golf clubs.",
+        "Meland Golfklubb has used the balls on the driving range since July 2026. Feedback from members and guests has been very positive.",
+        "The range balls can be delivered with the golf club's own logo. This gives the club the opportunity to create a clearer and more professional look at the practice facility. The minimum order with your own logo is 10,000 balls."
       ]
     },
     "highlights": {
       "no": [
-        "Slitesterk tolags konstruksjon",
-        "Utviklet for hyppig bruk på driving range",
-        "Tåler gjentatte runder gjennom ballplukker, vasker og automat",
-        "Stabil ballflukt og jevn kvalitet",
-        "Testet i daglig drift ved Meland Golfklubb",
-        "Svært prisgunstig sammenlignet med tilsvarende alternativer",
-        "Kan leveres med klubbens egen logo",
-        "Tilgjengelig med én eller to markeringsstriper"
+        "Slitesterk tolags rangeball",
+        "Grundig testet før produktet ble valgt",
+        "Testet i daglig bruk ved Meland Golfklubb",
+        "Svært positive tilbakemeldinger fra medlemmer og gjester",
+        "Prisgunstig sammenlignet med alternative rangeballer",
+        "Kan leveres med golfklubbens egen logo",
+        "Minsteantall med egen logo er 10 000 baller"
       ],
       "en": [
-        "Durable two-piece construction",
-        "Developed for frequent use on the driving range",
-        "Withstands repeated cycles through ball pickers, washers and dispensers",
-        "Stable ball flight and consistent quality",
-        "Tested in daily operation at Meland Golfklubb",
-        "Very cost-effective compared with equivalent alternatives",
-        "Can be delivered with the club's own logo",
-        "Available with one or two marking stripes"
+        "Durable two-piece range ball",
+        "Thoroughly tested before the product was chosen",
+        "Tested in daily use at Meland Golfklubb",
+        "Very positive feedback from members and guests",
+        "Cost-effective compared with alternative range balls",
+        "Can be delivered with the golf club's own logo",
+        "Minimum order with own logo is 10,000 balls"
       ]
     },
-    "specs": [
-      {
-        "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Tolags", "en": "Two-piece" }
-      },
-      {
-        "label": { "no": "Skall", "en": "Cover" },
-        "value": { "no": "Slitesterkt surlyn", "en": "Durable surlyn" }
-      },
-      {
-        "label": { "no": "Diameter", "en": "Diameter" },
-        "value": { "no": "42,7 mm", "en": "42.7 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "45,5 g", "en": "45.5 g" }
-      },
-      {
-        "label": { "no": "Kompresjon", "en": "Compression" },
-        "value": { "no": "80", "en": "80" }
-      },
-      {
-        "label": { "no": "Farge", "en": "Colour" },
-        "value": { "no": "Gjennomfarget signalgul", "en": "Solid high-visibility yellow" }
-      },
-      {
-        "label": { "no": "Merking", "en": "Marking" },
-        "value": { "no": "Én eller to sorte striper", "en": "One or two black stripes" }
-      },
-      {
-        "label": { "no": "Klubblogo", "en": "Club logo" },
-        "value": { "no": "Tilgjengelig fra 10 000 baller", "en": "Available from 10,000 balls" }
-      },
-      {
-        "label": { "no": "Kartong", "en": "Case" },
-        "value": { "no": "600 baller", "en": "600 balls" }
-      }
-    ],
+    "specs": [],
     "variants": [],
     "datasheets": [],
     "images": [

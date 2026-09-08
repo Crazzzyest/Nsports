@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { CheckIcon, TargetIcon } from "@/components/icons";
 import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primitives";
 import { ProductGallery } from "@/components/product-gallery";
@@ -12,12 +10,11 @@ type Copy = { no: string; en: string };
 type CopyList = { no: string[]; en: string[] };
 
 const CONTACT_EMAIL = "frank@nsports.no";
-const MARKING_SRC = "/bilder/produkter/rangeballer-merking.jpg";
 
 const copy = {
   melandBadge: {
-    no: "Testet i daglig drift ved Meland Golfklubb",
-    en: "Tested in daily operation at Meland Golfklubb",
+    no: "Testet i daglig bruk ved Meland Golfklubb",
+    en: "Tested in daily use at Meland Golfklubb",
   },
   quoteCta: { no: "Be om tilbud", en: "Request a quote" },
   featuresHeading: { no: "Hovedfordeler", en: "Key benefits" },
@@ -28,35 +25,44 @@ const copy = {
     en: "A durable range ball with good economics",
   },
 
-  variantsEyebrow: { no: "Varianter og profilering", en: "Versions and branding" },
-  variantsHeading: {
-    no: "Med eller uten klubblogo",
-    en: "With or without a club logo",
+  brandingEyebrow: { no: "Profilering", en: "Branding" },
+  brandingHeading: {
+    no: "Rangeballer med klubbens egen logo",
+    en: "Range balls with the club's own logo",
   },
-  markingCaption: {
-    no: "Illustrasjon: eksempler på merking og profilering av rangeballer.",
-    en: "Illustration: examples of marking and branding of range balls.",
+  brandingBody: {
+    no: "Gi driving rangen et helhetlig og profesjonelt uttrykk med rangeballer profilert med klubbens egen logo.",
+    en: "Give the driving range a cohesive and professional look with range balls branded with the club's own logo.",
   },
-  markingAlt: {
-    no: "Gule og hvite rangeballer presentert som produktutvalg for driving range.",
-    en: "Yellow and white range balls presented as a product range for a driving range.",
+  brandingPoints: {
+    no: [
+      "Minsteantall med logo: 10 000 baller",
+      "Pris gis på forespørsel",
+      "Levering beregnes ut fra antall og leveringssted",
+    ],
+    en: [
+      "Minimum order with logo: 10,000 balls",
+      "Price on request",
+      "Delivery is calculated based on quantity and delivery location",
+    ],
   },
 
-  specsEyebrow: { no: "Teknisk", en: "Technical" },
-  specsHeading: { no: "Mål og spesifikasjoner", en: "Dimensions and specifications" },
-
-  devTag: { no: "Under utvikling", en: "In development" },
+  devTag: { no: "Under vurdering", en: "Under consideration" },
   devHeading: {
     no: "Limited flight for kortere driving ranger",
     en: "Limited flight for shorter driving ranges",
   },
   devBody: {
-    no: "Vi undersøker høsten 2026 muligheten for å tilby en egen limited flight-rangeball for kortere driving ranger. Denne balltypen skal ha redusert lengde og gjøre det enklere å utnytte kompakte treningsområder på en trygg og effektiv måte.",
-    en: "In the autumn of 2026 we are exploring the possibility of offering a dedicated limited flight range ball for shorter driving ranges. This ball type will have reduced length and make it easier to use compact practice areas in a safe and efficient way.",
+    no: "Vi undersøker høsten 2026 muligheten for å tilby en limited flight-rangeball for golfklubber med kortere driving ranger.",
+    en: "In the autumn of 2026 we are exploring the possibility of offering a limited flight range ball for golf clubs with shorter driving ranges.",
   },
   devBody2: {
-    no: "Er klubben interessert i en slik løsning, kan dere gjerne ta kontakt med oss. Tilbakemeldinger fra norske golfanlegg vil være nyttige i det videre produktarbeidet.",
-    en: "If your club is interested in such a solution, please feel free to get in touch. Feedback from Norwegian golf facilities will be useful in the further product work.",
+    no: "Er dette aktuelt for deres anlegg, ønsker vi gjerne å høre fra dere. Tilbakemeldinger fra norske golfklubber vil være nyttige når vi vurderer behovet i markedet.",
+    en: "If this is relevant for your facility, we would be glad to hear from you. Feedback from Norwegian golf clubs will be useful when we assess the need in the market.",
+  },
+  devNote: {
+    no: "Limited flight-ballen er ikke lansert og kan ikke bestilles ennå.",
+    en: "The limited flight ball has not been launched and cannot yet be ordered.",
   },
 
   ctaHeading: {
@@ -64,42 +70,10 @@ const copy = {
     en: "Interested in range balls for your facility?",
   },
   ctaBody: {
-    no: "Vi gir tilbud basert på antall, ønsket merking og leveringssted. Ta kontakt for pris, leveringstid og informasjon om profilering med klubbens logo. Vi svarer normalt innen én virkedag.",
-    en: "We provide a quote based on quantity, desired marking and delivery location. Get in touch for price, delivery time and information about branding with the club's logo. We normally reply within one working day.",
+    no: "Vi gir tilbud basert på antall, ønsket merking og leveringssted. Ta kontakt for mer informasjon om levering og profilering med klubbens egen logo. Vi svarer normalt innen én virkedag.",
+    en: "We provide a quote based on quantity, desired marking and delivery location. Get in touch for more information about delivery and branding with the club's own logo. We normally reply within one working day.",
   },
 } satisfies Record<string, Copy | CopyList>;
-
-type ProfileVariant = {
-  title: Copy;
-  description: Copy;
-  features: Copy[];
-};
-
-const profileVariants: ProfileVariant[] = [
-  {
-    title: { no: "Uten klubblogo", en: "Without a club logo" },
-    description: {
-      no: "Leveres med standard rangeballmerking og er et godt valg for klubber som ønsker en enkel og prisgunstig løsning.",
-      en: "Delivered with standard range ball marking and a good choice for clubs that want a simple, cost-effective solution.",
-    },
-    features: [
-      { no: "Standard rangeballmerking", en: "Standard range ball marking" },
-      { no: "Én eller to markeringsstriper", en: "One or two marking stripes" },
-    ],
-  },
-  {
-    title: { no: "Med klubblogo", en: "With a club logo" },
-    description: {
-      no: "Ballene kan profileres med golfklubbens egen logo. Dette gir et mer profesjonelt og helhetlig uttrykk på treningsanlegget.",
-      en: "The balls can be branded with the golf club's own logo. This gives a more professional and cohesive look at the practice facility.",
-    },
-    features: [
-      { no: "Minsteantall med egen logo: 10 000 baller", en: "Minimum order with own logo: 10,000 balls" },
-      { no: "Logo leveres som trykklar fil", en: "Logo supplied as a print-ready file" },
-      { no: "Mulighet for én eller to markeringsstriper", en: "Option of one or two marking stripes" },
-    ],
-  },
-];
 
 export function RangeballShowcase({
   product,
@@ -114,6 +88,7 @@ export function RangeballShowcase({
 }) {
   const name = pick(product.name, locale);
   const highlights = pick(product.highlights, locale);
+  const brandingPoints = pick(copy.brandingPoints, locale);
   const quoteHref = routes.quote(locale, product.slug);
   const contactHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Rangeballer")}`;
 
@@ -201,7 +176,7 @@ export function RangeballShowcase({
         </div>
       </Container>
 
-      {/* Varianter og profilering */}
+      {/* Profilering med klubblogo */}
       <div className="border-y border-line bg-sand">
         <Container size="wide" className="py-16 sm:py-24">
           <div className="max-w-2xl">
@@ -209,99 +184,49 @@ export function RangeballShowcase({
               className="mb-3 text-xs font-semibold uppercase tracking-[0.18em]"
               style={{ color: category.accent }}
             >
-              {pick(copy.variantsEyebrow, locale)}
+              {pick(copy.brandingEyebrow, locale)}
             </p>
             <h2 className="text-3xl font-semibold text-balance text-ink sm:text-4xl">
-              {pick(copy.variantsHeading, locale)}
+              {pick(copy.brandingHeading, locale)}
             </h2>
           </div>
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
-            {profileVariants.map((variant) => (
-              <div
-                key={pick(variant.title, locale)}
-                className="flex flex-col rounded-(--radius-card) border border-line bg-paper p-6 sm:p-8"
-              >
-                <h3 className="text-xl font-semibold text-ink">{pick(variant.title, locale)}</h3>
-                <p className="mt-3 text-base leading-relaxed text-ink-soft">
-                  {pick(variant.description, locale)}
-                </p>
-                <ul className="mt-5 space-y-2.5">
-                  {variant.features.map((feature) => (
-                    <li key={pick(feature, locale)} className="flex gap-3 text-sm text-ink-soft">
-                      <CheckIcon className="mt-0.5 h-4.5 w-4.5 shrink-0 text-pine" />
-                      {pick(feature, locale)}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          <div className="mt-8 max-w-3xl rounded-(--radius-card) border border-line bg-paper p-6 sm:p-8">
+            <p className="text-base leading-relaxed text-ink-soft">
+              {pick(copy.brandingBody, locale)}
+            </p>
+            <ul className="mt-6 space-y-3">
+              {brandingPoints.map((point) => (
+                <li key={point} className="flex gap-3 text-base text-ink-soft">
+                  <CheckIcon className="mt-1 h-4.5 w-4.5 shrink-0 text-pine" />
+                  {point}
+                </li>
+              ))}
+            </ul>
           </div>
-
-          <figure className="mx-auto mt-12 max-w-2xl">
-            <div className="overflow-hidden rounded-(--radius-card) border border-line bg-white p-4 sm:p-6">
-              <Image
-                src={MARKING_SRC}
-                alt={pick(copy.markingAlt, locale)}
-                width={1168}
-                height={1346}
-                sizes="(min-width: 768px) 640px, 100vw"
-                className="h-auto w-full"
-              />
-            </div>
-            <figcaption className="mt-3 text-sm text-ink-muted">
-              {pick(copy.markingCaption, locale)}
-            </figcaption>
-          </figure>
         </Container>
       </div>
 
-      {/* Mål og spesifikasjoner */}
-      {product.specs.length > 0 ? (
-        <Container size="wide" className="py-16 sm:py-24">
-          <div className="max-w-2xl">
-            <p
-              className="mb-3 text-xs font-semibold uppercase tracking-[0.18em]"
-              style={{ color: category.accent }}
-            >
-              {pick(copy.specsEyebrow, locale)}
-            </p>
-            <h2 className="text-3xl font-semibold text-balance text-ink sm:text-4xl">
-              {pick(copy.specsHeading, locale)}
-            </h2>
-          </div>
-          <dl className="mt-8 grid max-w-3xl gap-x-10 sm:grid-cols-2">
-            {product.specs.map((spec) => (
-              <div
-                key={pick(spec.label, locale)}
-                className="grid grid-cols-2 gap-4 border-b border-line py-3"
-              >
-                <dt className="text-sm text-ink-muted">{pick(spec.label, locale)}</dt>
-                <dd className="text-sm font-medium text-ink">{pick(spec.value, locale)}</dd>
-              </div>
-            ))}
-          </dl>
-        </Container>
-      ) : null}
-
-      {/* Under utvikling: limited flight */}
-      <div className="border-y border-line bg-sand">
-        <Container size="wide" className="py-14 sm:py-16">
-          <div className="mx-auto max-w-3xl rounded-(--radius-card) border border-dashed border-line bg-paper p-6 sm:p-8">
-            <Badge tone="brass" className="gap-1.5 px-3 py-1.5 text-[0.72rem] uppercase tracking-[0.14em]">
-              {pick(copy.devTag, locale)}
-            </Badge>
-            <h2 className="mt-4 text-2xl font-semibold text-ink sm:text-3xl">
-              {pick(copy.devHeading, locale)}
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-ink-soft">
-              {pick(copy.devBody, locale)}
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-ink-soft">
-              {pick(copy.devBody2, locale)}
-            </p>
-          </div>
-        </Container>
-      </div>
+      {/* Under vurdering: limited flight */}
+      <Container size="wide" className="py-14 sm:py-16">
+        <div className="mx-auto max-w-3xl rounded-(--radius-card) border border-dashed border-line bg-sand p-6 sm:p-8">
+          <Badge
+            tone="brass"
+            className="gap-1.5 px-3 py-1.5 text-[0.72rem] uppercase tracking-[0.14em]"
+          >
+            {pick(copy.devTag, locale)}
+          </Badge>
+          <h2 className="mt-4 text-2xl font-semibold text-ink sm:text-3xl">
+            {pick(copy.devHeading, locale)}
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-ink-soft">
+            {pick(copy.devBody, locale)}
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-ink-soft">
+            {pick(copy.devBody2, locale)}
+          </p>
+          <p className="mt-5 text-sm font-medium text-ink-muted">{pick(copy.devNote, locale)}</p>
+        </div>
+      </Container>
 
       {/* CTA */}
       <div className="bg-pine text-paper">
