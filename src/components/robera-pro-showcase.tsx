@@ -82,6 +82,11 @@ const copy = {
   },
   closing: { no: "Denne må prøves på golfbanen.", en: "This one has to be tried on the course." },
   specsHeading: { no: "Tekniske detaljer", en: "Technical details" },
+  videoEyebrow: { no: "Se den i aksjon", en: "See it in action" },
+  videoHeading: {
+    no: "Robera Pro ute på banen",
+    en: "Robera Pro out on the course",
+  },
 } satisfies Record<string, Copy | { no: string[]; en: string[] }>;
 
 function getModes(locale: Locale) {
@@ -244,6 +249,34 @@ export function RoberaProShowcase({
           </div>
         </Container>
       </div>
+
+      {/* Video */}
+      <Container size="wide" className="py-16 sm:py-24">
+        <div className="mx-auto max-w-3xl text-center">
+          <p
+            className="mb-3 text-xs font-semibold uppercase tracking-[0.18em]"
+            style={{ color: category.accent }}
+          >
+            {pick(copy.videoEyebrow, locale)}
+          </p>
+          <h2 className="text-3xl font-semibold text-balance text-ink sm:text-4xl">
+            {pick(copy.videoHeading, locale)}
+          </h2>
+        </div>
+        <div className="mx-auto mt-8 max-w-4xl overflow-hidden rounded-(--radius-card) border border-line bg-ink">
+          <div className="relative aspect-video">
+            <iframe
+              className="absolute inset-0 h-full w-full"
+              src="https://www.youtube-nocookie.com/embed/hdGgTmjEIWI?start=45"
+              title="Robera Pro AI el-tralle"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </Container>
 
       {/* Teknologi + spesifikasjoner */}
       <Container size="wide" className="py-16 sm:py-24">
