@@ -340,81 +340,83 @@
     "audience": ["klubb"],
     "name": { "no": "Bagskap", "en": "Bag storage locker" },
     "tagline": {
-      "no": "Låsbart skap (kodelås følger med). Mål: 120 cm høyde, 80 cm dybde og 80 cm bredde.",
-      "en": "Lockable cabinet (combination lock included). Dimensions: 120 cm height, 80 cm depth and 80 cm width."
+      "no": "Romslig og låsbart bagskap med god plass til både golfbag og golftralle. En praktisk oppbevaringsløsning som samtidig kan gi klubben faste leieinntekter.",
+      "en": "A spacious, lockable bag locker with plenty of room for both a golf bag and a golf trolley. A practical storage solution that can also give the club a steady rental income."
     },
     "description": {
       "no": [
-        "Bagskap til klubbhus og garasje, i moduler som settes sammen til en vegg. Hvert rom tar en full bag med paraply og sko, og har perforerte flater i bakkant slik at våtutstyr faktisk tørker i stedet for å stå og mugne.",
-        "Skapene leveres i pulverlakkert stål og kan bestilles med sylinderlås, hengelåsbeslag eller kodelås. Bagskap er en av de enkleste inntektskildene en klubb har: fast årsleie per rom, nesten ingen drift."
+        "Gi medlemmene en enkel og trygg oppbevaringsplass for golfutstyret mellom rundene.",
+        "Bagskapet har god plass til både golfbag og golftralle. Med en høyde på 120 cm, bredde på 80 cm og dybde på 80 cm slipper medlemmene å frakte tungt utstyr frem og tilbake før hver golfrunde.",
+        "Skapet er produsert i pulverlakkert stål og leveres flatpakket for enklere transport og håndtering. Monteringen er enkel, og kodehengelås følger med.",
+        "Ved behov kan to skap plasseres i høyden. Det gjør det mulig å utnytte tilgjengelig gulvplass bedre og etablere flere oppbevaringsplasser i klubbhus, bagrom eller andre egnede lokaler."
       ],
       "en": [
-        "Bag lockers for clubhouses and garages, in modules that combine into a wall. Each compartment takes a full bag with umbrella and shoes, and has perforated panels at the back so wet equipment actually dries instead of sitting and going mouldy.",
-        "The lockers come in powder-coated steel and can be ordered with a cylinder lock, padlock hasp or combination lock. Bag storage is one of the simplest revenue streams a club has: a fixed annual rent per compartment and almost no running cost."
+        "Give members a simple and secure place to store their golf equipment between rounds.",
+        "The bag locker has plenty of room for both a golf bag and a golf trolley. At 120 cm high, 80 cm wide and 80 cm deep, members no longer have to carry heavy equipment back and forth before every round.",
+        "The locker is made from powder-coated steel and is delivered flat-packed for easier transport and handling. Assembly is simple, and a combination padlock is included.",
+        "When needed, two lockers can be stacked. This makes it possible to use the available floor space better and set up more storage places in the clubhouse, bag room or other suitable premises."
       ]
     },
     "highlights": {
       "no": [
-        "Modulbasert, settes sammen til ønsket bredde",
-        "Ventilerte rom som tørker vått utstyr",
-        "Pulverlakkert stål, egnet for uoppvarmet rom",
-        "Kodelås følger med"
+        "God plass til golfbag og golftralle",
+        "Faste mål på 80 × 80 × 120 cm",
+        "Kodehengelås følger med",
+        "Leveres flatpakket",
+        "Enkel montering",
+        "Kan plasseres to skap i høyden",
+        "Produsert i pulverlakkert stål",
+        "Kan gi golfklubben faste leieinntekter"
       ],
       "en": [
-        "Modular, combined to any required width",
-        "Ventilated compartments that dry wet equipment",
-        "Powder-coated steel, suitable for unheated rooms",
-        "Combination lock included"
+        "Plenty of room for a golf bag and a golf trolley",
+        "Fixed dimensions of 80 × 80 × 120 cm",
+        "Combination padlock included",
+        "Delivered flat-packed",
+        "Simple assembly",
+        "Two lockers can be stacked",
+        "Made from powder-coated steel",
+        "Can give the golf club a steady rental income"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Mål (B × D × H)", "en": "Size (W × D × H)" },
-        "value": { "no": "80 × 80 × 120 cm", "en": "80 × 80 × 120 cm" }
-      },
-      {
-        "label": { "no": "Rom per modul", "en": "Compartments per module" },
-        "value": { "no": "4 eller 6", "en": "4 or 6" }
-      },
-      {
-        "label": { "no": "Romåpning (B × H)", "en": "Compartment opening (W × H)" },
-        "value": { "no": "38 × 95 cm", "en": "38 × 95 cm" }
+        "label": { "no": "Utvendige mål", "en": "External dimensions" },
+        "value": { "no": "80 cm bredde × 80 cm dybde × 120 cm høyde", "en": "80 cm width × 80 cm depth × 120 cm height" }
       },
       {
         "label": { "no": "Materiale", "en": "Material" },
-        "value": { "no": "Pulverlakkert stål, 0,8 mm", "en": "Powder-coated steel, 0.8 mm" }
+        "value": { "no": "Pulverlakkert stål", "en": "Powder-coated steel" }
       },
       {
-        "label": { "no": "Ventilasjon", "en": "Ventilation" },
-        "value": { "no": "Perforert bakvegg og dør", "en": "Perforated back panel and door" }
+        "label": { "no": "Lås", "en": "Lock" },
+        "value": { "no": "Kodehengelås følger med", "en": "Combination padlock included" }
       },
       {
-        "label": { "no": "Farge", "en": "Colour" },
-        "value": { "no": "Mørk grå eller grønn", "en": "Dark grey or green" }
+        "label": { "no": "Levering", "en": "Delivery" },
+        "value": { "no": "Flatpakket", "en": "Flat-packed" }
       },
       {
-        "label": { "no": "Montering", "en": "Installation" },
-        "value": { "no": "Gulvstående, kan festes i vegg", "en": "Floor-standing, can be wall-anchored" }
+        "label": { "no": "Montering", "en": "Assembly" },
+        "value": { "no": "Enkel montering", "en": "Simple assembly" }
+      },
+      {
+        "label": { "no": "Plassering", "en": "Placement" },
+        "value": { "no": "Kan stå enkeltvis eller to skap i høyden", "en": "Can stand singly or two lockers stacked" }
+      },
+      {
+        "label": { "no": "Kapasitet", "en": "Capacity" },
+        "value": { "no": "God plass til golfbag og golftralle", "en": "Plenty of room for a golf bag and a golf trolley" }
       }
     ],
-    "variants": [
-      { "name": { "no": "4 rom per modul", "en": "4 compartments per module" } },
-      { "name": { "no": "6 rom per modul", "en": "6 compartments per module" } },
-      {
-        "name": { "no": "Kodelås", "en": "Combination lock" },
-        "note": { "no": "Slipper nøkkelhåndtering", "en": "Removes key handling" }
-      },
-      { "name": { "no": "Med navneskilt på dør", "en": "With name plate on the door" } }
-    ],
-    "datasheets": [{ "label": { "no": "Måltegning", "en": "Dimensional drawing" } }],
+    "variants": [],
+    "datasheets": [],
     "images": [
       {
         "src": "/bilder/produkter/bagskap.jpg",
         "fit": "cover",
-        "alt": { "no": "Bagskap med golfbag og tralle, med kodelås", "en": "Bag locker with a golf bag and trolley, with a combination lock" }
-      },
-      { "alt": { "no": "Åpent bagskap med golfbag", "en": "Open bag locker with a golf bag" } },
-      { "alt": { "no": "Detalj av lås og navneskilt", "en": "Detail of lock and name plate" } }
+        "alt": { "no": "Låsbart bagskap med plass til golfbag og golftralle.", "en": "Lockable bag locker with room for a golf bag and a golf trolley." }
+      }
     ]
   },
   {

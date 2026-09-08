@@ -6,6 +6,7 @@ import { CheckIcon, DownloadIcon } from "@/components/icons";
 import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primitives";
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
+import { BagskapShowcase } from "@/components/bagskap-showcase";
 import { GolfCarShowcase } from "@/components/golfcar-showcase";
 import { RangeballShowcase } from "@/components/rangeball-showcase";
 import { RangematteShowcase } from "@/components/rangematte-showcase";
@@ -64,6 +65,16 @@ export async function generateMetadata({
         en: "Durable, cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with a club logo from 10,000 balls.",
       },
     },
+    bagskap: {
+      title: {
+        no: "Bagskap for golfklubber og golfanlegg | Norsk Golfallianse",
+        en: "Bag lockers for golf clubs and golf facilities | Norsk Golfallianse",
+      },
+      description: {
+        no: "Romslig og låsbart bagskap med plass til golfbag og golftralle. Leveres flatpakket med kodehengelås og kan gi golfklubben faste leieinntekter.",
+        en: "A spacious, lockable bag locker with room for a golf bag and a golf trolley. Delivered flat-packed with a combination padlock and can give the golf club a steady rental income.",
+      },
+    },
   };
   const seoOverride = seoOverrides[slug] ?? null;
 
@@ -117,6 +128,7 @@ export default async function ProductPage({
   const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
   const isRangematte = product.slug === "rangematte";
   const isRangeball = product.slug === "rangeballer-gule";
+  const isBagskap = product.slug === "bagskap";
 
   return (
     <>
@@ -164,6 +176,13 @@ export default async function ProductPage({
         />
       ) : isRangeball ? (
         <RangeballShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isBagskap ? (
+        <BagskapShowcase
           product={product}
           category={category}
           locale={locale}
