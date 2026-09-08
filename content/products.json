@@ -491,97 +491,88 @@
     "order": 1,
     "featured": true,
     "audience": ["klubb"],
-    "name": { "no": "Automatisk ballplukker", "en": "Automated ball collector" },
+    "name": { "no": "Wayrobo WP1000 – autonom robotballplukker", "en": "Wayrobo WP1000 – autonomous ball-collecting robot" },
     "tagline": {
-      "no": "Selvgående robot som plukker rangen om natten og lader seg selv mellom øktene.",
-      "en": "A self-driving robot that clears the range at night and recharges itself between runs."
+      "no": "Automatiser ballplukkingen på drivingrangen. Wayrobo WP1000 arbeider selvstendig, finner områdene med flest baller og returnerer automatisk til tømmestasjonen når kurvene er fulle.",
+      "en": "Automate ball collection on the driving range. The Wayrobo WP1000 works on its own, finds the areas with the most balls and returns automatically to the emptying station when the baskets are full."
     },
     "description": {
       "no": [
-        "En robot som kjører rangen etter et område du tegner opp én gang, og som går tilbake til ladestasjonen når batteriet er lavt eller området er ferdig. I praksis betyr det at rangen er tom om morgenen uten at noen har brukt to timer på traktor.",
-        "Roboten navigerer med satellittposisjonering og har hindringsdeteksjon som stopper for personer og utstyr. Den kan settes til å kjøre bare i tidsrom der rangen er stengt, slik at den aldri er i veien for spillere.",
-        "Regnestykket er enkelt for de fleste klubber: plukkingen er en fast daglig kostnad i arbeidstimer, som roboten fjerner nesten helt. Vi hjelper gjerne til med å sette opp regnestykket for deres anlegg."
+        "Automatiser ballplukkingen på drivingrangen. Wayrobo WP1000 arbeider selvstendig, finner områdene med flest baller og returnerer automatisk til tømmestasjonen når kurvene er fulle."
       ],
       "en": [
-        "A robot that works the range within an area you map out once, and returns to its charging dock when the battery runs low or the area is finished. In practice it means the range is clear in the morning without anyone spending two hours on a tractor.",
-        "The robot navigates by satellite positioning and has obstacle detection that stops for people and equipment. It can be set to run only during hours when the range is closed, so it is never in the way of players.",
-        "The arithmetic is straightforward for most clubs: picking is a fixed daily cost in labour hours, and the robot removes nearly all of it. We are happy to help put the numbers together for your facility."
+        "Automate ball collection on the driving range. The Wayrobo WP1000 works on its own, finds the areas with the most balls and returns automatically to the emptying station when the baskets are full."
       ]
     },
     "highlights": {
       "no": [
-        "Kjører uten fører, også om natten",
-        "Går selv til lading og fortsetter der den slapp",
-        "Hindringsdeteksjon som stopper for personer",
-        "Området tegnes opp én gang i appen"
+        "Autonom ballplukking gjennom dagen og natten",
+        "4WD for krevende terreng, vått gress og hellinger",
+        "Kamera, LiDAR og RTK-GPS for presis navigasjon",
+        "AI-basert analyse som prioriterer områder med høy balltetthet",
+        "Automatisk retur til tømmestasjon når kurvene er fulle",
+        "No-go-soner kan enkelt defineres",
+        "Fjernstyring og administrasjon via app",
+        "Hindringsdeteksjon og automatisk nødbrems",
+        "Reduserer behovet for manuell ballplukking og frigjør arbeidstid"
       ],
       "en": [
-        "Operates without a driver, including at night",
-        "Docks to charge on its own and resumes where it stopped",
-        "Obstacle detection that stops for people",
-        "The working area is mapped once in the app"
+        "Autonomous ball collection through the day and night",
+        "4WD for demanding terrain, wet grass and slopes",
+        "Camera, LiDAR and RTK GPS for precise navigation",
+        "AI-based analysis that prioritises areas with high ball density",
+        "Automatic return to the emptying station when the baskets are full",
+        "No-go zones can be defined easily",
+        "Remote control and administration via app",
+        "Obstacle detection and automatic emergency braking",
+        "Reduces the need for manual ball collection and frees up working hours"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Kapasitet", "en": "Capacity" },
-        "value": { "no": "Inntil 4 000 baller per økt", "en": "Up to 4,000 balls per run" }
+        "label": { "no": "Kapasitet per tømmesyklus", "en": "Capacity per emptying cycle" },
+        "value": { "no": "Opptil 2 000 golfballer", "en": "Up to 2,000 golf balls" }
       },
       {
-        "label": { "no": "Arbeidsområde", "en": "Working area" },
-        "value": { "no": "Inntil 60 000 m²", "en": "Up to 60,000 m²" }
+        "label": { "no": "Dekningskapasitet", "en": "Coverage capacity" },
+        "value": { "no": "Opptil ca. 10 000 m² per time", "en": "Up to approx. 10,000 m² per hour" }
+      },
+      {
+        "label": { "no": "Driftstid", "en": "Operating time" },
+        "value": { "no": "Opptil 10 timer kontinuerlig drift", "en": "Up to 10 hours of continuous operation" }
       },
       {
         "label": { "no": "Navigasjon", "en": "Navigation" },
-        "value": { "no": "RTK-GPS med hindringsdeteksjon", "en": "RTK GPS with obstacle detection" }
+        "value": { "no": "RTK-GPS, 360° LiDAR og 180° kamera", "en": "RTK GPS, 360° LiDAR and 180° camera" }
       },
       {
-        "label": { "no": "Batteri", "en": "Battery" },
-        "value": { "no": "Litium, 5 timers drift", "en": "Lithium, 5 hours of operation" }
+        "label": { "no": "Drift", "en": "Drivetrain" },
+        "value": { "no": "4WD", "en": "4WD" }
       },
       {
-        "label": { "no": "Lading", "en": "Charging" },
-        "value": { "no": "Automatisk dokking, 3 timer", "en": "Automatic docking, 3 hours" }
-      },
-      {
-        "label": { "no": "Mål (L × B × H)", "en": "Dimensions (L × W × H)" },
-        "value": { "no": "132 × 88 × 74 cm", "en": "132 × 88 × 74 cm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "96 kg", "en": "96 kg" }
-      },
-      {
-        "label": { "no": "Styring", "en": "Control" },
-        "value": { "no": "App for iOS og Android", "en": "App for iOS and Android" }
+        "label": { "no": "Maksimal stigning", "en": "Maximum incline" },
+        "value": { "no": "Opptil 15°", "en": "Up to 15°" }
       },
       {
         "label": { "no": "Beskyttelse", "en": "Protection rating" },
-        "value": { "no": "IP54, tåler regn", "en": "IP54, rain tolerant" }
-      }
-    ],
-    "variants": [
-      {
-        "name": { "no": "Standard", "en": "Standard" },
-        "note": { "no": "Robot, ladestasjon og app", "en": "Robot, charging dock and app" }
+        "value": { "no": "IPX6", "en": "IPX6" }
       },
       {
-        "name": { "no": "Med ekstra ballkurv", "en": "With additional ball hopper" },
-        "note": { "no": "Færre tømminger per natt", "en": "Fewer emptying stops per night" }
+        "label": { "no": "Tømming", "en": "Emptying" },
+        "value": { "no": "Automatisk retur til tømmestasjon", "en": "Automatic return to the emptying station" }
       },
       {
-        "name": { "no": "Med RTK-basestasjon", "en": "With RTK base station" },
-        "note": { "no": "Anbefales på anlegg med dårlig satellittdekning", "en": "Recommended where satellite coverage is poor" }
+        "label": { "no": "Styring", "en": "Control" },
+        "value": { "no": "App og fjernkontroll", "en": "App and remote control" }
       }
     ],
-    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "variants": [],
+    "datasheets": [],
     "images": [
       {
         "src": "/bilder/produkter/ballplukker.png",
-        "alt": { "no": "Wayrobo automatisk ballplukker sett fra siden", "en": "Wayrobo automated ball collector seen from the side" }
-      },
-      { "alt": { "no": "Ballplukker i ladestasjon", "en": "Ball collector in its charging dock" } },
-      { "alt": { "no": "Appen som viser oppsatt arbeidsområde", "en": "The app showing the mapped working area" } }
+        "alt": { "no": "Wayrobo WP1000 robotballplukker på Meland Golfklubb", "en": "Wayrobo WP1000 ball-collecting robot at Meland Golfklubb" }
+      }
     ]
   },
   {
