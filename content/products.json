@@ -1,103 +1,85 @@
 [
   {
-    "slug": "elektrisk-golfbil",
+    "slug": "elektriske-golfbiler-og-nyttekjoretoy",
     "category": "golfbiler",
     "order": 1,
     "featured": true,
     "audience": ["klubb"],
-    "name": { "no": "Elektrisk golfbil", "en": "Electric golf car" },
+    "name": { "no": "Elektriske golfbiler og nyttekjøretøy", "en": "Electric golf cars and utility vehicles" },
     "tagline": {
-      "no": "Litiumdrevet golfbil i to- og firesetersutgave, bygget for utleie og daglig drift.",
-      "en": "Lithium-powered golf car in two- and four-seat versions, built for rental and daily operation."
+      "no": "Import av elektriske golfbiler og nyttekjøretøy fra BorCart til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
+      "en": "Import of electric golf cars and utility vehicles from BorCart for golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia."
     },
     "description": {
       "no": [
-        "En robust elektrisk golfbil beregnet på klubber som leier ut til spillere og samtidig trenger transport for banemannskapet. Litiumbatteriet gir full runde på én lading og lades opp igjen fra vanlig stikkontakt over natten.",
-        "Karosseriet er i slagfast plast som ikke ruster, og understellet er galvanisert. Det betyr mindre vedlikehold gjennom en norsk sesong med fukt, salt og temperaturskifter. Vi holder deler på lager i Norge, slik at en bil ikke blir stående gjennom høysesongen i påvente av en leveranse fra Asia."
+        "Vi tilbyr import av elektriske golfbiler og nyttekjøretøy fra BorCart til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
+        "Velg mellom en prisgunstig basicmodell, en fullt utstyrt premiummodell, passasjerbiler med seks eller åtte seter, buggybar og praktiske arbeidsbiler. Bilene kan tilpasses med ønsket farge, utstyr og egen logo."
       ],
       "en": [
-        "A rugged electric golf car intended for clubs that rent to players while also needing transport for the greenkeeping team. The lithium battery covers a full round on one charge and recharges overnight from a standard socket.",
-        "The body is impact-resistant plastic that will not rust, and the chassis is galvanised. That means less maintenance through a Norwegian season of damp, salt and shifting temperatures. We keep parts in stock in Norway, so a car does not sit idle through peak season waiting for a shipment from Asia."
+        "We offer import of electric golf cars and utility vehicles from BorCart for golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia.",
+        "Choose between an affordable basic model, a fully equipped premium model, passenger cars with six or eight seats, a buggy bar and practical utility vehicles. The cars can be customised with your preferred colour, equipment and own logo."
       ]
     },
     "highlights": {
       "no": [
-        "Litiumbatteri med full runde på én lading",
-        "Lades fra vanlig 230 V stikkontakt",
-        "Rustfritt karosseri og galvanisert understell",
-        "Reservedeler på lager i Norge"
+        "Alle biler leveres CE-sertifisert",
+        "Kraftige litiumbatterier med kapasitet på opptil 125 Ah",
+        "Modeller med 2, 6 eller 8 seter",
+        "Basic- og premiummodell for golfbanen",
+        "Buggybar for servering på banen",
+        "Arbeidsbiler med lasteplan",
+        "Mulighet for fargevalg, utstyr og egen logo",
+        "Import og levering i Norge og øvrige skandinaviske land"
       ],
       "en": [
-        "Lithium battery covering a full round on one charge",
-        "Charges from a standard 230 V socket",
-        "Rust-free body and galvanised chassis",
-        "Spare parts stocked in Norway"
+        "All cars delivered CE certified",
+        "Powerful lithium batteries with a capacity of up to 125 Ah",
+        "Models with 2, 6 or 8 seats",
+        "Basic and premium model for the golf course",
+        "Buggy bar for on-course service",
+        "Utility vehicles with a cargo bed",
+        "Option of colour choice, equipment and own logo",
+        "Import and delivery in Norway and the other Scandinavian countries"
       ]
     },
     "specs": [
       {
-        "label": { "no": "Seter", "en": "Seats" },
-        "value": { "no": "2 eller 4 (2+2)", "en": "2 or 4 (2+2)" }
-      },
-      {
-        "label": { "no": "Motor", "en": "Motor" },
-        "value": { "no": "AC, 3,0 kW", "en": "AC, 3.0 kW" }
+        "label": { "no": "Antall seter", "en": "Number of seats" },
+        "value": { "no": "2, 6 eller 8", "en": "2, 6 or 8" }
       },
       {
         "label": { "no": "Batteri", "en": "Battery" },
-        "value": { "no": "Litium 48 V / 105 Ah", "en": "Lithium 48 V / 105 Ah" }
+        "value": { "no": "Litium, opptil 125 Ah", "en": "Lithium, up to 125 Ah" }
       },
       {
-        "label": { "no": "Rekkevidde", "en": "Range" },
-        "value": { "no": "Inntil 60 km per lading", "en": "Up to 60 km per charge" }
+        "label": { "no": "Lading", "en": "Charging" },
+        "value": { "no": "Tilpasset lader", "en": "Matched charger" }
       },
       {
-        "label": { "no": "Ladetid", "en": "Charging time" },
-        "value": { "no": "5–6 timer fra tomt", "en": "5–6 hours from empty" }
+        "label": { "no": "Arbeidsbiler", "en": "Utility vehicles" },
+        "value": { "no": "Lastekapasitet opptil 300 eller 500 kg", "en": "Load capacity up to 300 or 500 kg" }
       },
       {
-        "label": { "no": "Toppfart", "en": "Top speed" },
-        "value": { "no": "24 km/t, kan sperres ned", "en": "24 km/h, can be limited" }
+        "label": { "no": "Farger", "en": "Colours" },
+        "value": { "no": "Flere standardfarger og tilpasningsmuligheter", "en": "Several standard colours and customisation options" }
       },
       {
-        "label": { "no": "Mål (L × B × H)", "en": "Dimensions (L × W × H)" },
-        "value": { "no": "240 × 122 × 180 cm", "en": "240 × 122 × 180 cm" }
+        "label": { "no": "Profilering", "en": "Branding" },
+        "value": { "no": "Logo og kundetilpasset design", "en": "Logo and customer-tailored design" }
       },
       {
-        "label": { "no": "Egenvekt", "en": "Kerb weight" },
-        "value": { "no": "420 kg uten batteri", "en": "420 kg excluding battery" }
+        "label": { "no": "Sertifisering", "en": "Certification" },
+        "value": { "no": "Alle biler leveres CE-sertifisert", "en": "All cars delivered CE certified" }
       },
       {
-        "label": { "no": "Nyttelast", "en": "Payload" },
-        "value": { "no": "340 kg", "en": "340 kg" }
-      },
-      {
-        "label": { "no": "Garanti", "en": "Warranty" },
-        "value": { "no": "2 år på bil, 3 år på batteri", "en": "2 years on the car, 3 years on the battery" }
+        "label": { "no": "Utstyr", "en": "Equipment" },
+        "value": { "no": "Tilpasses modell og bruksområde", "en": "Adapted to model and use" }
       }
     ],
-    "variants": [
-      {
-        "name": { "no": "2-seter", "en": "2-seater" },
-        "note": { "no": "Med bagholder bak", "en": "With rear bag rack" }
-      },
-      {
-        "name": { "no": "4-seter (2+2)", "en": "4-seater (2+2)" },
-        "note": { "no": "Bakseter kan felles ned til lasteplan", "en": "Rear seats fold down into a cargo bed" }
-      },
-      {
-        "name": { "no": "Med frontrute og tak", "en": "With windscreen and roof" }
-      },
-      {
-        "name": { "no": "Nyttekjøretøy med lasteplan", "en": "Utility version with cargo bed" },
-        "note": { "no": "For banemannskap", "en": "For greenkeeping staff" }
-      }
-    ],
-    "datasheets": [{ "label": { "no": "Teknisk datablad", "en": "Technical data sheet" } }],
+    "variants": [],
+    "datasheets": [],
     "images": [
-      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektrisk golfbil sett fra siden", "en": "Electric golf car seen from the side" } },
-      { "alt": { "no": "Førerplass og instrumenter", "en": "Driver's seat and instruments" } },
-      { "alt": { "no": "Golfbil i bruk på bane", "en": "Golf car in use on the course" } }
+      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektriske golfbiler og nyttekjøretøy fra BorCart", "en": "Electric golf cars and utility vehicles from BorCart" } }
     ]
   },
   {
