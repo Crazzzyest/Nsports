@@ -39,6 +39,112 @@
       "en": "NSports imports golf cars, range equipment, robotics and branded merchandise for Norwegian golf clubs and pro shops. We work with few suppliers and stand behind them over time, so a club can reorder the same thing three years from now."
     }
   },
+  "home": {
+    "hero": {
+      "eyebrow": { "no": "Norsk Golfallianse AS", "en": "Norsk Golfallianse AS" },
+      "title": { "no": "Sammen kjøper vi smartere", "en": "Buying smarter, together" },
+      "body": {
+        "no": "NSports gir golfklubber direkte tilgang til nøye utvalgte produkter, færre mellomledd og bedre innkjøpsmuligheter.",
+        "en": "NSports gives golf clubs direct access to carefully selected products, fewer intermediaries and better purchasing opportunities."
+      },
+      "primaryCta": { "no": "Se våre produkter", "en": "See our products" },
+      "secondaryCta": { "no": "Kontakt oss", "en": "Contact us" },
+      "image": "/bilder/forside/hero-golfanlegg.png",
+      "imageAlt": {
+        "no": "Moderne nordisk golfanlegg med driving range, golfbiler og grønne fairwayer.",
+        "en": "Modern Nordic golf facility with a driving range, golf cars and green fairways."
+      }
+    },
+    "benefits": [
+      {
+        "icon": "truck",
+        "title": { "no": "Direkte fra produsent", "en": "Direct from the manufacturer" },
+        "body": {
+          "no": "Vi samarbeider direkte med produsenter og velger riktige produkter og spesifikasjoner for det nordiske markedet.",
+          "en": "We work directly with manufacturers and choose the right products and specifications for the Nordic market."
+        }
+      },
+      {
+        "icon": "cart",
+        "title": { "no": "Felles innkjøpskraft", "en": "Shared purchasing power" },
+        "body": {
+          "no": "Ved å samordne behov og bestillinger kan golfklubbene oppnå bedre priser og mer effektiv frakt.",
+          "en": "By coordinating needs and orders, golf clubs can achieve better prices and more efficient shipping."
+        }
+      },
+      {
+        "icon": "target",
+        "title": { "no": "Testet i golfdrift", "en": "Tested in golf operations" },
+        "body": {
+          "no": "Produktene vurderes med utgangspunkt i praktisk bruk på golfklubber og golfanlegg.",
+          "en": "Products are assessed on the basis of practical use at golf clubs and facilities."
+        }
+      },
+      {
+        "icon": "shield",
+        "title": { "no": "Trygg oppfølging", "en": "Reliable follow-up" },
+        "body": {
+          "no": "Vi følger produktene fra bestilling til levering og arbeider for tilgang på reservedeler og tilbehør.",
+          "en": "We follow the products from order to delivery and work to secure access to spare parts and accessories."
+        }
+      }
+    ],
+    "alliance": {
+      "heading": {
+        "no": "Utviklet fra golfklubbens ståsted",
+        "en": "Built from the golf club's point of view"
+      },
+      "body": {
+        "no": [
+          "Norsk Golfallianse ble etablert for å gi golfklubbene bedre innkjøpsmuligheter. Mange klubber trenger de samme produktene, men kjøper hver for seg og i små kvanta.",
+          "Ved å samle behov, kjøpe direkte fra produsenter og samordne frakt kan vi redusere unødvendige mellomledd. Det gir bedre betingelser, også for klubben som trenger to golfbiler og ikke tjue.",
+          "NSports kombinerer produsentkontakt og importkompetanse med praktisk erfaring fra daglig drift av golfklubb."
+        ],
+        "en": [
+          "Norsk Golfallianse was established to give golf clubs better purchasing opportunities. Many clubs need the same products but buy separately and in small quantities.",
+          "By pooling needs, buying directly from manufacturers and coordinating shipping, we can reduce unnecessary intermediaries. That gives better terms — also for the club that needs two golf cars, not twenty.",
+          "NSports combines manufacturer contact and import expertise with practical experience from the daily operation of a golf club."
+        ]
+      },
+      "cta": { "no": "Les mer om NSports", "en": "Read more about NSports" },
+      "image": "/bilder/forside/allianse-golfklubb.png",
+      "imageAlt": {
+        "no": "Rekke med elektriske golfbiler oppstilt ved et nordisk klubbhus.",
+        "en": "A row of electric golf cars lined up beside a Nordic clubhouse."
+      }
+    },
+    "project": {
+      "heading": {
+        "no": "Har klubben et prosjekt på gang?",
+        "en": "Does the club have a project in the pipeline?"
+      },
+      "body": {
+        "no": [
+          "Vi kan undersøke produkter og løsninger gjennom vårt produsentnettverk, også utover sortimentet som vises på nettsiden.",
+          "Ta kontakt dersom klubben planlegger nytt treningsområde, kunstgress, minigolfanlegg, driving range, sikkerhetsnett, golfbiler, arbeidsbiler, banemaskiner eller andre investeringer.",
+          "Ved å komme tidlig inn i prosessen kan vi undersøke alternativer og se om bestillingen kan samordnes med behovene til andre klubber."
+        ],
+        "en": [
+          "We can investigate products and solutions through our manufacturer network, also beyond the range shown on the website.",
+          "Get in touch if the club is planning a new practice area, artificial turf, a minigolf facility, a driving range, safety netting, golf cars, utility vehicles, course machinery or other investments.",
+          "By coming in early in the process, we can explore alternatives and see whether the order can be coordinated with the needs of other clubs."
+        ]
+      },
+      "cta": { "no": "Fortell oss om prosjektet", "en": "Tell us about the project" }
+    },
+    "finalCta": {
+      "heading": {
+        "no": "Bedre innkjøp starter med en god dialog",
+        "en": "Better purchasing starts with a good conversation"
+      },
+      "body": {
+        "no": "Fortell oss hva klubben trenger. Vi undersøker produkter, løsninger og muligheten for samordnet bestilling.",
+        "en": "Tell us what the club needs. We look into products, solutions and the possibility of a coordinated order."
+      },
+      "primaryCta": { "no": "Se produktene", "en": "See the products" },
+      "secondaryCta": { "no": "Be om tilbud", "en": "Request a quote" }
+    }
+  },
   "valueProps": [
     {
       "icon": "truck",

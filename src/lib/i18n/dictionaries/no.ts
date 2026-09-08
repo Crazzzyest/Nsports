@@ -25,6 +25,7 @@ const no = {
     seeProduct: "Se produkt",
     seeAllProducts: "Se alle produkter",
     seeCategory: "Se kategorien",
+    seeProducts: "Se produkter",
     downloadDatasheet: "Last ned produktark",
     requestDatasheet: "Be om produktark",
     backToProducts: "Tilbake til produkter",
