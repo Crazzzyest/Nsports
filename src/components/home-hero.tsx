@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { ButtonLink, Container, Eyebrow } from "@/components/layout-primitives";
 import { ProductMedia } from "@/components/product-media";
 import type { Category, Product, SiteContent } from "@/lib/content/types";
@@ -55,13 +57,13 @@ export function HomeHero({
           </div>
 
           {lead ? (
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <ShowcaseTile
                 entry={lead}
                 locale={locale}
                 dict={dict}
                 priority
-                className="col-span-2 aspect-16/10"
+                className="aspect-16/10 sm:col-span-2"
                 sizes="(max-width: 1024px) 92vw, 45vw"
               />
               {rest.slice(0, 2).map((entry) => (
@@ -71,7 +73,7 @@ export function HomeHero({
                   locale={locale}
                   dict={dict}
                   className="aspect-4/3"
-                  sizes="(max-width: 1024px) 45vw, 22vw"
+                  sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 22vw"
                 />
               ))}
             </div>
@@ -100,8 +102,9 @@ function ShowcaseTile({
   const { product, category } = entry;
 
   return (
-    <div
-      className={`flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper ${className}`}
+    <Link
+      href={routes.product(locale, product.slug)}
+      className={`group flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper transition-shadow hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine ${className}`}
     >
       <div className="relative flex-1">
         <ProductMedia
@@ -113,9 +116,9 @@ function ShowcaseTile({
           missingLabel={dict.product.imageMissing}
         />
       </div>
-      <span className="truncate border-t border-line px-3 py-2 text-xs font-medium text-ink">
+      <span className="truncate border-t border-line px-3 py-2 text-xs font-medium text-ink group-hover:text-pine">
         {pick(product.name, locale)}
       </span>
-    </div>
+    </Link>
   );
 }
