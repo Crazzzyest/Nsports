@@ -766,8 +766,8 @@
     "datasheets": [],
     "images": [
       {
-        "src": "/bilder/produkter/viktor-tour-x.png",
-        "fit": "contain",
+  "src": "/bilder/produkter/viktor-tour-x.png",
+  "fit": "cover",
         "alt": { "no": "Viktor Tour X pakning med to hvite Viktor Tour X golfballer på en golfbane ved sjøen.", "en": "Viktor Tour X sleeve with two white Viktor Tour X golf balls on a golf course by the sea." }
       }
     ]
