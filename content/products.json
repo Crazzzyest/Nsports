@@ -143,7 +143,7 @@
   {
     "slug": "paraply",
     "category": "golfutstyr-og-proshop",
-    "order": 5,
+    "order": 6,
     "featured": false,
     "audience": ["klubb"],
     "name": { "no": "TourParaply", "en": "TourParaply" },
@@ -595,6 +595,70 @@
     ]
   },
   {
+    "slug": "rangeball",
+    "category": "golfutstyr-og-proshop",
+    "order": 3,
+    "featured": false,
+    "audience": ["klubb"],
+    "name": { "no": "Rangeball", "en": "Range ball" },
+    "tagline": {
+      "no": "Slitesterk 2-dels rangeball utviklet for høy belastning og daglig bruk på driving range.",
+      "en": "A durable two-piece range ball developed for heavy use and daily play on the driving range."
+    },
+    "description": {
+      "no": [
+        "Rangeballen er utviklet for golfklubber og anlegg med høy aktivitet og behov for en stabil og slitesterk ball gjennom hele sesongen.",
+        "Den 2-delte konstruksjonen kombinerer en solid kjerne med et slitesterkt ionomer-cover. Ballen er laget for å tåle gjentatt bruk og levere en jevn og forutsigbar ballflukt på driving rangen.",
+        "Med 352 dimples og kompresjon på 90 får ballen en fast og stabil respons som gjør den godt egnet til både trening, undervisning og generell rangebruk."
+      ],
+      "en": [
+        "The range ball is developed for golf clubs and facilities with high activity and a need for a stable, durable ball throughout the season.",
+        "The two-piece construction combines a solid core with a durable ionomer cover. The ball is built to withstand repeated use and deliver a consistent, predictable ball flight on the driving range.",
+        "With 352 dimples and a compression of 90, the ball has a firm and stable response that makes it well suited to practice, coaching and general range use."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "2-dels konstruksjon",
+        "352 dimples",
+        "Kompresjon 90",
+        "Slitesterkt ionomer-cover",
+        "Utviklet for høy belastning og mange slag",
+        "Kan leveres med klubb- eller sponsorlogo",
+        "Mulighet for profilering i opptil 5 farger"
+      ],
+      "en": [
+        "Two-piece construction",
+        "352 dimples",
+        "Compression 90",
+        "Durable ionomer cover",
+        "Developed for heavy use and many shots",
+        "Available with a club or sponsor logo",
+        "Branding in up to 5 colours"
+      ]
+    },
+    "specs": [
+      { "label": { "no": "Konstruksjon", "en": "Construction" }, "value": { "no": "2-dels", "en": "Two-piece" } },
+      { "label": { "no": "Dimples", "en": "Dimples" }, "value": { "no": "352", "en": "352" } },
+      { "label": { "no": "Kompresjon", "en": "Compression" }, "value": { "no": "90", "en": "90" } },
+      { "label": { "no": "Diameter", "en": "Diameter" }, "value": { "no": "42,7 ± 0,1 mm", "en": "42.7 ± 0.1 mm" } },
+      { "label": { "no": "Vekt", "en": "Weight" }, "value": { "no": "45,7 ± 0,1 g", "en": "45.7 ± 0.1 g" } },
+      { "label": { "no": "Elastisitet", "en": "Resilience" }, "value": { "no": "ca. 75 %", "en": "approx. 75%" } },
+      { "label": { "no": "Kjerne", "en": "Core" }, "value": { "no": "Syntetisk gummi", "en": "Synthetic rubber" } },
+      { "label": { "no": "Cover", "en": "Cover" }, "value": { "no": "Slitesterkt ionomermateriale", "en": "Durable ionomer material" } },
+      { "label": { "no": "Farger", "en": "Colours" }, "value": { "no": "Hvit og gul", "en": "White and yellow" } }
+    ],
+    "variants": [],
+    "datasheets": [],
+    "images": [
+      {
+        "src": "/bilder/produkter/rangeball.png",
+        "fit": "cover",
+        "alt": { "no": "Slitesterke rangeballer i hvitt og gult med siktelinjer og logoalternativer for golfklubber", "en": "Durable white and yellow range balls with alignment lines and logo options for golf clubs" }
+      }
+    ]
+  },
+  {
     "slug": "viktor-tour",
     "category": "golfutstyr-og-proshop",
     "order": 1,
@@ -775,7 +839,7 @@
   {
     "slug": "pegger",
     "category": "golfutstyr-og-proshop",
-    "order": 3,
+    "order": 4,
     "featured": false,
     "audience": ["proshop", "privat", "klubb"],
     "name": { "no": "Pegger", "en": "Wooden tees" },
@@ -856,7 +920,7 @@
   {
     "slug": "golfsko",
     "category": "golfutstyr-og-proshop",
-    "order": 4,
+    "order": 5,
     "featured": false,
     "audience": ["proshop", "privat"],
     "name": { "no": "Golfsko med BOA-snøring", "en": "Golf shoes with BOA lacing" },

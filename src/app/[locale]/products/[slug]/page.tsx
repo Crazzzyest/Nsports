@@ -11,6 +11,7 @@ import { GolfCarShowcase } from "@/components/golfcar-showcase";
 import { GolfskoShowcase } from "@/components/golfsko-showcase";
 import { PeggerShowcase } from "@/components/pegger-showcase";
 import { RangeballShowcase } from "@/components/rangeball-showcase";
+import { RangeballProShowcase } from "@/components/rangeball-pro-showcase";
 import { RangematteShowcase } from "@/components/rangematte-showcase";
 import { RoberaProShowcase } from "@/components/robera-pro-showcase";
 import { ViktorShowcase } from "@/components/viktor-showcase";
@@ -66,6 +67,16 @@ export async function generateMetadata({
       description: {
         no: "Slitesterke og prisgunstige tolags rangeballer for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig med klubblogo fra 10 000 baller.",
         en: "Durable, cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with a club logo from 10,000 balls.",
+      },
+    },
+    rangeball: {
+      title: {
+        no: "Rangeball – slitesterk 2-dels rangeball for golfklubber | Norsk Golfallianse",
+        en: "Range ball – durable two-piece range ball for golf clubs | Norsk Golfallianse",
+      },
+      description: {
+        no: "Slitesterk 2-dels rangeball for høy belastning og daglig bruk på driving range. 352 dimples, kompresjon 90 og mulighet for klubb- eller sponsorlogo i opptil 5 farger.",
+        en: "A durable two-piece range ball for heavy use and daily play on the driving range. 352 dimples, compression 90 and the option of a club or sponsor logo in up to 5 colours.",
       },
     },
     "viktor-tour": {
@@ -171,6 +182,7 @@ export default async function ProductPage({
   const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
   const isRangematte = product.slug === "rangematte";
   const isRangeball = product.slug === "rangeballer-gule";
+  const isRangeballPro = product.slug === "rangeball";
   const isBagskap = product.slug === "bagskap";
   const isPegger = product.slug === "pegger";
   const isViktor = product.slug === "viktor-tour" || product.slug === "viktor-tour-x";
@@ -222,6 +234,13 @@ export default async function ProductPage({
         />
       ) : isRangeball ? (
         <RangeballShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isRangeballPro ? (
+        <RangeballProShowcase
           product={product}
           category={category}
           locale={locale}
