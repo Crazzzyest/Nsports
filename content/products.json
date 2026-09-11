@@ -143,7 +143,7 @@
   {
     "slug": "paraply",
     "category": "golfutstyr-og-proshop",
-    "order": 4,
+    "order": 6,
     "featured": false,
     "audience": ["klubb"],
     "name": { "no": "TourParaply", "en": "TourParaply" },
@@ -595,88 +595,276 @@
     ]
   },
   {
-    "slug": "premium-golfball",
+    "slug": "rangeball",
     "category": "golfutstyr-og-proshop",
     "order": 1,
     "featured": false,
-    "audience": ["proshop", "privat"],
-    "name": { "no": "Premium golfball", "en": "Premium golf ball" },
+    "audience": ["klubb"],
+    "name": { "no": "Rangeball", "en": "Range ball" },
     "tagline": {
-      "no": "Kvalitetsballer i tre- og firelags konstruksjon, utviklet for golfklubber som ønsker et attraktivt alternativ til de etablerte premiumballene og samtidig bedre fortjenestemulighet i proshop.",
-      "en": "Quality balls in three- and four-piece construction, developed for golf clubs that want an attractive alternative to the established premium balls while gaining a better margin opportunity in the pro shop."
+      "no": "Slitesterk 2-dels rangeball utviklet for høy belastning og daglig bruk på driving range.",
+      "en": "Durable two-piece range ball built for heavy load and daily use on the driving range."
     },
     "description": {
       "no": [
-        "Premiumsegmentet for golfballer domineres av noen få store merkevarer. For golfklubben kan utfordringen være at høy innkjøpspris gir begrenset fortjeneste, samtidig som sluttprisen til medlemmet blir høy.",
-        "Våre golfballer er tatt inn som et alternativ for klubber som ønsker å kombinere god kvalitet med en mer attraktiv kalkyle.",
-        "Ballene er allerede testet og solgt gjennom proshopen hos Meland Golfklubb, hvor vi har fått gode tilbakemeldinger fra spillerne.",
-        "Målet er enkelt: Golfspilleren skal få en god ball til en hyggelig pris, samtidig som klubben sitter igjen med en bedre margin på salget.",
-        "Dette gjør ballene spesielt interessante som fast salgsvare i proshop, og potensielt også til turneringer, premier og profilering med klubbens egen logo."
+        "Rangeball er en slitesterk tolagsball utviklet for den harde belastningen på en driving range. Konstruksjonen er laget for mer enn 800 slag og beholder form, ballflukt og følelse gjennom lange treningsøkter.",
+        "Ballen har en kjerne i syntetisk gummi og et slitesterkt ionomer-cover som gir stabil ballflukt og lang levetid. Det gjør den til et driftssikkert og prisgunstig valg for golfklubber og anlegg.",
+        "Rangeballen kan leveres med klubb- eller sponsorlogo, slik at driving rangen får et helhetlig og profesjonelt uttrykk."
       ],
       "en": [
-        "The premium segment for golf balls is dominated by a few large brands. For the golf club, the challenge can be that a high purchase price gives limited profit, while the end price to the member becomes high.",
-        "Our golf balls have been brought in as an alternative for clubs that want to combine good quality with a more attractive calculation.",
-        "The balls have already been tested and sold through the pro shop at Meland Golfklubb, where we have received good feedback from the players.",
-        "The goal is simple: the golfer should get a good ball at a pleasant price, while the club is left with a better margin on the sale.",
-        "This makes the balls especially interesting as a regular retail line in the pro shop, and potentially also for tournaments, prizes and branding with the club's own logo."
+        "Range ball is a durable two-piece ball developed for the heavy load on a driving range. The construction is built for more than 800 shots and keeps its shape, ball flight and feel through long practice sessions.",
+        "The ball has a synthetic rubber core and a durable ionomer cover that gives stable ball flight and a long service life. That makes it a reliable and cost-effective choice for golf clubs and facilities.",
+        "The range ball can be supplied with a club or sponsor logo, giving the driving range a cohesive and professional look."
       ]
     },
     "highlights": {
       "no": [
-        "Tre- og firelags konstruksjon",
-        "God følelse og kontroll i nærspillet",
-        "Attraktiv utsalgspris for golferen",
-        "Bedre fortjenestemulighet for proshopen",
-        "Leveres i esker à 12 baller",
-        "Mulighet for klubblogo ved større bestillinger"
+        "2-dels konstruksjon",
+        "Kjerne i syntetisk gummi",
+        "Slitesterkt ionomer-cover",
+        "352 dimples for stabil ballflukt",
+        "Utviklet for mer enn 800 slag",
+        "Kan leveres med klubb- eller sponsorlogo",
+        "Logo i opptil 5 farger og 4 posisjoner",
+        "Minimumsbestilling 6 000 baller"
       ],
       "en": [
-        "Three- and four-piece construction",
-        "Good feel and control in the short game",
-        "Attractive retail price for the golfer",
-        "Better margin opportunity for the pro shop",
-        "Supplied in boxes of 12 balls",
-        "Option of a club logo on larger orders"
+        "Two-piece construction",
+        "Synthetic rubber core",
+        "Durable ionomer cover",
+        "352 dimples for stable ball flight",
+        "Built for more than 800 shots",
+        "Can be supplied with a club or sponsor logo",
+        "Logo in up to 5 colours and 4 positions",
+        "Minimum order 6,000 balls"
       ]
     },
     "specs": [
       {
         "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "Tre- og firelags", "en": "Three- and four-piece" }
+        "value": { "no": "2-dels", "en": "Two-piece" }
       },
       {
-        "label": { "no": "Farger", "en": "Colours" },
-        "value": { "no": "Hvit og matt gul", "en": "White and matte yellow" }
+        "label": { "no": "Dimples", "en": "Dimples" },
+        "value": { "no": "352", "en": "352" }
       },
       {
-        "label": { "no": "Salgsenhet", "en": "Retail unit" },
-        "value": { "no": "Eske à 12 baller", "en": "Box of 12 balls" }
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "90", "en": "90" }
       },
       {
-        "label": { "no": "Kartong", "en": "Case" },
-        "value": { "no": "24 esker", "en": "24 boxes" }
+        "label": { "no": "Diameter", "en": "Diameter" },
+        "value": { "no": "42,7 ± 0,1 mm", "en": "42.7 ± 0.1 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,7 ± 0,1 g", "en": "45.7 ± 0.1 g" }
+      },
+      {
+        "label": { "no": "Elastisitet", "en": "Resilience" },
+        "value": { "no": "ca. 75 %", "en": "approx. 75%" }
+      },
+      {
+        "label": { "no": "Kjerne", "en": "Core" },
+        "value": { "no": "Syntetisk gummi", "en": "Synthetic rubber" }
+      },
+      {
+        "label": { "no": "Cover", "en": "Cover" },
+        "value": { "no": "Ionomer", "en": "Ionomer" }
       }
     ],
-    "variants": [
-      { "name": { "no": "Hvit", "en": "White" } },
-      { "name": { "no": "Matt gul", "en": "Matte yellow" } },
-      { "name": { "no": "Tre-lags modell", "en": "Three-piece model" } },
-      { "name": { "no": "Fire-lags modell", "en": "Four-piece model" } },
-      { "name": { "no": "Mulighet for klubblogo", "en": "Option of a club logo" } }
-    ],
+    "variants": [],
     "datasheets": [],
     "images": [
       {
-        "src": "/bilder/produkter/premium-golfball.jpg",
+        "src": "/bilder/produkter/rangeballer-gule.jpg",
         "fit": "cover",
-        "alt": { "no": "Premium golfball i tre- og firelags konstruksjon for salg i proshop.", "en": "Premium golf ball in three- and four-piece construction for pro shop sale." }
+        "alt": { "no": "Slitesterke rangeballer for daglig bruk på driving range.", "en": "Durable range balls for daily use on the driving range." }
+      }
+    ]
+  },
+  {
+    "slug": "viktor-tour",
+    "category": "golfutstyr-og-proshop",
+    "order": 2,
+    "featured": false,
+    "audience": ["proshop", "privat"],
+    "name": { "no": "Viktor Tour", "en": "Viktor Tour" },
+    "tagline": {
+      "no": "Premium 3-dels urethanball utviklet for golfere som ønsker høy ballhastighet kombinert med myk følelse, spinn og kontroll rundt greenene.",
+      "en": "Premium three-piece urethane ball developed for golfers who want high ball speed combined with soft feel, spin and control around the greens."
+    },
+    "description": {
+      "no": [
+        "Viktor Tour er utviklet for spilleren som ønsker en premiumball med en mykere respons fra køllebladet. Den 3-delte konstruksjonen kombinerer høy ballhastighet fra tee med god spinn og kontroll på innspill og i nærspillet.",
+        "Det premium urethan-coveret gir godt grep mot jern og wedger, slik at ballen stopper kontrollert på green. Resultatet er en ball som kombinerer avstand fra tee med feel og kontroll der slagene avgjøres."
+      ],
+      "en": [
+        "Viktor Tour is developed for the player who wants a premium ball with a softer response off the club face. The three-piece construction combines high ball speed from the tee with good spin and control on approach shots and in the short game.",
+        "The premium urethane cover grips well against irons and wedges, so the ball stops in a controlled way on the green. The result is a ball that combines distance from the tee with feel and control where shots are decided."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "3-dels konstruksjon",
+        "Premium urethan-cover",
+        "332 dimples",
+        "Kompresjon 88",
+        "Mykere følelse og høy ballhastighet",
+        "God spinnkontroll med jern og wedger"
+      ],
+      "en": [
+        "Three-piece construction",
+        "Premium urethane cover",
+        "332 dimples",
+        "Compression 88",
+        "Softer feel and high ball speed",
+        "Good spin control with irons and wedges"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Konstruksjon", "en": "Construction" },
+        "value": { "no": "3-dels", "en": "Three-piece" }
+      },
+      {
+        "label": { "no": "Dimples", "en": "Dimples" },
+        "value": { "no": "332", "en": "332" }
+      },
+      {
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "88", "en": "88" }
+      },
+      {
+        "label": { "no": "Diameter", "en": "Diameter" },
+        "value": { "no": "42,7 ± 0,1 mm", "en": "42.7 ± 0.1 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,7 ± 0,1 g", "en": "45.7 ± 0.1 g" }
+      },
+      {
+        "label": { "no": "Elastisitet", "en": "Resilience" },
+        "value": { "no": "ca. 83 %", "en": "approx. 83%" }
+      },
+      {
+        "label": { "no": "Kjerne", "en": "Core" },
+        "value": { "no": "Syntetisk gummi", "en": "Synthetic rubber" }
+      },
+      {
+        "label": { "no": "Mellomlag", "en": "Mantle" },
+        "value": { "no": "Høyresilient ionomer/resin", "en": "High-resilience ionomer/resin" }
+      },
+      {
+        "label": { "no": "Cover", "en": "Cover" },
+        "value": { "no": "Støpt urethan", "en": "Cast urethane" }
+      },
+      {
+        "label": { "no": "Cover-tykkelse", "en": "Cover thickness" },
+        "value": { "no": "ca. 0,6 mm", "en": "approx. 0.6 mm" }
+      }
+    ],
+    "variants": [],
+    "datasheets": [],
+    "images": [
+      {
+        "src": "/bilder/produkter/viktor-tour.png",
+        "fit": "contain",
+        "alt": { "no": "Viktor Tour premium 3-dels urethan golfball.", "en": "Viktor Tour premium three-piece urethane golf ball." }
+      }
+    ]
+  },
+  {
+    "slug": "viktor-tour-x",
+    "category": "golfutstyr-og-proshop",
+    "order": 3,
+    "featured": false,
+    "audience": ["proshop", "privat"],
+    "name": { "no": "Viktor Tour X", "en": "Viktor Tour X" },
+    "tagline": {
+      "no": "Premium 4-dels urethanball for golfere som ønsker høy ballhastighet, fastere respons og Tour-preget kontroll gjennom hele baggen.",
+      "en": "Premium four-piece urethane ball for golfers who want high ball speed, a firmer response and tour-level control through the whole bag."
+    },
+    "description": {
+      "no": [
+        "Viktor Tour X har en fastere følelse og høyere kompresjon enn Viktor Tour. Den 4-delte konstruksjonen er utviklet for spillere som ønsker høy ballhastighet, tydelig respons i treffet og god kontroll på både lange slag og innspill mot green.",
+        "Med tokomponents kjerne og et premium urethan-cover gir ballen stabil ballflukt og godt grep med jern og wedger. Det er ballen for spilleren som foretrekker en fastere respons uten å gi slipp på kontrollen i nærspillet."
+      ],
+      "en": [
+        "Viktor Tour X has a firmer feel and higher compression than Viktor Tour. The four-piece construction is developed for players who want high ball speed, a clear response at impact and good control on both long shots and approaches to the green.",
+        "With a two-component core and a premium urethane cover, the ball gives stable ball flight and good grip with irons and wedges. It is the ball for the player who prefers a firmer response without giving up control in the short game."
+      ]
+    },
+    "highlights": {
+      "no": [
+        "4-dels konstruksjon",
+        "Premium urethan-cover",
+        "332 dimples",
+        "Kompresjon 91",
+        "Fastere følelse enn Viktor Tour",
+        "Stabil ballflukt og god kontroll med jern og wedger"
+      ],
+      "en": [
+        "Four-piece construction",
+        "Premium urethane cover",
+        "332 dimples",
+        "Compression 91",
+        "Firmer feel than Viktor Tour",
+        "Stable ball flight and good control with irons and wedges"
+      ]
+    },
+    "specs": [
+      {
+        "label": { "no": "Konstruksjon", "en": "Construction" },
+        "value": { "no": "4-dels", "en": "Four-piece" }
+      },
+      {
+        "label": { "no": "Dimples", "en": "Dimples" },
+        "value": { "no": "332", "en": "332" }
+      },
+      {
+        "label": { "no": "Kompresjon", "en": "Compression" },
+        "value": { "no": "91", "en": "91" }
+      },
+      {
+        "label": { "no": "Diameter", "en": "Diameter" },
+        "value": { "no": "42,7 ± 0,1 mm", "en": "42.7 ± 0.1 mm" }
+      },
+      {
+        "label": { "no": "Vekt", "en": "Weight" },
+        "value": { "no": "45,7 ± 0,1 g", "en": "45.7 ± 0.1 g" }
+      },
+      {
+        "label": { "no": "Elastisitet", "en": "Resilience" },
+        "value": { "no": "over 83 %", "en": "over 83%" }
+      },
+      {
+        "label": { "no": "Kjerne", "en": "Core" },
+        "value": { "no": "Tokomponents syntetisk gummikjerne", "en": "Two-component synthetic rubber core" }
+      },
+      {
+        "label": { "no": "Mellomlag", "en": "Mantle" },
+        "value": { "no": "Høyresilient materiale", "en": "High-resilience material" }
+      },
+      {
+        "label": { "no": "Cover", "en": "Cover" },
+        "value": { "no": "Støpt urethan", "en": "Cast urethane" }
+      }
+    ],
+    "variants": [],
+    "datasheets": [],
+    "images": [
+      {
+        "src": "/bilder/produkter/viktor-tour-x.png",
+        "fit": "contain",
+        "alt": { "no": "Viktor Tour X premium 4-dels urethan golfball på pegg.", "en": "Viktor Tour X premium four-piece urethane golf ball on a tee." }
       }
     ]
   },
   {
     "slug": "pegger",
     "category": "golfutstyr-og-proshop",
-    "order": 2,
+    "order": 4,
     "featured": false,
     "audience": ["proshop", "privat", "klubb"],
     "name": { "no": "Pegger", "en": "Wooden tees" },
@@ -757,7 +945,7 @@
   {
     "slug": "golfsko",
     "category": "golfutstyr-og-proshop",
-    "order": 3,
+    "order": 5,
     "featured": false,
     "audience": ["proshop", "privat"],
     "name": { "no": "Golfsko med BOA-snøring", "en": "Golf shoes with BOA lacing" },
