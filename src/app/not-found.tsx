@@ -8,7 +8,7 @@ import { routes } from "@/lib/i18n/routes";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `${getDictionary(defaultLocale).notFound.heading} — NSports`,
+  title: `${getDictionary(defaultLocale).notFound.heading} — NordicSports`,
   robots: { index: false, follow: true },
 };
 

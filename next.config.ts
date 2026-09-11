@@ -13,6 +13,22 @@ const nextConfig: NextConfig = {
     qualities: [68, 75],
   },
   poweredByHeader: false,
+  async redirects() {
+    // Produktet het tidligere «elektrisk-golfbil». Gamle og bokmerkede
+    // lenker skal fortsatt lande på den nye adressen.
+    return [
+      {
+        source: "/produkter/elektrisk-golfbil",
+        destination: "/produkter/elektriske-golfbiler-og-nyttekjoretoy",
+        permanent: true,
+      },
+      {
+        source: "/en/products/elektrisk-golfbil",
+        destination: "/en/products/elektriske-golfbiler-og-nyttekjoretoy",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

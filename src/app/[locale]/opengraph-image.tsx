@@ -8,7 +8,7 @@ import { isLocale, locales, pick, defaultLocale } from "@/lib/i18n/config";
  * Genereres ved bygging, ett per språk.
  */
 
-export const alt = "NSports";
+export const alt = "NordicSports";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -51,7 +51,7 @@ export default async function OpenGraphImage({
             }}
           />
           <span style={{ fontSize: 44, fontWeight: 600, letterSpacing: "-0.02em" }}>
-            NSports
+            NordicSports
           </span>
         </div>
 

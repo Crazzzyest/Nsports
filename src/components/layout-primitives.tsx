@@ -101,6 +101,7 @@ const buttonStyles = {
     "bg-paper text-ink border border-line-strong hover:border-pine hover:text-pine",
   ghost: "text-pine hover:text-pine-dark underline-offset-4 hover:underline border border-transparent",
   onPine: "bg-paper text-pine hover:bg-pine-50 border border-transparent",
+  onDark: "bg-transparent text-paper border border-paper/50 hover:bg-paper hover:text-ink",
 };
 
 const buttonSizes = {

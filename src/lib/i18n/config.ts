@@ -1,5 +1,5 @@
 /**
- * Språkoppsett for NSports.
+ * Språkoppsett for NordicSports.
  *
  * `locales` er språkene som er aktive på nettsiden. `plannedLocales` er språk
  * innholdsmodellen allerede aksepterer tekst for, men som ikke er publisert.

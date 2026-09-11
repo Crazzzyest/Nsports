@@ -92,6 +92,32 @@ export interface SiteContent {
     title: Localized;
     body: Localized;
   };
+  home: {
+    hero: {
+      eyebrow: Localized;
+      title: Localized;
+      body: Localized;
+      primaryCta: Localized;
+      secondaryCta: Localized;
+      image: string;
+      imageAlt: Localized;
+    };
+    benefits: { icon: IconKey; title: Localized; body: Localized }[];
+    alliance: {
+      heading: Localized;
+      body: Localized<string[]>;
+      cta: Localized;
+      image: string;
+      imageAlt: Localized;
+    };
+    project: { heading: Localized; body: Localized<string[]>; cta: Localized };
+    finalCta: {
+      heading: Localized;
+      body: Localized;
+      primaryCta: Localized;
+      secondaryCta: Localized;
+    };
+  };
   valueProps: { icon: IconKey; title: Localized; body: Localized }[];
   process: { title: Localized; body: Localized }[];
   about: {

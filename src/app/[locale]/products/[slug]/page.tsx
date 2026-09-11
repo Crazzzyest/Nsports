@@ -6,6 +6,15 @@ import { CheckIcon, DownloadIcon } from "@/components/icons";
 import { Badge, ButtonLink, Container, Prose } from "@/components/layout-primitives";
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
+import { BagskapShowcase } from "@/components/bagskap-showcase";
+import { GolfCarShowcase } from "@/components/golfcar-showcase";
+import { GolfskoShowcase } from "@/components/golfsko-showcase";
+import { PeggerShowcase } from "@/components/pegger-showcase";
+import { RangeballShowcase } from "@/components/rangeball-showcase";
+import { RangematteShowcase } from "@/components/rangematte-showcase";
+import { RoberaProShowcase } from "@/components/robera-pro-showcase";
+import { ViktorShowcase } from "@/components/viktor-showcase";
+import { WayroboShowcase } from "@/components/wayrobo-showcase";
 import {
   getCategories,
   getCategory,
@@ -37,13 +46,95 @@ export async function generateMetadata({
 
   const image = product.images.find((entry) => entry.src)?.src;
 
-  return buildMetadata({
+  // Enkelte produkter har egne, søkeoptimaliserte metatekster.
+  const seoOverrides: Record<string, { title: { no: string; en: string }; description: { no: string; en: string } }> = {
+    rangematte: {
+      title: {
+        no: "Rangematter for driving range og golfanlegg | Norsk Golfallianse",
+        en: "Range mats for driving ranges and golf facilities | Norsk Golfallianse",
+      },
+      description: {
+        no: "Slitesterke og støtdempende rangematter for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig som standardmatte og peggbar matte.",
+        en: "Durable, shock-absorbing range mats for golf clubs and driving ranges. Tested at Meland Golfklubb and available as a standard mat and a tee-through mat.",
+      },
+    },
+    "rangeballer-gule": {
+      title: {
+        no: "Slitesterke rangeballer for golfklubber | Norsk Golfallianse",
+        en: "Durable range balls for golf clubs | Norsk Golfallianse",
+      },
+      description: {
+        no: "Slitesterke og prisgunstige tolags rangeballer for golfklubber og driving ranger. Testet ved Meland Golfklubb og tilgjengelig med klubblogo fra 10 000 baller.",
+        en: "Durable, cost-effective two-piece range balls for golf clubs and driving ranges. Tested at Meland Golfklubb and available with a club logo from 10,000 balls.",
+      },
+    },
+    "viktor-tour": {
+      title: {
+        no: "Viktor Tour – premium 3-dels urethanball | Norsk Golfallianse",
+        en: "Viktor Tour – premium three-piece urethane ball | Norsk Golfallianse",
+      },
+      description: {
+        no: "Viktor Tour er en premium 3-dels urethanball med høy ballhastighet, myk følelse og god spinnkontroll rundt greenene. Kompresjon 88 og 332 dimples.",
+        en: "Viktor Tour is a premium three-piece urethane ball with high ball speed, soft feel and good spin control around the greens. Compression 88 and 332 dimples.",
+      },
+    },
+    "viktor-tour-x": {
+      title: {
+        no: "Viktor Tour X – premium 4-dels urethanball | Norsk Golfallianse",
+        en: "Viktor Tour X – premium four-piece urethane ball | Norsk Golfallianse",
+      },
+      description: {
+        no: "Viktor Tour X er en premium 4-dels urethanball med høy ballhastighet, fastere respons og Tour-preget kontroll. Kompresjon 91 og 332 dimples.",
+        en: "Viktor Tour X is a premium four-piece urethane ball with high ball speed, a firmer response and tour-level control. Compression 91 and 332 dimples.",
+      },
+    },
+    bagskap: {
+      title: {
+        no: "Bagskap for golfklubber og golfanlegg | Norsk Golfallianse",
+        en: "Bag lockers for golf clubs and golf facilities | Norsk Golfallianse",
+      },
+      description: {
+        no: "Romslig og låsbart bagskap med plass til golfbag og golftralle. Leveres flatpakket med kodehengelås og kan gi golfklubben faste leieinntekter.",
+        en: "A spacious, lockable bag locker with room for a golf bag and a golf trolley. Delivered flat-packed with a combination padlock and can give the golf club a steady rental income.",
+      },
+    },
+    pegger: {
+      title: {
+        no: "Trepegger med logotrykk og pegger til golfsimulator | Norsk Golfallianse",
+        en: "Wooden tees with logo printing and tees for golf simulators | Norsk Golfallianse",
+      },
+      description: {
+        no: "Hvitmalte trepegger i 40, 70 og 85 mm, tilgjengelig i poser med 30 pegger, som mixpose og med logotrykk. Vi importerer også plastpegger til golfsimulator.",
+        en: "White-painted wooden tees in 40, 70 and 85 mm, available in bags of 30 tees, as a mixed bag and with logo printing. We also import plastic tees for golf simulators.",
+      },
+    },
+    golfsko: {
+      title: {
+        no: "Golfsko med BOA-snøring for proshop og golfspiller | Norsk Golfallianse",
+        en: "Golf shoes with BOA lacing for the pro shop and golfer | Norsk Golfallianse",
+      },
+      description: {
+        no: "Prisgunstige golfsko av høy kvalitet med BOA-snøring på alle modeller. Vannavvisende med 1 års garanti, spikefri såle og størrelser 36–46.",
+        en: "Cost-effective, high-quality golf shoes with BOA lacing on every model. Water-repellent with a 1-year guarantee, a spikeless outsole and sizes 36–46.",
+      },
+    },
+  };
+  const seoOverride = seoOverrides[slug] ?? null;
+
+  const metadata = buildMetadata({
     locale,
     path: routes.product(locale, slug),
-    title: pick(product.name, locale),
-    description: pick(product.tagline, locale),
+    title: seoOverride ? pick(seoOverride.title, locale) : pick(product.name, locale),
+    description: seoOverride ? pick(seoOverride.description, locale) : pick(product.tagline, locale),
     images: image ? [absoluteUrl(image)] : undefined,
   });
+
+  // Absolutt tittel hindrer at side-malen «%s — NordicSports» legges til.
+  if (seoOverride) {
+    metadata.title = { absolute: pick(seoOverride.title, locale) };
+  }
+
+  return metadata;
 }
 
 export default async function ProductPage({
@@ -74,6 +165,17 @@ export default async function ProductPage({
   const highlights = pick(product.highlights, locale);
   const description = pick(product.description, locale);
 
+  // Robera Pro og Wayrobo har egne, mer utfyllende salgssider enn den generiske malen.
+  const isRobera = product.slug === "ai-golftralle";
+  const isWayrobo = product.slug === "automatisk-ballplukker";
+  const isGolfCar = product.slug === "elektriske-golfbiler-og-nyttekjoretoy";
+  const isRangematte = product.slug === "rangematte";
+  const isRangeball = product.slug === "rangeballer-gule";
+  const isBagskap = product.slug === "bagskap";
+  const isPegger = product.slug === "pegger";
+  const isViktor = product.slug === "viktor-tour" || product.slug === "viktor-tour-x";
+  const isGolfsko = product.slug === "golfsko";
+
   return (
     <>
       <Container size="wide" className="pt-8">
@@ -90,6 +192,71 @@ export default async function ProductPage({
         </nav>
       </Container>
 
+      {isRobera ? (
+        <RoberaProShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isWayrobo ? (
+        <WayroboShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isGolfCar ? (
+        <GolfCarShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isRangematte ? (
+        <RangematteShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isRangeball ? (
+        <RangeballShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isBagskap ? (
+        <BagskapShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isPegger ? (
+        <PeggerShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isViktor ? (
+        <ViktorShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : isGolfsko ? (
+        <GolfskoShowcase
+          product={product}
+          category={category}
+          locale={locale}
+          dict={dict}
+        />
+      ) : (
+        <>
       <Container size="wide" className="py-8 sm:py-12">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-14">
           <ProductGallery
@@ -247,6 +414,8 @@ export default async function ProductPage({
           </div>
         </Container>
       </div>
+        </>
+      )}
 
       {related.length > 0 ? (
         <Container size="wide" className="py-14 sm:py-20">
