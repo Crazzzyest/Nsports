@@ -679,9 +679,9 @@
     "datasheets": [],
     "images": [
       {
-        "src": "/bilder/produkter/viktor-tour.png",
-        "fit": "contain",
-        "alt": { "no": "Viktor Tour premium 3-dels urethan golfball.", "en": "Viktor Tour premium three-piece urethane golf ball." }
+  "src": "/bilder/produkter/viktor-tour.png",
+  "fit": "cover",
+  "alt": { "no": "Viktor Tour golfballpakning med to hvite Viktor Tour-baller på en golfbane ved sjøen.", "en": "Viktor Tour golf ball sleeve with two white Viktor Tour balls on a seaside golf course." }
       }
     ]
   },
