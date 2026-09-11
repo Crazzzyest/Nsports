@@ -10,7 +10,6 @@
   "contact": {
     "email": "frank@nsports.no",
     "phone": "916 82 317",
-    "orgNumber": "000 000 000",
     "address": {
       "street": "Beitingsvegen 50",
       "postalCode": "5918",
@@ -20,8 +19,8 @@
   },
   "seo": {
     "title": {
-      "no": "NSports — utstyr til golfklubber og anlegg",
-      "en": "NSports — equipment for golf clubs and facilities"
+    "no": "NSports - utstyr til golfklubber og anlegg",
+    "en": "NSports - equipment for golf clubs and facilities"
     },
     "description": {
       "no": "NSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber, proshoper og anlegg. Be om tilbud direkte.",
@@ -106,11 +105,11 @@
         "body": {
           "no": [
             "Norske golfklubber kjøper mye av det samme utstyret, ofte hver for seg og i små kvanta. Prisen blir deretter, og hver klubb må gjøre den samme jobben med å finne en leverandør som svarer på e-post.",
-            "NSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris — også for en klubb som skal ha to golfbiler og ikke tjue."
+            "NSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris, også for en klubb som skal ha to golfbiler og ikke tjue."
           ],
           "en": [
             "Norwegian golf clubs buy much of the same equipment, often separately and in small quantities. The price reflects that, and every club has to repeat the same work of finding a supplier who answers email.",
-            "NSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price — including for a club that needs two golf cars rather than twenty."
+            "NSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price, including for a club that needs two golf cars rather than twenty."
           ]
         }
       },
@@ -153,8 +152,8 @@
       {
         "question": { "no": "Selger dere til privatpersoner?", "en": "Do you sell to private customers?" },
         "answer": {
-          "no": "Hovedvekten er klubber og anlegg, men enkelte produkter — som AI-golftrallen, golfsko og premium golfball — selges også direkte til privatpersoner. Ta kontakt, så sier vi fra hva som gjelder for produktet du er ute etter.",
-          "en": "Our main focus is clubs and facilities, but some products — such as the AI golf trolley, golf shoes and the premium golf ball — are also sold directly to private customers. Get in touch and we will tell you what applies to the product you are after."
+          "no": "Hovedvekten er klubber og anlegg, men enkelte produkter, som AI-golftrallen, golfsko og premium golfball, selges også direkte til privatpersoner. Ta kontakt, så sier vi fra hva som gjelder for produktet du er ute etter.",
+          "en": "Our main focus is clubs and facilities, but some products, such as the AI golf trolley, golf shoes and the premium golf ball, are also sold directly to private customers. Get in touch and we will tell you what applies to the product you are after."
         }
       },
       {

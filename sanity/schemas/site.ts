@@ -37,7 +37,6 @@ export const site = defineType({
       fields: [
         defineField({ name: "email", title: "E-post", type: "string" }),
         defineField({ name: "phone", title: "Telefon", type: "string" }),
-        defineField({ name: "orgNumber", title: "Organisasjonsnummer", type: "string" }),
         defineField({
           name: "address",
           title: "Adresse",

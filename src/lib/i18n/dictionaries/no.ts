@@ -1,5 +1,5 @@
 /**
- * Faste grensesnittekster på norsk — knapper, skjemaetiketter, tabelloverskrifter.
+ * Faste grensesnittekster på norsk: knapper, skjemaetiketter, tabelloverskrifter.
  *
  * Markedsføringstekst hører ikke hjemme her. Den ligger i `content/site.json`
  * slik at den kan endres uten utvikler.
@@ -97,7 +97,6 @@ const no = {
     companyHeading: "Selskap",
     contactHeading: "Kontakt",
     rights: "© {year} {company}",
-    orgNumber: "Org.nr.",
   },
   language: {
     label: "Språk",

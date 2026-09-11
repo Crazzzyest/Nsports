@@ -10,7 +10,7 @@ import { routes } from "@/lib/i18n/routes";
 /**
  * Forsidens toppseksjon. Bildecollagen til høyre henter de tre første
  * utvalgte produktene, slik at den fylles med ekte produktbilder så snart
- * de er lastet opp — uten at forsiden må endres.
+ * de er lastet opp, uten at forsiden må endres.
  */
 export function HomeHero({
   site,

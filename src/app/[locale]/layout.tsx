@@ -41,7 +41,7 @@ export async function generateMetadata({
     }),
     title: {
       default: pick(site.seo.title, locale),
-      template: `%s — ${site.brand.name}`,
+      template: `%s - ${site.brand.name}`,
     },
   };
 }

@@ -2,7 +2,7 @@
  * Innhold fra JSON-filene i `content/`.
  *
  * Dette er kilden fram til Sanity kobles på. Filene leses ved bygging, så
- * en endring krever en ny publisering — se `sanity/README.md` for hvordan
+ * en endring krever en ny publisering. Se `sanity/README.md` for hvordan
  * man går over til redigering i nettleseren.
  */
 

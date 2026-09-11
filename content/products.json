@@ -691,11 +691,11 @@
     "description": {
       "no": [
         "En ball i det øvre sjiktet, med myk uretankjerne og skall som gir grep rundt greenen. Beregnet på spillere som i dag kjøper merkeball, men der klubben sitter igjen med lite.",
-        "Selges som salgsvare til proshop, med eller uten klubblogo. Vi anbefaler å ta inn logotrykk fra første bestilling — det er nesten samme kostnad, og en logoball selges lettere som gave og turneringspremie."
+        "Selges som salgsvare til proshop, med eller uten klubblogo. Vi anbefaler å ta inn logotrykk fra første bestilling, det er nesten samme kostnad, og en logoball selges lettere som gave og turneringspremie."
       ],
       "en": [
         "A ball in the upper tier, with a soft urethane core and a cover that grips around the green. Aimed at players who currently buy a branded ball, where the club is left with very little.",
-        "Sold as a retail line for the pro shop, with or without a club logo. We recommend adding logo printing from the first order — it costs almost the same, and a logo ball sells more easily as a gift and tournament prize."
+        "Sold as a retail line for the pro shop, with or without a club logo. We recommend adding logo printing from the first order; it costs almost the same, and a logo ball sells more easily as a gift and tournament prize."
       ]
     },
     "highlights": {
@@ -767,8 +767,8 @@
     "audience": ["proshop", "privat", "klubb"],
     "name": { "no": "Pegger", "en": "Wooden tees" },
     "tagline": {
-      "no": "Trepegger i bjørk, i fire lengder — løs vekt eller pose for videresalg.",
-      "en": "Birch wooden tees in four lengths — bulk or retail bags."
+      "no": "Trepegger i bjørk, i fire lengder, løs vekt eller pose for videresalg.",
+      "en": "Birch wooden tees in four lengths, bulk or retail bags."
     },
     "description": {
       "no": [
@@ -935,13 +935,13 @@
     "highlights": {
       "no": [
         "Brodert logo, inntil seks farger",
-        "Justerbar — én størrelse passer de fleste",
+        "Justerbar, én størrelse passer de fleste",
         "Digital korrektur før produksjon",
         "Minimum 50 stk. per bestilling"
       ],
       "en": [
         "Embroidered logo, up to six colours",
-        "Adjustable — one size fits most",
+        "Adjustable, one size fits most",
         "Digital proof before production",
         "Minimum 50 units per order"
       ]
@@ -1001,11 +1001,11 @@
     },
     "description": {
       "no": [
-        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrel��sen — det er der den vises når spilleren står over ballen.",
+        "Golfhanske i cabretta-skinn, som er det mykeste og mest brukte hanskeskinnet. Logoen påføres borrel��sen, der den vises når spilleren står over ballen.",
         "Leveres i seks størrelser for høyre- og venstrehendte. En logohanske er den enkleste sponsorartikkelen en klubb har, siden den brukes opp og kjøpes igjen."
       ],
       "en": [
-        "A golf glove in cabretta leather, the softest and most widely used glove leather. The logo is applied to the closure tab — that is where it shows when the player stands over the ball.",
+        "A golf glove in cabretta leather, the softest and most widely used glove leather. The logo is applied to the closure tab, where it shows when the player stands over the ball.",
         "Available in six sizes for right- and left-handed players. A logo glove is the simplest sponsor item a club has, because it wears out and gets bought again."
       ]
     },
@@ -1081,11 +1081,11 @@
     "description": {
       "no": [
         "Greengaffel i børstet metall med magnetfeste for ballmarkør. Markøren er emaljert i klubbens farger, og gaffelen kan graveres med klubbnavn.",
-        "Dette er den rimeligste profilartikkelen med lengst levetid — en gaffel blir liggende i bagen i årevis. Vanlig bruk er velkomstgave til nye medlemmer, premie i klubbturneringer eller salgsvare i proshopen."
+        "Dette er den rimeligste profilartikkelen med lengst levetid; en gaffel blir liggende i bagen i årevis. Vanlig bruk er velkomstgave til nye medlemmer, premie i klubbturneringer eller salgsvare i proshopen."
       ],
       "en": [
         "A brushed metal pitch repair tool with a magnetic seat for the ball marker. The marker is enamelled in the club's colours, and the tool can be engraved with the club name.",
-        "This is the least expensive branded item with the longest life — a repair tool stays in the bag for years. It is typically used as a welcome gift for new members, a prize in club competitions or a retail line in the pro shop."
+        "This is the least expensive branded item with the longest life; a repair tool stays in the bag for years. It is typically used as a welcome gift for new members, a prize in club competitions or a retail line in the pro shop."
       ]
     },
     "highlights": {
@@ -1163,11 +1163,11 @@
     "description": {
       "no": [
         "Ferdig sammensatte gaveesker der både esken og innholdet er merket med klubbens logo. Settene kombinerer golfballer, ballmarkører, greengafler, tees og annet tilbehør i eksklusiv innpakning.",
-        "Eskene finnes i flere utførelser — fra elegant sort presenteske og børstet metallboks til skinnetui og fargede sett — og passer som velkomstgave til nye medlemmer, premie i turneringer eller sponsor- og gjestegave."
+        "Eskene finnes i flere utførelser, fra elegant sort presenteske og børstet metallboks til skinnetui og fargede sett, og passer som velkomstgave til nye medlemmer, premie i turneringer eller sponsor- og gjestegave."
       ],
       "en": [
         "Ready-made gift sets where both the box and the contents carry the club's logo. The sets combine golf balls, ball markers, pitch repair tools, tees and other accessories in premium packaging.",
-        "The boxes come in several styles — from an elegant black presentation box and brushed metal tin to a leather case and colour sets — and work as a welcome gift for new members, a tournament prize or a sponsor and guest gift."
+        "The boxes come in several styles, from an elegant black presentation box and brushed metal tin to a leather case and colour sets, and work as a welcome gift for new members, a tournament prize or a sponsor and guest gift."
       ]
     },
     "highlights": {

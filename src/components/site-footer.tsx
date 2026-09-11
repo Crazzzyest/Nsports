@@ -91,11 +91,6 @@ export function SiteFooter({
               company: pick(site.brand.legalName, locale),
             })}
           </p>
-          {site.contact.orgNumber ? (
-            <p>
-              {dict.footer.orgNumber} {site.contact.orgNumber}
-            </p>
-          ) : null}
         </div>
       </Container>
     </footer>

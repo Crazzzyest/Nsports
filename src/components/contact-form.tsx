@@ -109,7 +109,7 @@ export function ContactForm({
           label={dict.contact.customerType}
           defaultValue=""
         >
-          <option value="">—</option>
+          <option value="">-</option>
           {audiences.map((audience) => (
             <option key={audience} value={dict.audience[audience]}>
               {dict.audience[audience]}
