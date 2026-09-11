@@ -143,7 +143,7 @@
   {
     "slug": "paraply",
     "category": "golfutstyr-og-proshop",
-    "order": 6,
+    "order": 5,
     "featured": false,
     "audience": ["klubb"],
     "name": { "no": "TourParaply", "en": "TourParaply" },
@@ -595,98 +595,9 @@
     ]
   },
   {
-    "slug": "rangeball",
-    "category": "golfutstyr-og-proshop",
-    "order": 1,
-    "featured": false,
-    "audience": ["klubb"],
-    "name": { "no": "Rangeball", "en": "Range ball" },
-    "tagline": {
-      "no": "Slitesterk 2-dels rangeball utviklet for høy belastning og daglig bruk på driving range.",
-      "en": "Durable two-piece range ball built for heavy load and daily use on the driving range."
-    },
-    "description": {
-      "no": [
-        "Rangeball er en slitesterk tolagsball utviklet for den harde belastningen på en driving range. Konstruksjonen er laget for mer enn 800 slag og beholder form, ballflukt og følelse gjennom lange treningsøkter.",
-        "Ballen har en kjerne i syntetisk gummi og et slitesterkt ionomer-cover som gir stabil ballflukt og lang levetid. Det gjør den til et driftssikkert og prisgunstig valg for golfklubber og anlegg.",
-        "Rangeballen kan leveres med klubb- eller sponsorlogo, slik at driving rangen får et helhetlig og profesjonelt uttrykk."
-      ],
-      "en": [
-        "Range ball is a durable two-piece ball developed for the heavy load on a driving range. The construction is built for more than 800 shots and keeps its shape, ball flight and feel through long practice sessions.",
-        "The ball has a synthetic rubber core and a durable ionomer cover that gives stable ball flight and a long service life. That makes it a reliable and cost-effective choice for golf clubs and facilities.",
-        "The range ball can be supplied with a club or sponsor logo, giving the driving range a cohesive and professional look."
-      ]
-    },
-    "highlights": {
-      "no": [
-        "2-dels konstruksjon",
-        "Kjerne i syntetisk gummi",
-        "Slitesterkt ionomer-cover",
-        "352 dimples for stabil ballflukt",
-        "Utviklet for mer enn 800 slag",
-        "Kan leveres med klubb- eller sponsorlogo",
-        "Logo i opptil 5 farger og 4 posisjoner",
-        "Minimumsbestilling 6 000 baller"
-      ],
-      "en": [
-        "Two-piece construction",
-        "Synthetic rubber core",
-        "Durable ionomer cover",
-        "352 dimples for stable ball flight",
-        "Built for more than 800 shots",
-        "Can be supplied with a club or sponsor logo",
-        "Logo in up to 5 colours and 4 positions",
-        "Minimum order 6,000 balls"
-      ]
-    },
-    "specs": [
-      {
-        "label": { "no": "Konstruksjon", "en": "Construction" },
-        "value": { "no": "2-dels", "en": "Two-piece" }
-      },
-      {
-        "label": { "no": "Dimples", "en": "Dimples" },
-        "value": { "no": "352", "en": "352" }
-      },
-      {
-        "label": { "no": "Kompresjon", "en": "Compression" },
-        "value": { "no": "90", "en": "90" }
-      },
-      {
-        "label": { "no": "Diameter", "en": "Diameter" },
-        "value": { "no": "42,7 ± 0,1 mm", "en": "42.7 ± 0.1 mm" }
-      },
-      {
-        "label": { "no": "Vekt", "en": "Weight" },
-        "value": { "no": "45,7 ± 0,1 g", "en": "45.7 ± 0.1 g" }
-      },
-      {
-        "label": { "no": "Elastisitet", "en": "Resilience" },
-        "value": { "no": "ca. 75 %", "en": "approx. 75%" }
-      },
-      {
-        "label": { "no": "Kjerne", "en": "Core" },
-        "value": { "no": "Syntetisk gummi", "en": "Synthetic rubber" }
-      },
-      {
-        "label": { "no": "Cover", "en": "Cover" },
-        "value": { "no": "Ionomer", "en": "Ionomer" }
-      }
-    ],
-    "variants": [],
-    "datasheets": [],
-    "images": [
-      {
-        "src": "/bilder/produkter/rangeballer-gule.jpg",
-        "fit": "cover",
-        "alt": { "no": "Slitesterke rangeballer for daglig bruk på driving range.", "en": "Durable range balls for daily use on the driving range." }
-      }
-    ]
-  },
-  {
     "slug": "viktor-tour",
     "category": "golfutstyr-og-proshop",
-    "order": 2,
+    "order": 1,
     "featured": false,
     "audience": ["proshop", "privat"],
     "name": { "no": "Viktor Tour", "en": "Viktor Tour" },
@@ -777,7 +688,7 @@
   {
     "slug": "viktor-tour-x",
     "category": "golfutstyr-og-proshop",
-    "order": 3,
+    "order": 2,
     "featured": false,
     "audience": ["proshop", "privat"],
     "name": { "no": "Viktor Tour X", "en": "Viktor Tour X" },
@@ -864,7 +775,7 @@
   {
     "slug": "pegger",
     "category": "golfutstyr-og-proshop",
-    "order": 4,
+    "order": 3,
     "featured": false,
     "audience": ["proshop", "privat", "klubb"],
     "name": { "no": "Pegger", "en": "Wooden tees" },
@@ -945,7 +856,7 @@
   {
     "slug": "golfsko",
     "category": "golfutstyr-og-proshop",
-    "order": 5,
+    "order": 4,
     "featured": false,
     "audience": ["proshop", "privat"],
     "name": { "no": "Golfsko med BOA-snøring", "en": "Golf shoes with BOA lacing" },
