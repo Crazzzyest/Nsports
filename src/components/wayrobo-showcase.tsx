@@ -260,7 +260,7 @@ export function WayroboShowcase({
                 {"\u201D"}
               </blockquote>
               <figcaption className="mt-4 text-sm text-ink-muted">
-                — Meland Golfklubb
+                Meland Golfklubb
               </figcaption>
             </figure>
           </div>

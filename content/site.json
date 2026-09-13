@@ -10,7 +10,6 @@
   "contact": {
     "email": "frank@nsports.no",
     "phone": "916 82 317",
-    "orgNumber": "000 000 000",
     "address": {
       "street": "Beitingsvegen 50",
       "postalCode": "5918",
@@ -20,8 +19,8 @@
   },
   "seo": {
     "title": {
-      "no": "NordicSports — utstyr til golfklubber og anlegg",
-      "en": "NordicSports — equipment for golf clubs and facilities"
+      "no": "NordicSports - utstyr til golfklubber og anlegg",
+      "en": "NordicSports - equipment for golf clubs and facilities"
     },
     "description": {
       "no": "NordicSports importerer golfbiler, rangeutstyr, robotikk og profilprodukter til norske golfklubber, proshoper og anlegg. Be om tilbud direkte.",
@@ -102,7 +101,7 @@
         ],
         "en": [
           "Norsk Golfallianse was established to give golf clubs better purchasing opportunities. Many clubs need the same products but buy separately and in small quantities.",
-          "By pooling needs, buying directly from manufacturers and coordinating shipping, we can reduce unnecessary intermediaries. That gives better terms — also for the club that needs two golf cars, not twenty.",
+          "By pooling needs, buying directly from manufacturers and coordinating shipping, we can reduce unnecessary intermediaries. That gives better terms, also for the club that needs two golf cars, not twenty.",
           "NordicSports combines manufacturer contact and import expertise with practical experience from the daily operation of a golf club."
         ]
       },
@@ -212,11 +211,11 @@
         "body": {
           "no": [
             "Norske golfklubber kjøper mye av det samme utstyret, ofte hver for seg og i små kvanta. Prisen blir deretter, og hver klubb må gjøre den samme jobben med å finne en leverandør som svarer på e-post.",
-            "NordicSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris — også for en klubb som skal ha to golfbiler og ikke tjue."
+            "NordicSports ble startet for å gjøre den jobben én gang. Vi finner produsentene, kvalitetssikrer produktene og importerer i kvanta som gir riktig pris, også for en klubb som skal ha to golfbiler og ikke tjue."
           ],
           "en": [
             "Norwegian golf clubs buy much of the same equipment, often separately and in small quantities. The price reflects that, and every club has to repeat the same work of finding a supplier who answers email.",
-            "NordicSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price — including for a club that needs two golf cars rather than twenty."
+            "NordicSports was started to do that work once. We find the manufacturers, check the products and import in quantities that give the right price, including for a club that needs two golf cars rather than twenty."
           ]
         }
       },
@@ -259,8 +258,8 @@
       {
         "question": { "no": "Selger dere til privatpersoner?", "en": "Do you sell to private customers?" },
         "answer": {
-          "no": "Hovedvekten er klubber og anlegg, men enkelte produkter — som AI-golftrallen, golfsko og premium golfball — selges også direkte til privatpersoner. Ta kontakt, så sier vi fra hva som gjelder for produktet du er ute etter.",
-          "en": "Our main focus is clubs and facilities, but some products — such as the AI golf trolley, golf shoes and the premium golf ball — are also sold directly to private customers. Get in touch and we will tell you what applies to the product you are after."
+          "no": "Hovedvekten er klubber og anlegg, men enkelte produkter, som AI-golftrallen, golfsko og premium golfball, selges også direkte til privatpersoner. Ta kontakt, så sier vi fra hva som gjelder for produktet du er ute etter.",
+          "en": "Our main focus is clubs and facilities, but some products, such as the AI golf trolley, golf shoes and the premium golf ball, are also sold directly to private customers. Get in touch and we will tell you what applies to the product you are after."
         }
       },
       {

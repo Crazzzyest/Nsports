@@ -90,7 +90,6 @@ const en: Dictionary = {
     companyHeading: "Company",
     contactHeading: "Contact",
     rights: "© {year} {company}",
-    orgNumber: "Company no.",
   },
   language: {
     label: "Language",

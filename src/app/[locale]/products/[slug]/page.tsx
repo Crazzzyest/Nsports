@@ -140,7 +140,7 @@ export async function generateMetadata({
     images: image ? [absoluteUrl(image)] : undefined,
   });
 
-  // Absolutt tittel hindrer at side-malen «%s — NordicSports» legges til.
+  // Absolutt tittel hindrer at side-malen «%s - NordicSports» legges til.
   if (seoOverride) {
     metadata.title = { absolute: pick(seoOverride.title, locale) };
   }
@@ -357,7 +357,7 @@ export default async function ProductPage({
                             className="inline-flex items-center gap-2 text-sm font-medium text-pine underline-offset-4 hover:underline"
                           >
                             <DownloadIcon className="h-4 w-4" />
-                            {label} — {dict.actions.downloadDatasheet}
+                            {label} - {dict.actions.downloadDatasheet}
                           </a>
                         ) : (
                           <Link
@@ -365,7 +365,7 @@ export default async function ProductPage({
                             className="inline-flex items-center gap-2 text-sm font-medium text-ink-muted underline-offset-4 hover:text-pine hover:underline"
                           >
                             <DownloadIcon className="h-4 w-4" />
-                            {label} — {dict.actions.requestDatasheet}
+                            {label} - {dict.actions.requestDatasheet}
                           </Link>
                         )}
                       </li>

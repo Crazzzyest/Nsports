@@ -9,7 +9,7 @@ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 /**
  * Enkel frekvensbegrensning i minnet. På en serverløs plattform lever
  * minnet bare så lenge instansen gjør, så dette stopper en enkelt
- * gjentakende avsender — ikke et fordelt angrep. Det holder mot støy
+ * gjentakende avsender, ikke et fordelt angrep. Det holder mot støy
  * på et kontaktskjema.
  */
 const recent = new Map<string, number[]>();
@@ -69,11 +69,11 @@ export async function handleEnquiry(
   const lines: [string, string][] = [
     ["Navn", values.name!],
     ["E-post", values.email!],
-    ["Telefon", values.phone || "—"],
-    ["Klubb/bedrift", values.organisation || "—"],
-    ["Kundetype", values.customerType || "—"],
+    ["Telefon", values.phone || "-"],
+    ["Klubb/bedrift", values.organisation || "-"],
+    ["Kundetype", values.customerType || "-"],
     ["Produkt", productName],
-    ["Antall", values.quantity || "—"],
+    ["Antall", values.quantity || "-"],
     ["Språk på siden", locale],
   ];
 
@@ -133,7 +133,7 @@ async function sendEnquiryEmail(message: {
 
   if (!apiKey) {
     console.info(
-      `[henvendelse] RESEND_API_KEY er ikke satt — henvendelsen ble ikke sendt på e-post.\n${message.text}`,
+      `[henvendelse] RESEND_API_KEY er ikke satt, henvendelsen ble ikke sendt på e-post.\n${message.text}`,
     );
     return true;
   }

@@ -80,7 +80,6 @@ export interface SiteContent {
   contact: {
     email: string;
     phone: string;
-    orgNumber: string;
     address: { street: string; postalCode: string; city: string; country: Localized };
   };
   seo: {
