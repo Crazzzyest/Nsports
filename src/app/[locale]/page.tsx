@@ -1,17 +1,19 @@
+import { notFound } from "next/navigation";
+
 import { CategoryCard } from "@/components/category-card";
 import { HomeHero } from "@/components/home-hero";
+import { Icon } from "@/components/icons";
 import {
   ButtonLink,
   Container,
+  Prose,
   Section,
   SectionHeader,
 } from "@/components/layout-primitives";
-import { ProductCard } from "@/components/product-card";
-import { getCategoriesWithProducts, getFeaturedProducts, getSite } from "@/lib/content";
+import { getCategoriesWithProducts, getSite } from "@/lib/content";
 import { isLocale, pick } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { routes } from "@/lib/i18n/routes";
-import { notFound } from "next/navigation";
 
 export default async function HomePage({
   params,
@@ -22,29 +24,27 @@ export default async function HomePage({
   if (!isLocale(locale)) notFound();
 
   const dict = getDictionary(locale);
-  const [site, categories, featured] = await Promise.all([
-    getSite(),
-    getCategoriesWithProducts(),
-    getFeaturedProducts(6),
-  ]);
-
-  const categoryBySlug = new Map(categories.map((category) => [category.slug, category]));
-  const showcase = featured
-    .map((product) => ({ product, category: categoryBySlug.get(product.category)! }))
-    .filter((entry) => entry.category);
+  const [site, categories] = await Promise.all([getSite(), getCategoriesWithProducts()]);
+  const home = site.home;
 
   return (
     <>
-      <HomeHero site={site} locale={locale} dict={dict} showcase={showcase.slice(0, 3)} />
+      <HomeHero site={site} locale={locale} />
 
-      <Section className="border-b border-line py-12 sm:py-16">
+      {/* Fordeler rett under hovedbildet */}
+      <Section className="border-b border-line py-14 sm:py-20">
         <Container size="wide">
-          <ul className="grid gap-8 sm:grid-cols-3 sm:gap-10">
-            {site.valueProps.map((prop) => (
-              <li key={pick(prop.title, locale)} className="border-t-2 border-pine pt-5">
-                <h2 className="text-base font-semibold text-ink">{pick(prop.title, locale)}</h2>
-                <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                  {pick(prop.body, locale)}
+          <ul className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+            {home.benefits.map((benefit) => (
+              <li key={pick(benefit.title, locale)}>
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-pine-50 text-pine">
+                  <Icon name={benefit.icon} className="h-6 w-6" />
+                </span>
+                <h2 className="mt-5 text-lg font-semibold text-ink">
+                  {pick(benefit.title, locale)}
+                </h2>
+                <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                  {pick(benefit.body, locale)}
                 </p>
               </li>
             ))}
@@ -52,6 +52,7 @@ export default async function HomePage({
         </Container>
       </Section>
 
+      {/* Produktkategorier */}
       <Section tone="sand">
         <Container size="wide">
           <SectionHeader
@@ -71,58 +72,73 @@ export default async function HomePage({
                 category={category}
                 locale={locale}
                 dict={dict}
+                actionLabel={dict.actions.seeProducts}
               />
             ))}
           </div>
         </Container>
       </Section>
 
+      {/* Allianseideen */}
       <Section>
-        <Container size="wide">
-          <SectionHeader title={dict.home.featuredHeading} />
-
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {showcase.map(({ product, category }) => (
-              <ProductCard
-                key={product.slug}
-                product={product}
-                category={category}
-                locale={locale}
-                dict={dict}
-              />
-            ))}
+        <Container size="narrow">
+          <div className="flex flex-col items-center text-center">
+            <h2 className="text-3xl font-semibold text-balance sm:text-4xl">
+              {pick(home.alliance.heading, locale)}
+            </h2>
+            <Prose className="mt-5">
+              {pick(home.alliance.body, locale).map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </Prose>
+            <ButtonLink href={routes.about(locale)} size="lg" className="mt-8">
+              {pick(home.alliance.cta, locale)}
+            </ButtonLink>
           </div>
         </Container>
       </Section>
 
-      <Section tone="pine">
+      {/* Prosjektseksjon */}
+      <Section tone="sand" className="py-16 sm:py-20">
         <Container size="wide">
-          <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-            <div>
-              <h2 className="text-3xl font-semibold sm:text-4xl">{dict.home.processHeading}</h2>
-              <p className="mt-4 max-w-sm text-lg leading-relaxed text-pine-200">
-                {pick(site.contactPage.lead, locale)}
-              </p>
-              <ButtonLink href={routes.contact(locale)} variant="onPine" size="lg" className="mt-8">
-                {dict.actions.contactUs}
-              </ButtonLink>
+          <div className="rounded-(--radius-card) border border-line bg-paper p-8 sm:p-12">
+            <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center lg:gap-12">
+              <div className="max-w-2xl">
+                <h2 className="text-2xl font-semibold sm:text-3xl">
+                  {pick(home.project.heading, locale)}
+                </h2>
+                <Prose className="mt-4">
+                  {pick(home.project.body, locale).map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </Prose>
+              </div>
+              <div className="lg:justify-self-end">
+                <ButtonLink href={routes.contact(locale)} size="lg">
+                  {pick(home.project.cta, locale)}
+                </ButtonLink>
+              </div>
             </div>
+          </div>
+        </Container>
+      </Section>
 
-            <ol className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
-              {site.process.map((step, index) => (
-                <li key={pick(step.title, locale)}>
-                  <span className="text-sm font-semibold tabular-nums text-pine-200">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <h3 className="mt-2 text-lg font-semibold text-paper">
-                    {pick(step.title, locale)}
-                  </h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-pine-200">
-                    {pick(step.body, locale)}
-                  </p>
-                </li>
-              ))}
-            </ol>
+      {/* Avsluttende handlingsseksjon */}
+      <Section tone="pine">
+        <Container size="narrow" className="text-center">
+          <h2 className="text-3xl font-semibold text-balance sm:text-4xl">
+            {pick(home.finalCta.heading, locale)}
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-pine-100">
+            {pick(home.finalCta.body, locale)}
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <ButtonLink href={routes.products(locale)} variant="onPine" size="lg">
+              {pick(home.finalCta.primaryCta, locale)}
+            </ButtonLink>
+            <ButtonLink href={routes.contact(locale)} variant="onDark" size="lg">
+              {pick(home.finalCta.secondaryCta, locale)}
+            </ButtonLink>
           </div>
         </Container>
       </Section>

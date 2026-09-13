@@ -20,7 +20,7 @@ export function SiteHeader({ locale, dict }: { locale: Locale; dict: Dictionary 
     <header className="sticky top-0 z-40 border-b border-line bg-paper/85 backdrop-blur-md">
       <Container size="wide">
         <div className="flex h-16 items-center justify-between gap-6 sm:h-18">
-          <Link href={routes.home(locale)} aria-label="NSports">
+          <Link href={routes.home(locale)} aria-label="NordicSports">
             <Logo />
           </Link>
 

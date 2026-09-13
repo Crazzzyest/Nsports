@@ -17,6 +17,7 @@ const en: Dictionary = {
     seeProduct: "View product",
     seeAllProducts: "View all products",
     seeCategory: "View category",
+    seeProducts: "See products",
     downloadDatasheet: "Download data sheet",
     requestDatasheet: "Request a data sheet",
     backToProducts: "Back to products",

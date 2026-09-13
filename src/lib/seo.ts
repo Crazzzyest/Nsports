@@ -45,7 +45,7 @@ export function buildMetadata({
     },
     openGraph: {
       type: "website",
-      siteName: "NSports",
+      siteName: "NordicSports",
       locale: localeHtmlLang[locale],
       url: absoluteUrl(path),
       title,
