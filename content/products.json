@@ -7,8 +7,8 @@
     "audience": ["klubb"],
     "name": { "no": "Elektriske golfbiler og nyttekjøretøy", "en": "Electric golf cars and utility vehicles" },
     "tagline": {
-      "no": "Vi leverer elektriske golfbiler og nyttekjøretøy til golfklubber, hoteller, ferieanlegg, campingplasser og andre virksomheter i Norge og Skandinavia.",
-      "en": "We supply electric golf cars and utility vehicles to golf clubs, hotels, holiday resorts, campsites and other businesses in Norway and Scandinavia."
+      "no": "Elektriske golfbiler og nyttekjøretøy til golfklubber, hoteller, ferieanlegg og campingplasser i Skandinavia. Avbildet bil er premiummodellen.",
+      "en": "Electric golf cars and utility vehicles for golf clubs, hotels, holiday resorts and campsites in Scandinavia. The car pictured is the premium model."
     },
     "description": {
       "no": [
@@ -79,7 +79,7 @@
     "variants": [],
     "datasheets": [],
     "images": [
-      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektriske golfbiler og nyttekjøretøy", "en": "Electric golf cars and utility vehicles" } }
+      { "src": "/bilder/produkter/golfbil.png", "alt": { "no": "Elektrisk golfbil, premiummodell", "en": "Electric golf car, premium model" } }
     ]
   },
   {
