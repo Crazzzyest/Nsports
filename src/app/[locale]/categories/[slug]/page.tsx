@@ -96,7 +96,9 @@ export default async function CategoryPage({
 
       <Container size="wide" className="py-12 sm:py-16">
         <p className="mb-6 text-sm text-ink-muted">
-          {plural(dict.products.resultCount, products.length)}
+          {category.countLabel
+            ? pick(category.countLabel, locale)
+            : plural(dict.products.resultCount, products.length)}
         </p>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

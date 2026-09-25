@@ -9,6 +9,10 @@
       "no": "Elektriske golfbiler for utleie, banemannskap og persontransport.",
       "en": "Electric golf cars for rental fleets, greenkeeping and passenger transport."
     },
+    "countLabel": {
+      "no": "Flere typer golfbiler og arbeidsbiler",
+      "en": "Several types of golf cars and utility vehicles"
+    },
     "description": {
       "no": [
         "Vi importerer elektriske golfbiler til norske golfklubber, med vekt på lave driftskostnader og deler som faktisk er å få tak i.",

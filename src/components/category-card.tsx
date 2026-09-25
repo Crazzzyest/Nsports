@@ -41,7 +41,9 @@ export function CategoryCard({
 
       <div className="flex items-center justify-between text-sm font-medium">
         <span className="text-ink-muted">
-          {plural(dict.products.resultCount, category.products.length)}
+          {category.countLabel
+            ? pick(category.countLabel, locale)
+            : plural(dict.products.resultCount, category.products.length)}
         </span>
         <span
           className="inline-flex items-center gap-1.5"

@@ -198,15 +198,18 @@ function getFleet(): FleetVehicle[] {
     {
       model: "ET-C6",
       src: "/bilder/produkter/golfbil-6-seter.png",
-      title: { no: "6-seters passasjerbil", en: "6-seat passenger car" },
+      title: {
+        no: "Passasjerbil med 4, 6 eller 8 seter",
+        en: "Passenger car with 4, 6 or 8 seats",
+      },
       body: {
         no: [
           "Elektrisk passasjerbil med tre seterader for komfortabel transport av gjester, spillere og ansatte. Passer godt til golfklubber, hoteller, ferieanlegg, campingplasser, arrangementer og transport mellom klubbhus, parkeringsplass og startområde.",
-          "Leveres med tak, frontrute, frontbøyle, lys, speil og annet ønsket utstyr. Kan også fås som 8-seter.",
+          "Kan fås med både 4, 6 og 8 seter. Bildet viser 6-seteren. Leveres med tak, frontrute, frontbøyle, lys, speil og annet ønsket utstyr.",
         ],
         en: [
           "Electric passenger car with three rows of seats for comfortable transport of guests, players and staff. Well suited to golf clubs, hotels, holiday resorts, campsites, events and transport between the clubhouse, car park and starting area.",
-          "Delivered with roof, windscreen, front bumper guard, lights, mirrors and other desired equipment. Also available as an 8-seater.",
+          "Available with 4, 6 or 8 seats. The image shows the 6-seater. Delivered with roof, windscreen, front bumper guard, lights, mirrors and other desired equipment.",
         ],
       },
       alt: {

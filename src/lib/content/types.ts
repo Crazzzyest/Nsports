@@ -22,6 +22,8 @@ export interface Category {
   slug: string;
   name: Localized;
   tagline: Localized;
+  /** Erstatter «N produkter» når én produktside dekker flere modeller. */
+  countLabel?: Localized;
   description: Localized<string[]>;
   accent: string;
   icon: IconKey;
