@@ -336,13 +336,6 @@ function getFleet(): FleetVehicle[] {
         no: "Blå buggybar sett forfra med barmodul i aluminium og låsbare skap",
         en: "Blue buggy bar seen from the front with aluminium bar module and lockable cabinets",
       },
-      extraImage: {
-        src: "/bilder/produkter/buggybar-bak.png",
-        alt: {
-          no: "Blå buggybar sett bakfra med skap med glassdører og langt sort tak",
-          en: "Blue buggy bar seen from behind with glass-door cabinets and long black roof",
-        },
-      },
     },
   ];
 }
