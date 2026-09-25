@@ -190,6 +190,7 @@ type FleetVehicle = {
   body: CopyList;
   list?: CopyList;
   alt: Copy;
+  extraImage?: { src: string; alt: Copy };
 };
 
 function getFleet(): FleetVehicle[] {
@@ -303,18 +304,45 @@ function getFleet(): FleetVehicle[] {
       },
     },
     {
+      src: "/bilder/produkter/buggybar-front.png",
       title: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
       body: {
         no: [
           "Ta serveringen ut på banen og skap både bedre gjesteopplevelser og nye inntektsmuligheter. Buggybaren kan tilpasses for salg av kald drikke, kaffe, snacks, enkle matvarer og golfartikler.",
-          "Løsningen kan leveres med kjøling, oppbevaring, serveringsflater, tak og klubbens egen profilering.",
+          "Barmodulen har låsbare skap, slik at varer og kasse kan oppbevares trygt når bilen står parkert. Drikke og mat holdes kald med kjøleelementer, uten behov for strømtilkobling ute på banen.",
         ],
         en: [
           "Take service out onto the course and create both better guest experiences and new revenue opportunities. The buggy bar can be adapted for selling cold drinks, coffee, snacks, simple food and golf items.",
-          "The solution can be delivered with refrigeration, storage, serving surfaces, roof and the club's own branding.",
+          "The bar module has lockable cabinets, so goods and cash can be stored safely while the cart is parked. Drinks and food are kept cold with cooling elements, with no need for a power connection out on the course.",
         ],
       },
-      alt: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
+      list: {
+        no: [
+          "Låsbare skap for varer og kasse",
+          "Kjøling med kjøleelementer",
+          "Hyller med glassdører og serveringsflate",
+          "Langt tak som skjermer mot sol og regn",
+          "Klubbens egen profilering",
+        ],
+        en: [
+          "Lockable cabinets for goods and cash",
+          "Cooling with cooling elements",
+          "Shelves with glass doors and serving surface",
+          "Long roof providing shelter from sun and rain",
+          "The club's own branding",
+        ],
+      },
+      alt: {
+        no: "Blå buggybar sett forfra med barmodul i aluminium og låsbare skap",
+        en: "Blue buggy bar seen from the front with aluminium bar module and lockable cabinets",
+      },
+      extraImage: {
+        src: "/bilder/produkter/buggybar-bak.png",
+        alt: {
+          no: "Blå buggybar sett bakfra med skap med glassdører og langt sort tak",
+          en: "Blue buggy bar seen from behind with glass-door cabinets and long black roof",
+        },
+      },
     },
   ];
 }
@@ -477,17 +505,37 @@ export function GolfCarShowcase({
             {fleet.map((vehicle) => (
               <div
                 key={vehicle.title.no}
-                className="flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper"
+                className={`flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper${
+                  vehicle.extraImage ? " sm:col-span-2" : ""
+                }`}
               >
-                <div className="relative aspect-4/3 border-b border-line bg-paper">
-                  <ProductMedia
-                    image={{ src: vehicle.src, alt: vehicle.alt }}
-                    accent={category.accent}
-                    icon={category.icon}
-                    seed={vehicle.title.no}
-                    sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
-                    missingLabel={dict.product.imageMissing}
-                  />
+                <div
+                  className={`grid border-b border-line bg-paper${
+                    vehicle.extraImage ? " sm:grid-cols-2" : ""
+                  }`}
+                >
+                  <div className="relative aspect-4/3">
+                    <ProductMedia
+                      image={{ src: vehicle.src, alt: vehicle.alt }}
+                      accent={category.accent}
+                      icon={category.icon}
+                      seed={vehicle.title.no}
+                      sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
+                      missingLabel={dict.product.imageMissing}
+                    />
+                  </div>
+                  {vehicle.extraImage ? (
+                    <div className="relative aspect-4/3 border-t border-line sm:border-t-0 sm:border-l">
+                      <ProductMedia
+                        image={vehicle.extraImage}
+                        accent={category.accent}
+                        icon={category.icon}
+                        seed={`${vehicle.title.no}-extra`}
+                        sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
+                        missingLabel={dict.product.imageMissing}
+                      />
+                    </div>
+                  ) : null}
                 </div>
                 <div className="flex flex-1 flex-col p-6 sm:p-7">
                   {vehicle.model ? (
