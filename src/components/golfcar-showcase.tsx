@@ -183,21 +183,124 @@ const copy = {
   },
 } satisfies Record<string, Copy | CopyList>;
 
-function getFleet(locale: Locale) {
+type FleetVehicle = {
+  model?: string;
+  src?: string;
+  title: Copy;
+  body: CopyList;
+  list?: CopyList;
+  alt: Copy;
+};
+
+function getFleet(): FleetVehicle[] {
   return [
     {
-      title: { no: "6- og 8-seters passasjerbiler", en: "6- and 8-seat passenger cars" },
+      model: "ET-C6",
+      src: "/bilder/produkter/golfbil-6-seter.png",
+      title: { no: "6-seters passasjerbil", en: "6-seat passenger car" },
       body: {
         no: [
-          "Elektriske passasjerbiler for komfortabel transport av gjester, spillere og ansatte. Modellene passer godt til golfklubber, hoteller, ferieanlegg, campingplasser, arrangementer og transport mellom klubbhus, parkeringsplass og startområde.",
-          "Bilene kan leveres med seks eller åtte fremovervendte seter, tak, frontrute, lys, speil og annet ønsket utstyr.",
+          "Elektrisk passasjerbil med tre seterader for komfortabel transport av gjester, spillere og ansatte. Passer godt til golfklubber, hoteller, ferieanlegg, campingplasser, arrangementer og transport mellom klubbhus, parkeringsplass og startområde.",
+          "Leveres med tak, frontrute, frontbøyle, lys, speil og annet ønsket utstyr. Kan også fås som 8-seter.",
         ],
         en: [
-          "Electric passenger cars for comfortable transport of guests, players and staff. The models suit golf clubs, hotels, holiday resorts, campsites, events and transport between the clubhouse, car park and starting area.",
-          "The cars can be delivered with six or eight forward-facing seats, roof, windscreen, lights, mirrors and other desired equipment.",
+          "Electric passenger car with three rows of seats for comfortable transport of guests, players and staff. Well suited to golf clubs, hotels, holiday resorts, campsites, events and transport between the clubhouse, car park and starting area.",
+          "Delivered with roof, windscreen, front bumper guard, lights, mirrors and other desired equipment. Also available as an 8-seater.",
         ],
       },
-      alt: { no: "6- og 8-seters elektrisk passasjerbil", en: "6- and 8-seat electric passenger car" },
+      alt: {
+        no: "Rød elektrisk 6-seters passasjerbil med tre seterader og sort tak",
+        en: "Red electric 6-seat passenger car with three rows of seats and black roof",
+      },
+    },
+    {
+      model: "Z-C2",
+      src: "/bilder/produkter/golfbil-z-c2.jpg",
+      title: { no: "Golfbil med alternativt design", en: "Golf car with alternative design" },
+      body: {
+        no: [
+          "Ønsker klubben et annet uttrykk på bilparken, kan golfbilen også leveres med Z-C2-designet: en sportslig front med markert grill, moderne LED-lys og en mer dynamisk karosseri.",
+          "Samme driftssikre teknikk og de samme tilpasningsmulighetene som våre øvrige 2-seters golfbiler, med valgfri farge, setetrekk og klubblogo.",
+        ],
+        en: [
+          "If the club wants a different look for its fleet, the golf car can also be delivered with the Z-C2 design: a sporty front with a distinct grille, modern LED lights and a more dynamic body.",
+          "The same dependable technology and customisation options as our other 2-seat golf cars, with optional colour, seat upholstery and club logo.",
+        ],
+      },
+      alt: {
+        no: "Lyseblå 2-seters golfbil i Z-C2-design med sort tak og beige seter",
+        en: "Light blue 2-seat golf car in Z-C2 design with black roof and beige seats",
+      },
+    },
+    {
+      model: "ET-C300",
+      src: "/bilder/produkter/arbeidsbil-lasteplan.png",
+      title: { no: "El-arbeidsbil med lasteplan", en: "Electric utility vehicle with cargo bed" },
+      body: {
+        no: [
+          "Praktisk arbeidsbil for transport av utstyr, varer og materiell. Passer godt for banemannskap, greenkeepere, vedlikeholdsavdelinger og driftspersonell.",
+          "Lasteplanet i aluminium kan fås i forskjellige størrelser, tilpasset hva bilen skal brukes til.",
+        ],
+        en: [
+          "A practical utility vehicle for transporting equipment, goods and materials. Well suited to greenkeeping crews, greenkeepers, maintenance departments and operations staff.",
+          "The aluminium cargo bed is available in different sizes, adapted to how the vehicle will be used.",
+        ],
+      },
+      list: {
+        no: [
+          "Lasteplan i flere størrelser",
+          "Åpent eller tippbart lasteplan",
+          "Lastekapasitet opptil 300 kg",
+          "To seter",
+          "CE-sertifisert",
+        ],
+        en: [
+          "Cargo bed in several sizes",
+          "Open or tipping cargo bed",
+          "Load capacity up to 300 kg",
+          "Two seats",
+          "CE certified",
+        ],
+      },
+      alt: {
+        no: "Rød elektrisk arbeidsbil med lasteplan i aluminium",
+        en: "Red electric utility vehicle with aluminium cargo bed",
+      },
+    },
+    {
+      model: "ET-L500",
+      src: "/bilder/produkter/arbeidsbil-bur.jpg",
+      title: { no: "El-arbeidsbil med stort lasteplan og bur", en: "Electric utility vehicle with large cargo bed and cage" },
+      body: {
+        no: [
+          "Kraftigere arbeidsbil med stort lasteplan og nettingbur for sikker transport av løst materiell, verktøy, ballkurver og avfall. Terrengdekk og frontbøyle gjør bilen godt egnet for bruk i ulendt terreng.",
+          "Buret kan leveres som tilvalg, og lasteplanet fås i forskjellige størrelser.",
+        ],
+        en: [
+          "A more powerful utility vehicle with a large cargo bed and mesh cage for safe transport of loose materials, tools, ball baskets and waste. Off-road tyres and a front bumper guard make it well suited to rough terrain.",
+          "The cage is available as an option, and the cargo bed comes in different sizes.",
+        ],
+      },
+      list: {
+        no: [
+          "Stort lasteplan i flere størrelser",
+          "Nettingbur som tilvalg",
+          "Lastekapasitet opptil 500 kg",
+          "Terrengdekk og frontbøyle",
+          "CE-sertifisert",
+        ],
+        en: [
+          "Large cargo bed in several sizes",
+          "Mesh cage as an option",
+          "Load capacity up to 500 kg",
+          "Off-road tyres and front bumper guard",
+          "CE certified",
+        ],
+      },
+      alt: {
+        no: "Rød elektrisk arbeidsbil med stort lasteplan, nettingbur og terrengdekk",
+        en: "Red electric utility vehicle with large cargo bed, mesh cage and off-road tyres",
+      },
     },
     {
       title: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
@@ -212,38 +315,6 @@ function getFleet(locale: Locale) {
         ],
       },
       alt: { no: "Buggybar og serveringsvogn", en: "Buggy bar and service cart" },
-    },
-    {
-      title: { no: "Elektriske arbeidsbiler", en: "Electric utility vehicles" },
-      body: {
-        no: [
-          "Praktiske arbeidsbiler for transport av utstyr, varer og materiell. De passer godt for banemannskap, greenkeepere, vedlikeholdsavdelinger og driftspersonell.",
-        ],
-        en: [
-          "Practical utility vehicles for transporting equipment, goods and materials. They suit greenkeeping crews, greenkeepers, maintenance departments and operations staff.",
-        ],
-      },
-      list: {
-        no: [
-          "Åpent lasteplan",
-          "Tippbart lasteplan",
-          "Lastekapasitet på opptil 300 eller 500 kg, avhengig av modell",
-          "To seter",
-          "Elektrisk drift",
-          "Flere batteri- og utstyrsalternativer",
-          "CE-sertifisert",
-        ],
-        en: [
-          "Open cargo bed",
-          "Tipping cargo bed",
-          "Load capacity of up to 300 or 500 kg, depending on the model",
-          "Two seats",
-          "Electric drive",
-          "Several battery and equipment options",
-          "CE certified",
-        ],
-      },
-      alt: { no: "Elektrisk arbeidsbil med lasteplan", en: "Electric utility vehicle with cargo bed" },
     },
   ];
 }
@@ -260,7 +331,7 @@ export function GolfCarShowcase({
   dict: Dictionary;
 }) {
   const highlights = pick(product.highlights, locale);
-  const fleet = getFleet(locale);
+  const fleet = getFleet();
   const quoteHref = routes.quote(locale, product.slug);
 
   return (
@@ -402,23 +473,28 @@ export function GolfCarShowcase({
             </h2>
           </div>
 
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {fleet.map((vehicle) => (
               <div
                 key={vehicle.title.no}
                 className="flex flex-col overflow-hidden rounded-(--radius-card) border border-line bg-paper"
               >
-                <div className="relative aspect-4/3 border-b border-line bg-sand">
+                <div className="relative aspect-4/3 border-b border-line bg-paper">
                   <ProductMedia
-                    image={{ alt: vehicle.alt }}
+                    image={{ src: vehicle.src, alt: vehicle.alt }}
                     accent={category.accent}
                     icon={category.icon}
                     seed={vehicle.title.no}
-                    sizes="(max-width: 1024px) 92vw, 30vw"
+                    sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
                     missingLabel={dict.product.imageMissing}
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6 sm:p-7">
+                  {vehicle.model ? (
+                    <p className="mb-1.5 font-mono text-xs font-semibold uppercase tracking-[0.14em] text-ink-muted">
+                      {vehicle.model}
+                    </p>
+                  ) : null}
                   <h3 className="text-xl font-semibold text-ink">{pick(vehicle.title, locale)}</h3>
                   <div className="mt-3 space-y-3 text-sm leading-relaxed text-ink-soft">
                     {pick(vehicle.body, locale).map((paragraph) => (
