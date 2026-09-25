@@ -204,7 +204,7 @@ function getFleet(): FleetVehicle[] {
       },
       body: {
         no: [
-          "Elektrisk passasjerbil med tre seterader for komfortabel transport av gjester, spillere og ansatte. Passer godt til golfklubber, hoteller, ferieanlegg, campingplasser, arrangementer og transport mellom klubbhus, parkeringsplass og startområde.",
+          "Elektrisk passasjerbil med tre seterader for komfortabel transport av gjester, spillere og ansatte. Passer godt for golfklubber, turneringer, arrangementer og transport mellom klubbhus, parkeringsplass og startområde.",
           "Kan fås med både 4, 6 og 8 seter. Bildet viser 6-seteren. Leveres med tak, frontrute, frontbøyle, lys, speil og annet ønsket utstyr.",
         ],
         en: [
